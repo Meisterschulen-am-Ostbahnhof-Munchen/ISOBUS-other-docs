@@ -1,3 +1,7 @@
+pconvert
+===================================
+
+
 Liegt hier:
 
 M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert
@@ -50,7 +54,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert\\progs\\can\\CANdriv
 
 _**Dieses nennt man dlg\_net**_
 
-![](https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg)
+.. image:: https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg)
 
 _**Jetzt startet man pconvert:**_ 
 
@@ -60,18 +64,18 @@ _**dann CAN – Can Tools – Net Client Mode einen Haken setzen**_
 
 _**in dem erscheinenden Fenster wählt man „TRACE“ und schon zeigt er was am Bus los ist:**_ 
 
-![](https://user-images.githubusercontent.com/69573151/94334983-67efa980-ffd8-11ea-8ee0-ed068a57ed0d.png)
+.. image:: https://user-images.githubusercontent.com/69573151/94334983-67efa980-ffd8-11ea-8ee0-ed068a57ed0d.png)
 
 _**Sollte das nicht funktionieren wählt man nochmal CAN – Can Tools – Net Client Table – Close and Set Net Client.**_ 
 
 _**Insbesondere wenn das Netz nicht DLG\_net heisst.**_
 
-![](https://user-images.githubusercontent.com/69573151/94334982-67efa980-ffd8-11ea-8b0f-3a9e9a771d35.png)
+.. image:: https://user-images.githubusercontent.com/69573151/94334982-67efa980-ffd8-11ea-8b0f-3a9e9a771d35.png)
 
-![](https://user-images.githubusercontent.com/69573151/93021356-73a79d00-f5e2-11ea-8593-d1aa723ad8e5.png)
+.. image:: https://user-images.githubusercontent.com/69573151/93021356-73a79d00-f5e2-11ea-8593-d1aa723ad8e5.png)
 
-![](https://user-images.githubusercontent.com/69573151/93021359-7e623200-f5e2-11ea-9546-445c9bef2f61.png)
+.. image:: https://user-images.githubusercontent.com/69573151/93021359-7e623200-f5e2-11ea-9546-445c9bef2f61.png)
 
-![](https://user-images.githubusercontent.com/69573151/93021370-891cc700-f5e2-11ea-81d8-33800bf482d4.png)
+.. image:: https://user-images.githubusercontent.com/69573151/93021370-891cc700-f5e2-11ea-81d8-33800bf482d4.png)
 
-![](https://user-images.githubusercontent.com/69573151/93021494-2677fb00-f5e3-11ea-8136-af3307e95905.png)
+.. image:: https://user-images.githubusercontent.com/69573151/93021494-2677fb00-f5e3-11ea-8136-af3307e95905.png)

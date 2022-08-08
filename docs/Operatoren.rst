@@ -1,4 +1,5 @@
-**Operatoren**
+Operatoren
+===================================
 
 **betrifft: Mathematik,**
 
