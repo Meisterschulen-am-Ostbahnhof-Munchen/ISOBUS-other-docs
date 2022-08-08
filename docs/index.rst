@@ -19,10 +19,10 @@ Contents
 --------
 
 .. toctree::
+   :numbered:
 
    Home <self>
-   usage
-   api
+   Home
    C-Programmierung
    Literatur-C-Programmierung
    Operatoren
