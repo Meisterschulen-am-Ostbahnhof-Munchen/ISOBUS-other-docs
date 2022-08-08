@@ -10,7 +10,7 @@ Ablaufstrukturen
 
 Beispiel: [https://onlinegdb.com/wWii98Jv3](https://onlinegdb.com/wWii98Jv3)
 
-### `else` -Anweisung
+`else` -Anweisung
 .................................
 
 die `else` -Anweisung ist optional
@@ -19,12 +19,12 @@ Beispiel: [https://onlinegdb.com/CFbDfaSX4](https://onlinegdb.com/CFbDfaSX4)
 
 Beispiel: [https://onlinegdb.com/CnSm1M4fn](https://onlinegdb.com/CnSm1M4fn)
 
-## `switch` -Anweisung
+`switch` -Anweisung
 ------------------------------------
 
 Beispiel: [https://onlinegdb.com/5_n5GjAkT](https://onlinegdb.com/5_n5GjAkT)
 
-## **Bedingter Ausdruck**
+**Bedingter Ausdruck**
 ------------------------------------
 
 Beispiel: [https://www.onlinegdb.com/KURn4fl_M](https://www.onlinegdb.com/KURn4fl_M)
@@ -47,19 +47,19 @@ IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel,  Tageszaehler  >= Ta
 
 hier wird die Grüne Box ein oder ausgeblendet mit dem Text "Ziel Erreicht".
 
-## **For-Schleife**
+**For-Schleife**
 ------------------------------------
 
 Beispiel: [https://onlinegdb.com/_zCm5ZHsK](https://onlinegdb.com/_zCm5ZHsK)
 
 Beispiel: [https://onlinegdb.com/_jcCRpYe3](https://onlinegdb.com/_jcCRpYe3)
 
-## **While-Schleife**
+**While-Schleife**
 ------------------------------------
 
 Beispiel: [https://onlinegdb.com/AnrnomF39G](https://onlinegdb.com/AnrnomF39G)
 
-## **Do-While-Schleife**
+**Do-While-Schleife**
 ------------------------------------
 
 Beispiel: [https://onlinegdb.com/LQIBQwXest](https://onlinegdb.com/LQIBQwXest)
