@@ -39,7 +39,7 @@ Contents
    Ethernet
    Teams (Homeschooling)
    Beamer
-   nx\_farm\_display](nx_farm_display)
+   nx\_farm\_display nx_farm_display)
    mit CAN over WiFi (Homescooling)
    mit physikalischem ISOBUS
    PEAK

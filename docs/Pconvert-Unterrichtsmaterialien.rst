@@ -16,7 +16,7 @@ _**Eines der wenigen DEUTSCHEN Veröffentlichungen zum Thema ISOBUS.**_
 VIDEOS in den PPTs spielen nicht weil die Fehlen, habe ich schon moniert bei der DLG.
 
 *   ainfo01.pdf und weitere (02, 03…)
-    *   extrem einfache Beschreibung von ISOBUS, zu Einfach für die Meisterschule aber vll. [@Josef Heller](mailto:josef.heller@ms-muc.de) für Berufsschule ?
+    *   extrem einfache Beschreibung von ISOBUS, zu Einfach für die Meisterschule aber vll. [@Josef Heller mailto:josef.heller@ms-muc.de) für Berufsschule ?
     *   auch Steckerbelegungen
 
 M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\pconvert\\appl\\xml\\pict\\\_HwTest

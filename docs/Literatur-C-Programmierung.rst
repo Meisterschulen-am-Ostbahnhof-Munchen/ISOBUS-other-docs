@@ -1,5 +1,5 @@
 Literatur C-Programmierung
-[https://de.wikipedia.org/wiki/International_Electrotechnical_Commission](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission)
+[https://de.wikipedia.org/wiki/International_Electrotechnical_Commission https://de.wikipedia.org/wiki/International_Electrotechnical_Commission)
 
 
 Hinweis: die Links gehen zu Amazon. das ist nur der Übersichtlichkeit wegen so gemacht und stellt KEINE Kaufempfehlung dar. 

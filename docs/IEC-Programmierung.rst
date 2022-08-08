@@ -1,23 +1,23 @@
 IEC-Programmierung
 ===================================
 
-[https://de.wikipedia.org/wiki/International_Electrotechnical_Commission](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission)
+[https://de.wikipedia.org/wiki/International_Electrotechnical_Commission https://de.wikipedia.org/wiki/International_Electrotechnical_Commission)
 
 
 
 https://de.wikipedia.org/wiki/EN_61131
 
-[https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/PlcLib](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/PlcLib)
+[https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/PlcLib https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/PlcLib)
 
 PLC Lib with IEC 61131 alike functions.
 
-Very much inspired by OSCAT: [http://www.oscat.de/](http://www.oscat.de/) and CoDeSys: [https://help.codesys.com/](https://help.codesys.com/)
+Very much inspired by OSCAT: [http://www.oscat.de/ http://www.oscat.de/) and CoDeSys: [https://help.codesys.com/ https://help.codesys.com/)
 
-[https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/TimeDelay](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/TimeDelay)
+[https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/TimeDelay https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/TimeDelay)
 
-[https://www.xplore-dna.net/course/view.php?id=15](https://www.xplore-dna.net/course/view.php?id=15)
+[https://www.xplore-dna.net/course/view.php?id=15 https://www.xplore-dna.net/course/view.php?id=15)
 
-[https://www.xplore-dna.net/mod/page/view.php?id=153](https://www.xplore-dna.net/mod/page/view.php?id=153)
+[https://www.xplore-dna.net/mod/page/view.php?id=153 https://www.xplore-dna.net/mod/page/view.php?id=153)
 
 
 # Grundverknüpfungen
@@ -29,19 +29,19 @@ https://de.wikipedia.org/wiki/Boolesche_Algebra
 [https://www.xplore-dna.net/mod/page/view.php?id=155]
 (https://www.xplore-dna.net/mod/page/view.php?id=155)
 
-[https://help.codesys.com/webapp/_cds_operator_and;product=codesys;version=3.5.17.0](https://help.codesys.com/webapp/_cds_operator_and;product=codesys;version=3.5.17.0)
+[https://help.codesys.com/webapp/_cds_operator_and;product=codesys;version=3.5.17.0 https://help.codesys.com/webapp/_cds_operator_and;product=codesys;version=3.5.17.0)
 
 ## ODER
 
 https://www.xplore-dna.net/mod/page/view.php?id=153
 
-[https://help.codesys.com/webapp/_cds_operator_or;product=codesys;version=3.5.17.0](https://help.codesys.com/webapp/_cds_operator_or;product=codesys;version=3.5.17.0)
+[https://help.codesys.com/webapp/_cds_operator_or;product=codesys;version=3.5.17.0 https://help.codesys.com/webapp/_cds_operator_or;product=codesys;version=3.5.17.0)
 
 ## NICHT
 
-[https://www.xplore-dna.net/mod/page/view.php?id=157](https://www.xplore-dna.net/mod/page/view.php?id=157)
+[https://www.xplore-dna.net/mod/page/view.php?id=157 https://www.xplore-dna.net/mod/page/view.php?id=157)
 
-[https://help.codesys.com/webapp/_cds_operator_not;product=codesys;version=3.5.17.0](https://help.codesys.com/webapp/_cds_operator_not;product=codesys;version=3.5.17.0)
+[https://help.codesys.com/webapp/_cds_operator_not;product=codesys;version=3.5.17.0 https://help.codesys.com/webapp/_cds_operator_not;product=codesys;version=3.5.17.0)
 
 ## Exclusiv-ODER
 

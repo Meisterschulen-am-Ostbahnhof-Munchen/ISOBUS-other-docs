@@ -5,9 +5,9 @@ Literatur-ISOBUS
 
 Telegram Gruppe über ISOBUS:
 
-[https://t.me/+V_7QkEUfnYjFlJo0](https://t.me/+V_7QkEUfnYjFlJo0)
+[https://t.me/+V_7QkEUfnYjFlJo0 https://t.me/+V_7QkEUfnYjFlJo0)
 
-[https://t.me/joinchat/B1-SThBCW-w6klLwK3zLjw](https://t.me/joinchat/B1-SThBCW-w6klLwK3zLjw)
+[https://t.me/joinchat/B1-SThBCW-w6klLwK3zLjw https://t.me/joinchat/B1-SThBCW-w6klLwK3zLjw)
 
 Telegram Gruppe zu CCI:
 
@@ -15,13 +15,13 @@ https://t.me/joinchat/8_KHdpS2ynVjOTUy
 
 LinkedIn:
 
-[https://www.linkedin.com/groups/102887/](https://www.linkedin.com/groups/102887/)
+[https://www.linkedin.com/groups/102887/ https://www.linkedin.com/groups/102887/)
 
 TUM:
 
 ide umfangreichste LAndtechnik-Bibliothek die mir bekannt ist:
 
-[https://mediatum.ub.tum.de/](https://mediatum.ub.tum.de/)
+[https://mediatum.ub.tum.de/ https://mediatum.ub.tum.de/)
 
 u.a.
 
@@ -37,13 +37,13 @@ https://mediatum.ub.tum.de/?id=709486
 
 AEF Training:
 
-[https://www.aef-online.org/about-us/isobus.html](https://www.aef-online.org/about-us/isobus.html)
+[https://www.aef-online.org/about-us/isobus.html https://www.aef-online.org/about-us/isobus.html)
 
-[https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_EN.pdf](https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_EN.pdf)
+[https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_EN.pdf https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_EN.pdf)
 
-[https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_DE.pdf](https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_DE.pdf)
+[https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_DE.pdf https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_DE.pdf)
 
-[https://www.aef-online.org/news/downloads.html](https://www.aef-online.org/news/downloads.html)
+[https://www.aef-online.org/news/downloads.html https://www.aef-online.org/news/downloads.html)
 
 https://www.aef-isobus-database.org/isobusdb/internal/wbt/isobus.jsf
 
