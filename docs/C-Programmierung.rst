@@ -10,4 +10,4 @@ C-Programmierung
    Grundverknüpfungen
    Ablaufstrukturen
 
-[https://de.wikibooks.org/wiki/C-Programmierung https://de.wikibooks.org/wiki/C-Programmierung)
+`C-Programmierung <https://de.wikibooks.org/wiki/C-Programmierung https://de.wikibooks.org/wiki/C-Programmierung>`_
