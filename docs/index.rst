@@ -24,10 +24,6 @@ Contents
    Home <self>
    Home
    C-Programmierung
-   Literatur-C-Programmierung
-   Operatoren
-   Grundverknüpfungen
-   Ablaufstrukturen
    IEC-Programmierung
    CCI Displays
    Feldumrisse laden
