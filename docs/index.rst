@@ -26,15 +26,6 @@ Contents
    C-Programmierung
    IEC-Programmierung
    CCI Displays
-   Feldumrisse laden
-   Applikationskarte laden
-   GPS Simulation auf dem Display
-   GPS-Simulation-über-PC-(avangardo)
-   VNC-Spiegelung
-   WiFi
-   Ethernet
-   Teams (Homeschooling)
-   Beamer
    nx\_farm\_display nx_farm_display)
    mit CAN over WiFi (Homescooling)
    mit physikalischem ISOBUS
