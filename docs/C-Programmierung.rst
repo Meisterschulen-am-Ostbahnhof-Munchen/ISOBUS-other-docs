@@ -3,7 +3,6 @@ C-Programmierung
 
 
 .. toctree::
-   :numbered:
 
    Literatur-C-Programmierung
    Operatoren

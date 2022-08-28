@@ -2,7 +2,6 @@ CCI Displays
 ===================================
 
 .. toctree::
-   :numbered:
 
    CCI Displays
    Feldumrisse laden
