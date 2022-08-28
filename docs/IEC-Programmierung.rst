@@ -129,7 +129,9 @@ https://help.codesys.com/webapp/r_trig;product=codesys;version=3.5.11.0
 https://www.plcacademy.com/function-block-diagram-programming/ 
 
 --> bei R_TRIG Function Block
+
 .. image:: https://www.plcacademy.com/wp-content/uploads/2018/03/r-trig-diagram.png
+
 Quelle: https://www.plcacademy.com/function-block-diagram-programming/ 
 
 
@@ -142,5 +144,7 @@ https://help.codesys.com/webapp/f_trig;product=codesys;version=3.5.11.0
 https://www.plcacademy.com/function-block-diagram-programming/ 
 
 --> bei F_TRIG Function Block
+
 .. image:: https://www.plcacademy.com/wp-content/uploads/2018/03/f-trig-diagram.png
+
 Quelle: https://www.plcacademy.com/function-block-diagram-programming/ 
