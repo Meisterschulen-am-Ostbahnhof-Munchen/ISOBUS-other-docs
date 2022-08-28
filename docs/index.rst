@@ -30,9 +30,6 @@ Contents
    mit CAN over WiFi (Homescooling)
    mit physikalischem ISOBUS
    PEAK
-   PEAK-Treiber
-   PEAK-Treiber2
-   PEAK-Adapterkabel
    Tools
    AEF-ISOBUS-CHECK-Tool
    Busmaster
