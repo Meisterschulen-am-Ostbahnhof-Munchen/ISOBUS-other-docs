@@ -6,7 +6,7 @@ CCI Displays
    CCI Displays <self>
    Feldumrisse laden
    Applikationskarte laden
-   GPS Simulation auf dem Display
+   GPS-Simulation-auf-dem-Display
    GPS-Simulation-über-PC-(avangardo)
    VNC-Spiegelung
    WiFi
