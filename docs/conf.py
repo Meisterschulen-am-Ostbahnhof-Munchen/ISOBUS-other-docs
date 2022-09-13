@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "ISOBUS-other Docs"
+copyright = "2022, Meisterschulen am Ostbahnhof, München"
+author = "Franz Höpfinger"
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,11 +28,14 @@ author = "Read the Docs core team"
 extensions = [
     "sphinx.ext.duration",
     "sphinx.ext.doctest",
+	"sphinx.ext.autosectionlabel",
     "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    "sphinx.ext.imgconverter",
 ]
 
+version = "0.0.1"
+release = version
 intersphinx_mapping = {
     "rtd": ("https://docs.readthedocs.io/en/stable/", None),
     "python": ("https://docs.python.org/3/", None),
