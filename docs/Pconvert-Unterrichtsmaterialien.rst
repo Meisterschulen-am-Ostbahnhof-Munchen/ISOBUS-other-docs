@@ -17,7 +17,7 @@ Eines der wenigen DEUTSCHEN Veröffentlichungen zum Thema ISOBUS.
 
 *   ainfo01.pdf und weitere (02, 03…)
 
-    *   extrem einfache Beschreibung von ISOBUS, zu Einfach für die Meisterschule aber vll. [@Josef Heller mailto:josef.heller@ms-muc.de) für Berufsschule ?
+    *   extrem einfache Beschreibung von ISOBUS, zu Einfach für die Meisterschule aber vll. @Josef Heller mailto:josef.heller@ms-muc.de für Berufsschule ?
     
     *   auch Steckerbelegungen
 
