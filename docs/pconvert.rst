@@ -54,7 +54,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert\\progs\\can\\CANdriv
 
 _**Dieses nennt man dlg\_net**_
 
-.. image:: https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg)
+.. image:: https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg
 
 _**Jetzt startet man pconvert:**_ 
 

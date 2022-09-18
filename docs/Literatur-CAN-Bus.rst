@@ -21,6 +21,6 @@ Poster:
 
 https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg
 
-![Grafik des CAN/CAN FD Posters https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg)
+.. image:: https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg
 
 ---
