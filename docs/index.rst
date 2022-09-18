@@ -1,7 +1,7 @@
 .. include:: ../README.rst
 
 Welcome to ISOBUS-other's documentation!
-===================================
+========================================
 
 .. note::
 
