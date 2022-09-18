@@ -26,6 +26,5 @@ Contents
    AEF-ISOBUS-CHECK-Tool
    Busmaster
    pconvert
-   pconvert
    Pconvert-Unterrichtsmaterialien
    Literatur
