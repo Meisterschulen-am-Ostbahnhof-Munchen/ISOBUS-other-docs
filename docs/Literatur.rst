@@ -2,7 +2,6 @@ Literatur
 #############
    
 .. toctree::
-   :numbered:
 
    Literatur-ESP32
    Literatur-CAN-Bus
