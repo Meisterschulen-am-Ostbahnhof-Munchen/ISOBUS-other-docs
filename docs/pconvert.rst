@@ -14,7 +14,7 @@ So, hierzu noch 2 Hinweise:
 
 Lizenzrechtlich:
 
-Wir haben folgenden Hinweis erhalten von der DLG ([www.DLG.org http://www.DLG.org) DLG TestService GmbH, [https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft))
+Wir haben folgenden Hinweis erhalten von der DLG (www.DLG.org) DLG TestService GmbH, (https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft)
 
 Wie telefonisch besprochen, ist der Käufer zusätzlich berechtigt die Software für unterrichtszwecke an der Meisterschule zu kopieren. Die Software darf ausschließen an der Meisterschule und nicht kommerziell eingesetzt werden.
 
@@ -24,13 +24,13 @@ Wenn Sie im Nachgang des Unterrichts nächste Woche oder in Vorbereitung mit der
 
 Wenn ein Kunde zu ihnen kommt und Sie reparieren damit seine Maschine und sie stellen Eine Rechnung ist das klar Kommerziell. 
 
-[https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/pconvert https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/pconvert)
+https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/pconvert
 
 *   Hier kommen in Zukunft die Anleitungen rein für Pconvert. 
 
 So,
 
-ich beschreibe das mit dem PEAK USB Adapter, [https://www.peak-system.com/PCAN-USB.199.0.html https://www.peak-system.com/PCAN-USB.199.0.html)
+ich beschreibe das mit dem PEAK USB Adapter, https://www.peak-system.com/PCAN-USB.199.0.html
 
 andere Adapter werden auch unterstützt:
 
