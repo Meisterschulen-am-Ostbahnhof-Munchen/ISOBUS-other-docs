@@ -17,7 +17,7 @@ Contents
    Home
    C-Programmierung
    IEC-Programmierung
-   CCI Displays
+   CCI-Displays
    nx\_farm\_display nx_farm_display)
    mit CAN over WiFi (Homescooling)
    mit physikalischem ISOBUS
