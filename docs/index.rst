@@ -18,11 +18,8 @@ Contents
    C-Programmierung
    IEC-Programmierung
    CCI-Displays
-   nx\_farm\_display nx_farm_display)
-   mit CAN over WiFi (Homescooling)
-   mit physikalischem ISOBUS
+   nx_farm_display
    PEAK
-   Tools
    AEF-ISOBUS-CHECK-Tool
    Busmaster
    pconvert
