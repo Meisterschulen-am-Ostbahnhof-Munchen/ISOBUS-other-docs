@@ -10,65 +10,65 @@ Gestartet wird es mit pconvert.exe
 
 Aufgrund des langsamen WLAN wieder ratsam das vorab auf den eigenen PC zu kopieren. 
 
-> So, hierzu noch 2 Hinweise:
-> 
-> Lizenzrechtlich:
-> 
-> Wir haben folgenden Hinweis erhalten von der DLG ([www.DLG.org http://www.DLG.org) DLG TestService GmbH, [https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft))
-> 
-> Wie telefonisch besprochen, ist der Käufer zusätzlich berechtigt die Software für unterrichtszwecke an der Meisterschule zu kopieren. Die Software darf ausschließen an der Meisterschule und nicht kommerziell eingesetzt werden.
-> 
-> Ich will Sie darauf hinweisen dass diese Software technisch nicht geschützt ist (Lizenzschlüssel, Dongle). SIE selbst sind also dafür verantwortlich KEINE Kopie der Software für Kommerzielle Zwecke anzufertigen. Sollten Sie die Software kommerziell einsetzen wollen müssen Sie bei der DLG eine Lizenz für 1995€ kaufen. 
-> 
-> Wenn Sie im Nachgang des Unterrichts nächste Woche oder in Vorbereitung mit der Software zuhause **üben** sehe ich das als Unterrichtszweck. 
-> 
-> Wenn ein Kunde zu ihnen kommt und Sie reparieren damit seine Maschine und sie stellen Eine Rechnung ist das klar Kommerziell. 
+So, hierzu noch 2 Hinweise:
+
+Lizenzrechtlich:
+
+Wir haben folgenden Hinweis erhalten von der DLG ([www.DLG.org http://www.DLG.org) DLG TestService GmbH, [https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft https://de.wikipedia.org/wiki/Deutsche_Landwirtschafts-Gesellschaft))
+
+Wie telefonisch besprochen, ist der Käufer zusätzlich berechtigt die Software für unterrichtszwecke an der Meisterschule zu kopieren. Die Software darf ausschließen an der Meisterschule und nicht kommerziell eingesetzt werden.
+
+Ich will Sie darauf hinweisen dass diese Software technisch nicht geschützt ist (Lizenzschlüssel, Dongle). SIE selbst sind also dafür verantwortlich KEINE Kopie der Software für Kommerzielle Zwecke anzufertigen. Sollten Sie die Software kommerziell einsetzen wollen müssen Sie bei der DLG eine Lizenz für 1995€ kaufen. 
+
+Wenn Sie im Nachgang des Unterrichts nächste Woche oder in Vorbereitung mit der Software zuhause **üben** sehe ich das als Unterrichtszweck. 
+
+Wenn ein Kunde zu ihnen kommt und Sie reparieren damit seine Maschine und sie stellen Eine Rechnung ist das klar Kommerziell. 
 
 [https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/pconvert https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/pconvert)
 
 *   Hier kommen in Zukunft die Anleitungen rein für Pconvert. 
 
-_**So,**_ 
+So,
 
-_**ich beschreibe das mit dem PEAK USB Adapter,**_ [https://www.peak-system.com/PCAN-USB.199.0.html https://www.peak-system.com/PCAN-USB.199.0.html)
+ich beschreibe das mit dem PEAK USB Adapter, [https://www.peak-system.com/PCAN-USB.199.0.html https://www.peak-system.com/PCAN-USB.199.0.html)
 
-_**andere Adapter werden auch unterstützt:**_ 
+andere Adapter werden auch unterstützt:
 
-_**siehe Liste ganz am Ende dieser Mail.**_ 
+siehe Liste ganz am Ende dieser Mail.
 
-_**Als erstes brauchen wir den Basis-Treiber von PEAK:**_ 
+Als erstes brauchen wir den Basis-Treiber von PEAK:
 
-_**Gerätetreiber-Setup für Windows von o.g. Seite runterladen,**_ 
+Gerätetreiber-Setup für Windows von o.g. Seite runterladen,
 
-_**bei Optionen mindestens PCAN Basic und Gerätetreiber wählen.**_ 
+bei Optionen mindestens PCAN Basic und Gerätetreiber wählen.
 
-_**Jetzt sollte man mit PCAN-View prüfen ob der PEAK funktioniert.**_ 
+Jetzt sollte man mit PCAN-View prüfen ob der PEAK funktioniert.
 
-_**Nun folgt die Installation des erweiterten Treibers (Pconvert geht auch ohne, aber wenn man später PCAN-View mit Pconvert oder Busmaster mit Pconvert zusammen benutzen möchte ist der erweiterte Treiber besser)**_
+Nun folgt die Installation des erweiterten Treibers (Pconvert geht auch ohne, aber wenn man später PCAN-View mit Pconvert oder Busmaster mit Pconvert zusammen benutzen möchte ist der erweiterte Treiber besser)
 
-M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert\\progs\\can\\CANdriver\\peak\\OEM\\Redistributable**_
+M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert\\progs\\can\\CANdriver\\peak\\OEM\\Redistributable
 
-_**Dann legt man im NetCFG32 ein Netz an:**_ 
+Dann legt man im NetCFG32 ein Netz an:
 
-M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert\\progs\\can\\CANdriver\\peak**_
+M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert\\progs\\can\\CANdriver\\peak
 
-_**Dieses nennt man dlg\_net**_
+Dieses nennt man dlg\_net
 
 .. image:: https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg
 
-_**Jetzt startet man pconvert:**_ 
+Jetzt startet man pconvert:
 
-M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert dort pconvert.exe**_
+M:\\Landmaschinenmechanik\\Unterricht\\SL_**\\DLG\\pconvert dort pconvert.exe
 
-_**dann CAN – Can Tools – Net Client Mode einen Haken setzen**_
+dann CAN – Can Tools – Net Client Mode einen Haken setzen
 
-_**in dem erscheinenden Fenster wählt man „TRACE“ und schon zeigt er was am Bus los ist:**_ 
+in dem erscheinenden Fenster wählt man „TRACE“ und schon zeigt er was am Bus los ist:
 
 .. image:: https://user-images.githubusercontent.com/69573151/94334983-67efa980-ffd8-11ea-8ee0-ed068a57ed0d.png
 
-_**Sollte das nicht funktionieren wählt man nochmal CAN – Can Tools – Net Client Table – Close and Set Net Client.**_ 
+Sollte das nicht funktionieren wählt man nochmal CAN – Can Tools – Net Client Table – Close and Set Net Client.
 
-_**Insbesondere wenn das Netz nicht DLG\_net heisst.**_
+Insbesondere wenn das Netz nicht DLG\_net heisst.**
 
 .. image:: https://user-images.githubusercontent.com/69573151/94334982-67efa980-ffd8-11ea-8b0f-3a9e9a771d35.png
 
