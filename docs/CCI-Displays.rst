@@ -3,7 +3,6 @@ CCI Displays
 
 .. toctree::
 
-   CCI Displays <self>
    Feldumrisse laden
    Applikationskarte laden
    GPS-Simulation-auf-dem-Display
