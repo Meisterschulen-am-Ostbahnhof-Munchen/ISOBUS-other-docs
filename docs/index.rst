@@ -25,3 +25,4 @@ Contents
    pconvert
    Pconvert-Unterrichtsmaterialien
    Literatur
+   genindex
