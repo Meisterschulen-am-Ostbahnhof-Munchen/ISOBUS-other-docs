@@ -24,9 +24,9 @@ Wenn Sie im Nachgang des Unterrichts nächste Woche oder in Vorbereitung mit der
 
 Wenn ein Kunde zu ihnen kommt und Sie reparieren damit seine Maschine und sie stellen Eine Rechnung ist das klar Kommerziell. 
 
-https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/pconvert
 
-*   Hier kommen in Zukunft die Anleitungen rein für Pconvert. 
+
+
 
 So,
 
