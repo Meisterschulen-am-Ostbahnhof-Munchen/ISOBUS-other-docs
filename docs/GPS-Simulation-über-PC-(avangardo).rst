@@ -5,7 +5,9 @@ GPS Simulation über PC (avangardo)
 
 # Software
 
-[http://www.avangardo.com/ http://www.avangardo.com/)
+avangardo gibt es leider nicht mehr !
+
+
 
 av\_gps\_generator\_pro.zip entpacken, setup.exe ausführen, 
 
