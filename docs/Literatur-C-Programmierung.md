@@ -1,6 +1,6 @@
 # Literatur C-Programmierung
 
-[C-Programmierung auf Wikibooks – Die freie Bibliothek ](https://de.wikibooks.org/wiki/C-Programmierung](https://de.wikibooks.org/wiki/C-Programmierung)
+[C-Programmierung auf Wikibooks – Die freie Bibliothek](https://de.wikibooks.org/wiki/C-Programmierung%5D(https://de.wikibooks.org/wiki/C-Programmierung)
 
 [https://de.wikipedia.org/wiki/International_Electrotechnical_Commission](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission)
 
@@ -38,7 +38,7 @@ C in a Nutshell: The Definitive Reference [link](https://www.amazon.de/dp/149190
 
 Mastering Algorithms with C [link](https://www.amazon.de/dp/1565924533/ref=cm_sw_r_wa_apa_fab_My4BFbEG48901)
 
-Practical C Programming: Solutions for modern C developers to create efficient and well-structured programs [link](https://www.amazon.de/dp/1838641106/ref=cm_sw_r_wa_apa_fab_7y4BFbD931VXY
+Practical C Programming: Solutions for modern C developers to create efficient and well-structured programs \[link\](https://www.amazon.de/dp/1838641106/ref=cm_sw_r_wa_apa_fab_7y4BFbD931VXY
 
 Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C [link](https://www.amazon.de/dp/1789343623/ref=cm_sw_r_wa_apa_fab_pz4BFbKMN94WN)
 
@@ -114,7 +114,7 @@ The Standard C Library [link](https://www.amazon.de/dp/0131315099/ref=cm_sw_r_wa
 
 C Programming Absolute Beginner's Guide [link](https://www.amazon.de/dp/0789751984/ref=cm_sw_r_wa_apa_fab_aq5BFbGCB987B)
 
-C Programming: The Ultimate Beginner's Guide to Learn C Programming Step by Step [link](https://www.amazon.de/dp/B08JVKFT7Y/ref=cm_sw_r_wa_apa_fab_nq5BFbJ0GV13S)
+C Programming: The Ultimate Beginner's Guide to Learn C Programming Step by Step [link](https://www.amazon.ca/Programming-Ultimate-Beginners-Guide-Learn/dp/B08JVKFT7Y)
 
 C Programming in easy steps [link](https://www.amazon.de/dp/1840785446/ref=cm_sw_r_wa_apa_fab_Kq5BFbG0VN27K)
 
