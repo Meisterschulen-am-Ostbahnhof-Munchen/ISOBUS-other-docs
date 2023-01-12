@@ -1,7 +1,9 @@
 nx\_farm\_display
 ===================================
 
-http://nx9.eu/#download
+leider gibt es nx9 nicht mehr !!
+
+https://www.reuters.com/markets/deals/cnh-industrial-buys-software-house-nx9-bolster-agriculture-business-2021-12-02/
 
 .. image:: https://user-images.githubusercontent.com/69573151/95010570-b7625500-062a-11eb-9fb1-93cc2f12dc80.png
 
