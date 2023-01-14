@@ -1,4 +1,4 @@
-### Operatoren
+# Operatoren
 
 **betrifft: Mathematik,**
 
