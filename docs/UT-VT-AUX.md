@@ -1,13 +1,6 @@
 # UT-VT-AUX
 
 
-Spalte 1 | Spalte 2 | Spalte 3
--------- | -------- | --------
-Inhalt   | Inhalt   | Inhalt
-Inhalt   | Inhalt   | Inhalt
-
-<table><tbody><tr><td>c</td><td>c</td></tr><tr><td>c</td><td>c</td></tr><tr><td>c</td><td>c</td></tr></tbody></table>
-
 | ISO 11783-6 | AEF | AUX |  
 |--- | --- | --- |
 | VT 1 |   |   |  
