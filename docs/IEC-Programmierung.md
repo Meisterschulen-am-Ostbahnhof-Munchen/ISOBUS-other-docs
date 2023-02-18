@@ -118,8 +118,6 @@ Flankenerkennung
 
 --> bei R_TRIG Function Block
 
-```{image} https://www.plcacademy.com/wp-content/uploads/2018/03/r-trig-diagram.png
-```
 
 Quelle: <https://www.plcacademy.com/function-block-diagram-programming/>
 
@@ -133,7 +131,5 @@ Quelle: <https://www.plcacademy.com/function-block-diagram-programming/>
 
 --> bei F_TRIG Function Block
 
-```{image} https://www.plcacademy.com/wp-content/uploads/2018/03/f-trig-diagram.png
-```
 
 Quelle: <https://www.plcacademy.com/function-block-diagram-programming/>
