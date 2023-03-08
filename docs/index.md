@@ -1,5 +1,6 @@
 ---
 myst:
+  enable_extensions: ["colon_fence"]
   html_meta:
     "google-site-verification": "TyuFoyllrkvesmnVr-a6dR3czc5lWyl5tkGUnzqCehY"
     "description lang=en": "metadata description"
@@ -13,15 +14,17 @@ myst:
 ```{include} ../README.md
 ```
 
-# Welcome to ISOBUS-other's documentation!
+**Welcome to ISOBUS-other's documentation!**
 
 :::{note}
 This project is under active development.
 :::
 
-## Contents
+**Contents**
 
 ```{toctree}
+:caption: 'Contents:'
+:maxdepth: 7
 :numbered: true
 
 Home <self>
@@ -38,3 +41,8 @@ Pconvert-Unterrichtsmaterialien
 Literatur
 genindex
 ```
+
+# Indices and tables
+
+- {ref}`genindex`
+- {ref}`search`
