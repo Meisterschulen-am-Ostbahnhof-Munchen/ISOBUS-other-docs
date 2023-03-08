@@ -40,6 +40,7 @@ pconvert
 Pconvert-Unterrichtsmaterialien
 Literatur
 genindex
+search
 ```
 
 # Indices and tables
