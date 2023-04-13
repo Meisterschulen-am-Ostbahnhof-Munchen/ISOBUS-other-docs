@@ -24,6 +24,22 @@ Das OSI-Modell dient als Referenz für die Entwicklung von Netzwerkprotokollen u
 
 ## ISO/OSI-Referenzmodell und SAE J1939
 
+SAE J1939 ist ein Protokoll, das speziell für den Einsatz in Nutzfahrzeugen und -maschinen entwickelt wurde. Es basiert auf dem CAN-Bus-Standard und verwendet das ISO/OSI-Referenzmodell als Grundlage für seine Schichtenarchitektur.
+
+Die SAE J1939-Protokollarchitektur besteht aus fünf Schichten:
+
+Anwendungsschicht: Hier werden die spezifischen Anwendungsdaten definiert, die zwischen den Geräten im Netzwerk ausgetauscht werden.
+
+Transport- oder Dienstschicht: Diese Schicht ist für die Aufteilung der Daten in kleinere Pakete und die Gewährleistung der Zuverlässigkeit der Datenübertragung verantwortlich.
+
+Netzwerkschicht: Hier werden die Adressierung und der Austausch von Paketen zwischen verschiedenen Netzwerken geregelt.
+
+Sicherungsschicht: Diese Schicht bietet Fehlererkennung und -korrektur sowie den Zugriff auf das Medium (CAN-Bus).
+
+Physikalische Schicht: Hier wird die elektrische und physikalische Übertragung der Daten über das Medium (CAN-Bus) abgewickelt.
+
+Wie das OSI-Modell ermöglicht auch die Schichtenarchitektur von SAE J1939 die Interoperabilität und Integration verschiedener Geräte von unterschiedlichen Herstellern in ein Netzwerk. Dies erleichtert die Entwicklung und Implementierung von Anwendungen für Nutzfahrzeuge und -maschinen, die auf SAE J1939 basieren.
+
 [https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial](https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial)
 
 ![](https://cdn.shopify.com/s/files/1/0579/8032/1980/files/j1939-osi-model-7-layer-standards-sae.svg)
