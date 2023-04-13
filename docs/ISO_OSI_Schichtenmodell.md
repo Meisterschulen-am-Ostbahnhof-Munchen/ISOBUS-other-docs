@@ -24,6 +24,10 @@ Das OSI-Modell dient als Referenz für die Entwicklung von Netzwerkprotokollen u
 
 ## ISO/OSI-Referenzmodell und SAE J1939
 
+[https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial](https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial)
+
+![](https://cdn.shopify.com/s/files/1/0579/8032/1980/files/j1939-osi-model-7-layer-standards-sae.svg)
+
 ## ISO/OSI-Referenzmodell und ISO 11783
 
 [https://www.csselectronics.com/pages/isobus-introduction-tutorial-iso-11783](https://www.csselectronics.com/pages/isobus-introduction-tutorial-iso-11783)
