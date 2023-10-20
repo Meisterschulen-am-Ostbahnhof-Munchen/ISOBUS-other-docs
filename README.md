@@ -1,4 +1,4 @@
-# ISOBUS-other-docs
+# Wiki 3: ISOBUS-other
 
 <https://isobus-other-docs.readthedocs.io/de/latest/>
 
@@ -22,7 +22,7 @@ Wiki 1: [Wiki](https://docs.ms-muc-docs.de/projects/install-isobus-environment-d
 
 Wiki 2: [Wiki](https://docs.ms-muc-docs.de/projects/isobus-vt-objects-docs/) ISOBUS-VT-Objects
 
-## Wiki 3
+## Wiki 3: ISOBUS-other
 
 Wiki 3: [Wiki](https://docs.ms-muc-docs.de/projects/isobus-other-docs/) ISOBUS-other
 
