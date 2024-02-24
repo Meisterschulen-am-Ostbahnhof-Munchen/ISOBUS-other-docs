@@ -1,5 +1,8 @@
 # Wiki 3: ISOBUS-other
 
+![franz0748_a_new_Logo_for_ISOBUS-other_--v_6_3dbd6bc6-6a38-4329-9c13-e081e084eb63](https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS-other-docs/assets/69573151/12740528-8fae-4652-881b-8832de2aa50b)
+
+
 [https://docs.ms-muc-docs.de/projects/isobus-other-docs/de/latest/](https://docs.ms-muc-docs.de/projects/isobus-other-docs/de/latest/)
 
 [![Documentation Status](https://readthedocs.org/projects/isobus-other-docs/badge/?version=latest)](https://isobus-other-docs.readthedocs.io/de/latest/?badge=latest)
