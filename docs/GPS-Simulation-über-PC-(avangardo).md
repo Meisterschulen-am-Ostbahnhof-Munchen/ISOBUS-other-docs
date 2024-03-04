@@ -1,8 +1,8 @@
 # GPS Simulation über PC (avangardo)
 
-\# Hardware
+## Hardware
 
-\# Software
+## Software
 
 avangardo gibt es leider nicht mehr !
 
