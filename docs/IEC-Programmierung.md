@@ -16,29 +16,29 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.c
 
 <https://www.xplore-dna.net/mod/page/view.php?id=153>
 
-\# Grundverknüpfungen
+## Grundverknüpfungen
 
 <https://de.wikipedia.org/wiki/Boolesche_Algebra>
 
-\## UND
+### UND
 
 <https://www.xplore-dna.net/mod/page/view.php?id=155>
 
 <https://help.codesys.com/webapp/_cds_operator_and;product=codesys;version=3.5.17.0>
 
-\## ODER
+### ODER
 
 <https://www.xplore-dna.net/mod/page/view.php?id=153>
 
 <https://help.codesys.com/webapp/_cds_operator_or;product=codesys;version=3.5.17.0>
 
-\## NICHT
+### NICHT
 
 <https://www.xplore-dna.net/mod/page/view.php?id=157>
 
 <https://help.codesys.com/webapp/_cds_operator_not;product=codesys;version=3.5.17.0>
 
-\## Exclusiv-ODER
+### Exclusiv-ODER
 
 <https://www.xplore-dna.net/mod/page/view.php?id=154>
 
@@ -48,7 +48,7 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.c
 
 <https://de.wikipedia.org/wiki/Flipflop>
 
-\## SR-Flipflop
+### SR-Flipflop
 
 <https://www.xplore-dna.net/mod/page/view.php?id=173>
 
@@ -56,7 +56,7 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.c
 
 <https://help.codesys.com/webapp/sr;product=codesys;version=3.5.11.0>
 
-\## RS-Flipflop
+### RS-Flipflop
 
 <https://www.xplore-dna.net/mod/page/view.php?id=1038>
 
@@ -64,15 +64,15 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.c
 
 <https://help.codesys.com/webapp/rs;product=codesys;version=3.5.11.0>
 
-\## TOGGLE (Stromstoßschalter)
+### TOGGLE (Stromstoßschalter)
 
 <http://www.oscat.de/>
 
 oscat_basic333_de.pdf Seite 280; Punkt 17.16. TOGGLE
 
-\# Zeitbausteine
+## Zeitbausteine
 
-\## TON: Einschaltverzögerung
+### TON: Einschaltverzögerung
 
 Dieser Baustein verzögert ein Signal ab dem Einschaltzeitpunkt um eine festgelegte Dauer.
 
@@ -82,7 +82,7 @@ Dieser Baustein verzögert ein Signal ab dem Einschaltzeitpunkt um eine festgele
 
 <https://help.codesys.com/webapp/ton;product=codesys;version=3.5.11.0>
 
-\## TOF: Ausschaltverzögerung
+### TOF: Ausschaltverzögerung
 
 Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgelegte Dauer.
 
@@ -92,7 +92,7 @@ Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgel
 
 <https://help.codesys.com/webapp/tof;product=codesys;version=3.5.11.0>
 
-\## TP: Impulsbildung
+### TP: Impulsbildung
 
 <https://www.xplore-dna.net/mod/page/view.php?id=166>
 
@@ -100,7 +100,7 @@ Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgel
 
 <https://help.codesys.com/webapp/tp;product=codesys;version=3.5.11.0>
 
-\# Signalflanken eines Operanden abfragen
+## Signalflanken eines Operanden abfragen
 
 Flankenerkennung
 
@@ -108,7 +108,7 @@ Flankenerkennung
 
 <https://www.xplore-dna.net/mod/page/view.php?id=158>
 
-\## R_TRIG
+### R_TRIG
 
 <https://help.codesys.com/webapp/0_BqWBsrZvp6OWXd62-zB_e-ILo%2FR_TRIG;product=Standard;version=3.5.17.0>
 
@@ -121,7 +121,7 @@ Flankenerkennung
 
 Quelle: <https://www.plcacademy.com/function-block-diagram-programming/>
 
-\## F_TRIG
+### F_TRIG
 
 <https://help.codesys.com/webapp/0_BqWBsrZvp6OWXd62-zB_e-ILo%2FF_TRIG;product=Standard;version=3.5.17.0>
 
