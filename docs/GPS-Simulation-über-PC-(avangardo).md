@@ -44,4 +44,6 @@ die Port Nummer ersehen Sie aus dem Geräte Manager der Systemsteuerung:
 
 Literatur:
 
-<http://www.avangardo.com/how-to/>
+<https://web.archive.org/web/20211028015532/http://www.avangardo.com/how-to/>
+
+(Original-Seite nicht mehr verfügbar)
