@@ -92,6 +92,8 @@ Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgel
 
 <https://help.codesys.com/webapp/tof;product=codesys;version=3.5.11.0>
 
+### TONOF: Ein-/Ausschaltverzögerung
+
 ### TP: Impulsbildung
 
 <https://www.xplore-dna.net/mod/page/view.php?id=166>
@@ -99,6 +101,8 @@ Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgel
 <https://help.codesys.com/webapp/nZzsIvNv0ruZ1f6MRyM0e-wgLKU%2FTP;product=Standard;version=3.5.17.0>
 
 <https://help.codesys.com/webapp/tp;product=codesys;version=3.5.11.0>
+
+
 
 ## Signalflanken eines Operanden abfragen
 
