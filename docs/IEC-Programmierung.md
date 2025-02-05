@@ -90,6 +90,10 @@ Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgel
 
 ### TONOF: Ein-/Ausschaltverzögerung
 
+<http://oscat.de/images/OSCATBasic/oscat_basic333_de.pdf>
+Seite 215
+
+
 ### TP: Impulsbildung
 
 <https://www.xplore-dna.net/mod/page/view.php?id=166>
