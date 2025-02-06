@@ -78,9 +78,7 @@ Dieser Baustein verzögert ein Signal ab dem Einschaltzeitpunkt um eine festgele
 
 <https://www.xplore-dna.net/mod/page/view.php?id=167>
 
-<https://help.codesys.com/webapp/nZzsIvNv0ruZ1f6MRyM0e-wgLKU%2FTON;product=Standard;version=3.5.17.0>
-
-<https://help.codesys.com/webapp/ton;product=codesys;version=3.5.11.0>
+<https://content.helpme-codesys.com/en/libs/Standard/Current/Timer/TON.html>
 
 ### TOF: Ausschaltverzögerung
 
@@ -88,17 +86,19 @@ Dieser Baustein verlängert ein Signal ab dem Ausschaltzeitpunkt um eine festgel
 
 <https://www.xplore-dna.net/mod/page/view.php?id=168>
 
-<https://help.codesys.com/webapp/nZzsIvNv0ruZ1f6MRyM0e-wgLKU%2FTOF;product=Standard;version=3.5.17.0>
+<https://content.helpme-codesys.com/en/libs/Standard/Current/Timer/TOF.html>
 
-<https://help.codesys.com/webapp/tof;product=codesys;version=3.5.11.0>
+### TONOF: Ein-/Ausschaltverzögerung
+
+<http://oscat.de/images/OSCATBasic/oscat_basic333_de.pdf>
+Seite 215
+
 
 ### TP: Impulsbildung
 
 <https://www.xplore-dna.net/mod/page/view.php?id=166>
 
-<https://help.codesys.com/webapp/nZzsIvNv0ruZ1f6MRyM0e-wgLKU%2FTP;product=Standard;version=3.5.17.0>
-
-<https://help.codesys.com/webapp/tp;product=codesys;version=3.5.11.0>
+<https://content.helpme-codesys.com/en/libs/Standard/Current/Timer/TP.html>
 
 ## Signalflanken eines Operanden abfragen
 
