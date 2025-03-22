@@ -28,7 +28,7 @@ This project is under active development.
 
 Home <self>
 Home
-PNG/PGN
+PGN/PGN
 C-Programmierung
 IEC-Programmierung
 CCI-Displays
