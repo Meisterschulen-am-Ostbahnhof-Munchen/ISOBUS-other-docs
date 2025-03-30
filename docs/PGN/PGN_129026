@@ -1,0 +1,72 @@
+# COG & SOG, Rapid Update (PGN 129026) in der NMEA 2000 Norm
+
+## Einführung
+Die NMEA 2000 Norm ist ein weit verbreiteter Standard in der maritimen Industrie für die Kommunikation zwischen verschiedenen Navigations- und Schiffssystemen. Ein wichtiger Bestandteil dieses Standards ist das Parameter Group Number (PGN) 129026, das als "COG & SOG, Rapid Update" bezeichnet wird. Diese Nachricht überträgt kritische Navigationsdaten in Echtzeit und spielt eine zentrale Rolle für die Sicherheit und Effizienz der Schifffahrt.
+
+## Bedeutung von COG und SOG
+COG (Course Over Ground) und SOG (Speed Over Ground) sind zwei der grundlegendsten Navigationsparameter:
+- **COG** gibt die tatsächliche Bewegungsrichtung des Schiffes über Grund an, gemessen in Radiant oder Grad.
+- **SOG** repräsentiert die Geschwindigkeit des Schiffes über Grund, typischerweise in Metern pro Sekunde oder Knoten.
+
+Diese Werte sind essenziell für:
+- Kollisionsvermeidungssysteme
+- Autopiloten
+- Navigationsdisplays
+- Logbuchaufzeichnungen
+- Manöverunterstützung
+
+## Technische Spezifikation von PGN 129026
+Die technische Beschreibung aus der Datei zeigt die Struktur dieser Nachricht:
+
+```
+[PGN_129026_cogSogRapidUpdate]
+ID=19F802FEh // COG & SOG, Rapid Update
+Type=Extended
+DLC=8
+Var=reserved6 unsigned 48,16
+Var=sog unsigned 32,16 /u:m/s /f:0.01
+Var=cog unsigned 16,16 /u:rad /f:0.0001
+Var=reserved unsigned 10,6
+Var=cogReference unsigned 8,2 /e:E_cogReference
+Var=sid unsigned 0,8
+```
+
+### Schlüsselfelder:
+1. **SOG (Speed Over Ground)**: 
+   - 16-Bit unsigned Wert
+   - Einheit: m/s
+   - Skalierungsfaktor: 0.01 (Wert 100 = 1.00 m/s)
+
+2. **COG (Course Over Ground)**:
+   - 16-Bit unsigned Wert
+   - Einheit: Radiant
+   - Skalierungsfaktor: 0.0001 (hohe Präzision)
+
+3. **COG Reference**:
+   - 2-Bit Enumeration (0=True, 1=Magnetic, 2=Error)
+   - Gibt an, ob der Kurs relativ zu True North oder Magnetic North angegeben ist
+
+4. **SID (Sequence Identifier)**:
+   - 8-Bit Identifikator zur Nachverfolgung von Nachrichten
+
+## Besonderheiten des "Rapid Update"
+Die Bezeichnung "Rapid Update" weist auf einige wichtige Eigenschaften hin:
+- **Hohe Update-Rate**: Diese Nachricht wird typischerweise mit höherer Frequenz gesendet als Standard-COG/SOG-Nachrichten.
+- **Reduzierte Latenz**: Wichtig für Echtzeitanwendungen wie Kollisionsvermeidung.
+- **Kompakte Größe**: Mit nur 8 Byte Datenlänge (DLC=8) ist die Nachricht effizient übertragbar.
+
+## Anwendungsbeispiele
+1. **Kollisionsvermeidungssysteme**: RAS (Radar Anti-Collision Systems) nutzen die schnellen COG/SOG-Updates, um Kollisionsrisiken frühzeitig zu erkennen.
+2. **Autopilot-Steuerung**: Moderne Autopiloten passen den Kurs basierend auf Echtzeit-COG-Daten an, um Drift durch Strömungen zu kompensieren.
+3. **AIS-Transponder**: Verwenden diese Daten, um die Bewegungen anderer Schiffe genau darzustellen.
+4. **Navigationssoftware**: Zeigt die aktuellen Bewegungsdaten für die Routenplanung an.
+
+## Bedeutung für die maritime Sicherheit
+Die schnelle und präzise Übermittlung von COG und SOG ist entscheidend für:
+- Vermeidung von Navigationsfehlern
+- Präzise Manöverberechnung
+- Echtzeit-Überwachung der Schiffsbewegung
+- Integration mit anderen Sicherheitssystemen
+
+## Fazit
+Das PGN 129026 "COG & SOG, Rapid Update" ist ein fundamentaler Baustein der NMEA 2000-Norm, der die schnelle und präzise Übermittlung essenzieller Navigationsdaten ermöglicht. Seine effiziente Struktur und hohe Aktualisierungsrate machen es unverzichtbar für moderne maritime Navigations- und Sicherheitssysteme. Die standardisierte Definition dieser Nachricht, wie in der gezeigten Spezifikation, gewährleistet die Interoperabilität zwischen Geräten verschiedener Hersteller und trägt so zur Sicherheit und Effizienz in der Schifffahrt bei.
