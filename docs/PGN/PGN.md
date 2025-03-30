@@ -86,4 +86,5 @@ Eine **Parameter Group Number (PGN)** ist ein zentrales Element der ISOBUS-Kommu
 ```{toctree}
 :caption: 'PGN'
 PGN_65096
+PGN_129026
 ```
