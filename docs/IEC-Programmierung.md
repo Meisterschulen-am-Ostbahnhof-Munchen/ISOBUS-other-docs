@@ -8,7 +8,7 @@
 
 PLC Lib with IEC 61131 alike functions.
 
-Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.codesys.com/>
+Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://www.helpme-codesys.com/>
 
 <https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/TimeDelay>
 
@@ -24,25 +24,25 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.c
 
 <https://www.xplore-dna.net/mod/page/view.php?id=155>
 
-<https://help.codesys.com/webapp/_cds_operator_and;product=codesys;version=3.5.17.0>
+<https://content.helpme-codesys.com/de/CODESYS%20Development%20System/_cds_operator_and.html>
 
 ### ODER
 
 <https://www.xplore-dna.net/mod/page/view.php?id=153>
 
-<https://help.codesys.com/webapp/_cds_operator_or;product=codesys;version=3.5.17.0>
+<https://content.helpme-codesys.com/de/CODESYS%20Development%20System/_cds_operator_or.html>
 
 ### NICHT
 
 <https://www.xplore-dna.net/mod/page/view.php?id=157>
 
-<https://help.codesys.com/webapp/_cds_operator_not;product=codesys;version=3.5.17.0>
+<https://content.helpme-codesys.com/de/CODESYS%20Development%20System/_cds_operator_not.html>
 
 ### Exclusiv-ODER
 
 <https://www.xplore-dna.net/mod/page/view.php?id=154>
 
-<https://help.codesys.com/webapp/_cds_operator_xor;product=codesys;version=3.5.17.0>
+<https://content.helpme-codesys.com/de/CODESYS%20Development%20System/_cds_operator_xor.html>
 
 \# Speicherbausteine
 
@@ -52,17 +52,17 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://help.c
 
 <https://www.xplore-dna.net/mod/page/view.php?id=173>
 
-<https://help.codesys.com/webapp/eRbQSQXbUz_fr6MUILk2nDWQDnE%2FSR;product=Standard;version=3.5.17.0>
+<https://content.helpme-codesys.com/de/libs/Standard/Current/Bistable-Function-Blocks/SR.html>
 
-<https://help.codesys.com/webapp/sr;product=codesys;version=3.5.11.0>
+<https://content.helpme-codesys.com/de/CODESYS%20Safety%20for%20EtherCAT%20Safety%20Module/el6900_fb_sr.html>
 
 ### RS-Flipflop
 
 <https://www.xplore-dna.net/mod/page/view.php?id=1038>
 
-<https://help.codesys.com/webapp/eRbQSQXbUz_fr6MUILk2nDWQDnE%2FRS;product=Standard;version=3.5.17.0>
+<https://content.helpme-codesys.com/de/libs/Standard/Current/Bistable-Function-Blocks/RS.html>
 
-<https://help.codesys.com/webapp/rs;product=codesys;version=3.5.11.0>
+<https://content.helpme-codesys.com/de/CODESYS%20Safety%20for%20EtherCAT%20Safety%20Module/el6900_fb_rs.html>
 
 ### TOGGLE (Stromstoßschalter)
 
@@ -104,15 +104,11 @@ Seite 215
 
 Flankenerkennung
 
-<https://help.codesys.com/webapp/f_trigger;product=codesys;version=3.5.11.0>
-
 <https://www.xplore-dna.net/mod/page/view.php?id=158>
 
 ### R_TRIG
 
-<https://help.codesys.com/webapp/0_BqWBsrZvp6OWXd62-zB_e-ILo%2FR_TRIG;product=Standard;version=3.5.17.0>
-
-<https://help.codesys.com/webapp/r_trig;product=codesys;version=3.5.11.0>
+<https://content.helpme-codesys.com/de/libs/Standard/Current/Trigger/R_TRIG.html>
 
 <https://www.plcacademy.com/function-block-diagram-programming/>
 
@@ -123,9 +119,7 @@ Quelle: <https://www.plcacademy.com/function-block-diagram-programming/>
 
 ### F_TRIG
 
-<https://help.codesys.com/webapp/0_BqWBsrZvp6OWXd62-zB_e-ILo%2FF_TRIG;product=Standard;version=3.5.17.0>
-
-<https://help.codesys.com/webapp/f_trig;product=codesys;version=3.5.11.0>
+<https://content.helpme-codesys.com/de/libs/Standard/Current/Trigger/F_TRIG.html>
 
 <https://www.plcacademy.com/function-block-diagram-programming/>
 

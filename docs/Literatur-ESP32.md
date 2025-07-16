@@ -18,4 +18,4 @@ Dokumente von Espressif:
 
 Infos zum Atom siehe auch hier:
 
-<https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment/wiki/Hardware>
+<https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/Install-ISOBUS-Environment-docs/blob/main/docs/Hardware.md>
