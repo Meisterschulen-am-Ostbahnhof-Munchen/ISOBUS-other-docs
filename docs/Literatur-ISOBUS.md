@@ -12,11 +12,11 @@ Telegram Gruppe zu CCI:
 
 LinkedIn:
 
-\[<https://www.linkedin.com/groups/102887/> <https://www.linkedin.com/groups/102887/>)
+<https://www.linkedin.com/groups/102887/>
 
 TUM:
 
-ide umfangreichste LAndtechnik-Bibliothek die mir bekannt ist:
+ide umfangreichste Landtechnik-Bibliothek die mir bekannt ist:
 
 \[<https://mediatum.ub.tum.de/> <https://mediatum.ub.tum.de/>)
 
@@ -34,7 +34,7 @@ Literatur ISOBUS
 
 AEF Training:
 
-\[<https://www.aef-online.org/about-us/isobus.html> <https://www.aef-online.org/about-us/isobus.html>)
+<https://www.aef-online.org/about-us/isobus.html>
 
 \[<https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_EN.pdf> <https://www.aef-online.org/fileadmin/user_upload/Content/pdfs/AEF_handfan_EN.pdf>)
 
@@ -84,6 +84,6 @@ die Anleitungen für die Displays lege ich mal wo ab.
 
 \---
 
-<https://www.cc-isobus.com/tutorials/>
+<https://staging.cc-isobus.com/tutorials/>
 
 <https://www.cc-isobus.com/training/>

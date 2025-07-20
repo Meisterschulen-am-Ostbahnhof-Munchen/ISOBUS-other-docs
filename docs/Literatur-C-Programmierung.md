@@ -38,7 +38,7 @@ C in a Nutshell: The Definitive Reference [link](https://www.amazon.de/dp/149190
 
 Mastering Algorithms with C [link](https://www.amazon.de/dp/1565924533/ref=cm_sw_r_wa_apa_fab_My4BFbEG48901)
 
-Practical C Programming: Solutions for modern C developers to create efficient and well-structured programs \[link\](https://www.amazon.de/dp/1838641106/ref=cm_sw_r_wa_apa_fab_7y4BFbD931VXY
+Practical C Programming: Solutions for modern C developers to create efficient and well-structured programs [link](https://www.amazon.de/dp/1838641106/ref=cm_sw_r_wa_apa_fab_7y4BFbD931VXY)
 
 Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C [link](https://www.amazon.de/dp/1789343623/ref=cm_sw_r_wa_apa_fab_pz4BFbKMN94WN)
 
@@ -58,7 +58,7 @@ C Programmieren: für Einsteiger: Der leichte Weg zum C-Experten (Einfach Progra
 
 Kostenloses Buch: aber nur online: (Druckausgabe kostet) [link](http://openbook.rheinwerk-verlag.de/c_von_a_bis_z/)
 
-https://www.rheinwerk-verlag.de/c-von-a-bis-z-das-umfassende-handbuch/?v=2132&GPP=openbook)
+<https://www.rheinwerk-verlag.de/c-von-a-bis-z-das-umfassende-handbuch/?v=2132&GPP=openbook>
 
 C von A bis Z: Das umfassende Handbuch für C-Programmierer. Zum Lernen und Nachschlagen. Aktuell zum Standard C18 [link](https://www.amazon.de/dp/3836239736/ref=cm_sw_em_r_mt_dp_zezCFbS58T606)
 
@@ -134,7 +134,7 @@ Sams Teach Yourself C Programming in One Hour a Day [link](https://www.amazon.de
 
 Sams Teach Yourself C Programming in One Hour a Day [link](https://www.amazon.de/dp/0789751992/ref=cm_sw_r_wa_apa_fab_5x5BFbEXHBZ4A)
 
-C Programming language-For the Beginners: Loops, Array, Strings, Functions, Pointer...etc (Learn with Examples) [link](https://www.amazon.de/dp/1718055528/ref=cm_sw_r_wa_apa_fab_my5BFbVHQVAM9)
+C Programming language-For the Beginners: Loops, Array, Strings, Functions, Pointer...etc (Learn with Examples) (currently not available)
 
 Practical C Programming: Why Does 2+2 = 5986? (Nutshell Handbook) [link](https://www.amazon.de/dp/1565923065/ref=cm_sw_r_wa_apa_fab_Ey5BFbTJSNHN6)
 
