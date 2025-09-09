@@ -9,11 +9,9 @@ myst:
     "property=og:locale": "de"
 ---
 
-
-```{include} ../README.md
-```
-
 **Welcome to ISOBUS-other's documentation!**
+
+Main Menu: <https://www.ms-muc-docs.de/>
 
 :::{note}
 This project is under active development.

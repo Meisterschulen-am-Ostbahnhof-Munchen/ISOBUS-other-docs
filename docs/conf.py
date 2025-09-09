@@ -6,11 +6,11 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Wiki 3: ISOBUS-other Docs"
+project = "ISOBUS: Technische Grundlagen und Kommunikation (3) "
 copyright = "2022-2025, Meisterschulen am Ostbahnhof - München"
 author = "Franz Höpfinger"
 
-html_baseurl = "https://docs.ms-muc-docs.de/projects/isobus-other-docs/de/latest/"
+html_baseurl = "https://docs.ms-muc-docs.de/projects/isobus-other-docs"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -20,7 +20,7 @@ extensions = [
     "sphinxcontrib.googleanalytics",
 ]
 
-version = "0.0.1"
+version = "0.0.2"
 release = version
 templates_path = ["_templates"]
 
