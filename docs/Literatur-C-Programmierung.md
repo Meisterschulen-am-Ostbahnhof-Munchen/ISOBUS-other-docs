@@ -9,6 +9,12 @@
 
 Hinweis: die Links gehen zu Amazon. das ist nur der Übersichtlichkeit wegen so gemacht und stellt KEINE Kaufempfehlung dar. 
 
+## 🎧 Podcast
+
+* [logiBUS: ISOBUS-Programmierung einfach gemacht – Die Revolution für Agrartechnik und KMUs](https://podcasters.spotify.com/pod/show/logibus/episodes/logiBUS-ISOBUS-Programmierung-einfach-gemacht--Die-Revolution-fr-Agrartechnik-und-KMUs-e3674rq)
+* [Max Eyth: Ingenieur, Visionär, Brückenbauer – Sein Erbe in Technik, Landwirtschaft und Literatur](https://podcasters.spotify.com/pod/show/ms-muc-lama/episodes/Max-Eyth-Ingenieur--Visionr--Brckenbauer--Sein-Erbe-in-Technik--Landwirtschaft-und-Literatur-e38djbt)
+* [SPS-Programmierung meistern: Dein Fahrplan zur gefragten Industrie 4.0 Fähigkeit](https://podcasters.spotify.com/pod/show/ms-muc-lama/episodes/SPS-Programmierung-meistern-Dein-Fahrplan-zur-gefragten-Industrie-4-0-Fhigkeit-e3718ok)
+
 ---
 
 Das billigste C Buch das ich kenne. Leider ist die Qualität auch ein bisschen zweitklassig aber für einen ersten Einstieg reicht.
