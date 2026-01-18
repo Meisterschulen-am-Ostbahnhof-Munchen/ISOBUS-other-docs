@@ -5,14 +5,6 @@
 
 PeakOemDrv.exe
 
-## 🎧 Podcast
-
-* [Infineon MOTIX BTM9020/9021EP: Datenblatt-Analyse für Automotive – Robuster Motortreiber mit intelligenter Diagnose (HW vs. SPI)](https://podcasters.spotify.com/pod/show/ms-muc-lama/episodes/Infineon-MOTIX-BTM90209021EP-Datenblatt-Analyse-fr-Automotive--Robuster-Motortreiber-mit-intelligenter-Diagnose-HW-vs--SPI-e39av51)
-
-## 📺 Video
-
-* [Infineon MOTIX BTM9020/9021EP: Datenblatt-Analyse für Automotive – Robuster Motortreiber mit inte...](https://www.youtube.com/watch?v=EuWZ5Uhp_P0)
-
 ```{image} https://user-images.githubusercontent.com/69573151/93021163-95eceb00-f5e1-11ea-9fbb-09b5778f69ca.png
 ```
 

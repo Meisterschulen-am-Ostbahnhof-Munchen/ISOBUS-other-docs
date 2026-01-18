@@ -7,10 +7,6 @@ leider gibt es nx9 nicht mehr !!
 
 <https://www.reuters.com/markets/deals/cnh-industrial-buys-software-house-nx9-bolster-agriculture-business-2021-12-02/>
 
-## 🎧 Podcast
-
-* [ISOBUS Object Pointer: Das Geheimnis dynamischer Displays und effizienter Fehlerdiagnose](https://podcasters.spotify.com/pod/show/isobus-vt-objects/episodes/ISOBUS-Object-Pointer-Das-Geheimnis-dynamischer-Displays-und-effizienter-Fehlerdiagnose-e36bp75)
-
 ```{image} https://user-images.githubusercontent.com/69573151/95010570-b7625500-062a-11eb-9fb1-93cc2f12dc80.png
 ```
 

@@ -13,14 +13,6 @@ Damit läuft die Simulation.
 
 laden sie eine passende Feldgrenze damit die Simulation auch nach was aussieht.
 
-## 🎧 Podcast
-
-* [ISOBUS Object Pointer: Das Geheimnis dynamischer Displays und effizienter Fehlerdiagnose](https://podcasters.spotify.com/pod/show/isobus-vt-objects/episodes/ISOBUS-Object-Pointer-Das-Geheimnis-dynamischer-Displays-und-effizienter-Fehlerdiagnose-e36bp75)
-
-## 📺 Video
-
-* [2025-07-20 21-12-23  Fusion 360 Schematic SPICE Simulation deutsch](https://www.youtube.com/watch?v=jHT9nZIXxGU)
-
 ```{image} https://user-images.githubusercontent.com/69573151/112005634-3d178580-8b23-11eb-8188-069c08c38a73.png
 ```
 
