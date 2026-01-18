@@ -1,5 +1,14 @@
 # ISO/OSI Schichtenmodell
 
+```{index} single: OSI-Modell
+```
+```{index} single: SAE J1939
+```
+```{index} single: ISO 11783
+```
+```{index} single: Schichtenmodell
+```
+
 ## Allgmeines:
 
 Das ISO/OSI-Referenzmodell (auch OSI-Modell genannt) ist ein theoretisches Modell, das die Kommunikation zwischen verschiedenen Computern und Netzwerken beschreibt. Es wurde von der Internationalen Organisation für Normung (ISO) entwickelt und ist in der Norm ISO 7498-1 spezifiziert.
