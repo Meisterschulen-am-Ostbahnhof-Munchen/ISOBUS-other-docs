@@ -1,5 +1,8 @@
 # PEAK-Treiber
 
+```{index} single: PEAK-Treiber
+```
+
 PeakOemDrv.exe
 
 ```{image} https://user-images.githubusercontent.com/69573151/93021163-95eceb00-f5e1-11ea-9fbb-09b5778f69ca.png

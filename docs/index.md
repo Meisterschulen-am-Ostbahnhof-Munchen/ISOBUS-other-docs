@@ -13,6 +13,9 @@ myst:
   <img src="logos/Meisterschulen_LogoG1_4c.gif" alt="Logo Meisterschulen am Ostbahnhof" width="400">
 
 # Wiki 3: ISOBUS Technik
+
+```{index} single: Wiki 3: ISOBUS Technik
+```
 ## Meisterschulen am Ostbahnhof, München
 
 ---

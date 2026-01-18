@@ -1,5 +1,8 @@
 # GPS Simulation auf dem Display
 
+```{index} single: GPS Simulation auf dem Display
+```
+
 Einfach im Terminal unter
 
 CCI.Config => GPS => GPS simulation => Import, auswählen und zurück Taste drücken

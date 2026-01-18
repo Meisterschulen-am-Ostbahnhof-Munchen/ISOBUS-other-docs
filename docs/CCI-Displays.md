@@ -1,5 +1,8 @@
 # CCI Displays
 
+```{index} single: CCI Displays
+```
+
 ```{toctree}
 GPS-Simulation-auf-dem-Display
 GPS-Simulation-über-PC-(avangardo)

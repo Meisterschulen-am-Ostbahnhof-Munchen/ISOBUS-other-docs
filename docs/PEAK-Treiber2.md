@@ -1,5 +1,8 @@
 # PEAK-Treiber2
 
+```{index} single: PEAK-Treiber2
+```
+
 DLG\\pconvert\\progs\\can\\CANdriver\\peak\\OEM\\Redistributable
 
 PcanOemSetup.exe

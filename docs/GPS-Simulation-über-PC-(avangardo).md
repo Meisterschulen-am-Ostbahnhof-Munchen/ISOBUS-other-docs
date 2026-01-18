@@ -1,5 +1,8 @@
 # GPS Simulation über PC (avangardo)
 
+```{index} single: GPS Simulation über PC (avangardo)
+```
+
 ## Hardware
 
 ## Software

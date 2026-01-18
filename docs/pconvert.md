@@ -1,5 +1,8 @@
 # pconvert
 
+```{index} single: pconvert
+```
+
 Liegt hier:
 
 M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert

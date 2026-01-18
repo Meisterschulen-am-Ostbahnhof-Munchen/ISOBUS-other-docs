@@ -1,5 +1,8 @@
 # nx_farm_display
 
+```{index} single: nx_farm_display
+```
+
 leider gibt es nx9 nicht mehr !!
 
 <https://www.reuters.com/markets/deals/cnh-industrial-buys-software-house-nx9-bolster-agriculture-business-2021-12-02/>

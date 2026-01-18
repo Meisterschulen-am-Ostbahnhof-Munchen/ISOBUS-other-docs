@@ -1,5 +1,8 @@
 # VNC-Spiegelung
 
+```{index} single: VNC-Spiegelung
+```
+
 <https://www.realvnc.com/de/connect/download/viewer/windows/>
 
 VNC-Viewer-6.20.529-Windows-64bit.exe

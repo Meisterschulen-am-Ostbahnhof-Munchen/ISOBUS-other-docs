@@ -1,5 +1,8 @@
 # Literatur ESP32
 
+```{index} single: Literatur ESP32
+```
+
 ---
 
 #### Kolban's book on ESP32

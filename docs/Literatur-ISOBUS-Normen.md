@@ -1,5 +1,8 @@
 # Literatur ISOBUS Normen
 
+```{index} single: Literatur ISOBUS Normen
+```
+
 M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\progs\\database\\norm\\pdf\\
 
 in dem Ordner liegen teils ältere Fassungen, unten sind jeweils die neuesten Fassungen angegeben mit Bezugslink bei Beuth.

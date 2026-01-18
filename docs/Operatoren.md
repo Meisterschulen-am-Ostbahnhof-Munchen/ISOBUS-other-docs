@@ -1,5 +1,8 @@
 # Operatoren
 
+```{index} single: Operatoren
+```
+
 **betrifft: Mathematik,**
 
 **betrifft: C-Programmierung**

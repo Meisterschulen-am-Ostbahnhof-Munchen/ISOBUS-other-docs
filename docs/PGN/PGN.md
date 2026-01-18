@@ -1,5 +1,8 @@
 # PGN
 
+```{index} single: PGN
+```
+
 ### **Kapitel: Was ist eine PGN (Parameter Group Number)?**
 
 #### **Einführung**

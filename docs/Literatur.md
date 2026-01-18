@@ -1,5 +1,8 @@
 # Literatur
 
+```{index} single: Literatur
+```
+
 ```{toctree}
 ISO_OSI_Schichtenmodell
 Literatur-ESP32

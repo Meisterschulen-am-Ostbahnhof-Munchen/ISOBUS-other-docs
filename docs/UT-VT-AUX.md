@@ -1,5 +1,8 @@
 # UT-VT-AUX
 
+```{index} single: UT-VT-AUX
+```
+
 
 | ISO 11783-6 | AEF | AUX |  
 |--- | --- | --- |
