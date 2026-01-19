@@ -74,34 +74,11 @@ This project is under active development.
 
 **Contents**
 
-```{toctree}
-:caption: 'Inhalt:'
-:maxdepth: 7
-:numbered: true
 
-Home <self>
-Home
-PGN/PGN
-C-Programmierung
-IEC-Programmierung
-CCI-Displays
-nx_farm_display
-PEAK
-AEF-ISOBUS-CHECK-Tool
-Busmaster
-pconvert
-Pconvert-Unterrichtsmaterialien
-Literatur
-```
 
 ---
 
-```{toctree}
-:caption: 'Index & Suche'
-:maxdepth: 2
-genindex
-search
-```
+
 
 ### Index & Suche
 * {ref}`genindex`
