@@ -10,8 +10,12 @@ project = "ISOBUS: Technische Grundlagen und Kommunikation (3) "
 copyright = "2022-2025, Meisterschulen am Ostbahnhof - München"
 author = "Franz Höpfinger"
 
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+
+language = "de"
+html_search_language = "de"
 
 extensions = [
     "myst_parser",
@@ -29,7 +33,6 @@ epub_show_urls = "footnote"
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "CHANGELOG.rst"]
-
 
 # -- MyST settings ---------------------------------------------------
 
