@@ -11,7 +11,7 @@ dependencies:
   - sphinxcontrib-mermaid
   - sphinxext-opengraph
   - jinja2
-  - requests
+  - requests>=2.32.0
   - docutils
   - snowballstemmer
   - setuptools>=78.1.1
