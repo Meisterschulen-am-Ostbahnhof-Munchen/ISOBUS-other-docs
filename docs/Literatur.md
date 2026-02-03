@@ -4,6 +4,7 @@
 ```
 
 ```{toctree}
+:maxdepth: 1
 ISO_OSI_Schichtenmodell
 Literatur-ESP32
 Literatur-CAN-Bus

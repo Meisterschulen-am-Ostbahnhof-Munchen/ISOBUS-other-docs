@@ -3,7 +3,7 @@
 ```{index} single: GPS Simulation über PC (avangardo)
 ```
 
-## Hardware
+## 🔌 Hardware
 
 ## Software
 

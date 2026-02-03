@@ -3,6 +3,24 @@
 ```{index} single: PGN
 ```
 
+```{toctree}
+:maxdepth: 1
+:caption: 'PGN'
+PGN_129026
+PGN_61474
+PGN_65096
+PGN_61474
+PGN_65091
+PGN_65092
+PGN_65093
+PGN_65094
+PGN_65096
+PGN_65097
+PGN_65256
+PGN_65267
+```
+
+
 ### **Kapitel: Was ist eine PGN (Parameter Group Number)?**
 
 #### **Einführung**
@@ -86,20 +104,5 @@ Eine **Parameter Group Number (PGN)** ist ein zentrales Element der ISOBUS-Kommu
 
 #  PGN Liste
 
-```{toctree}
-:caption: 'PGN'
-PGN_129026
-PGN_61474
-PGN_65096
-PGN_61474
-PGN_65091
-PGN_65092
-PGN_65093
-PGN_65094
-PGN_65096
-PGN_65097
-PGN_65256
-PGN_65267
-```
 
 
