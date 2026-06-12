@@ -1,7 +1,6 @@
 # CCI Displays
 
-```{index} single: CCI Displays
-```
+
 
 
 

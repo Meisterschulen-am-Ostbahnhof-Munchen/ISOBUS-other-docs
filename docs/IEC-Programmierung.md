@@ -1,7 +1,6 @@
 # IEC-Programmierung nach IEC 61131-3
 
-```{index} single: IEC-Programmierung nach IEC 61131-3
-```
+
 
 <https://de.wikipedia.org/wiki/International_Electrotechnical_Commission>
 

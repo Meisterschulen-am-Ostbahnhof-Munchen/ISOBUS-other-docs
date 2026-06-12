@@ -1,7 +1,6 @@
 # Literatur-CAN-Bus
 
-```{index} single: Literatur-CAN-Bus
-```
+
 
 \[<https://de.wikipedia.org/wiki/International_Electrotechnical_Commission> <https://de.wikipedia.org/wiki/International_Electrotechnical_Commission>)
 
@@ -21,7 +20,6 @@ Poster:
 
 <https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg>
 
-```{image} https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg
-```
+<img src="https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg" />
 
 \---

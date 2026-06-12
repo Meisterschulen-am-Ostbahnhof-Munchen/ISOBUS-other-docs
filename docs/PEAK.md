@@ -1,5 +1,4 @@
 # PEAK
 
-```{index} single: PEAK
-```
+
 

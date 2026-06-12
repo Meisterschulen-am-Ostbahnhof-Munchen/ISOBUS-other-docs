@@ -1,7 +1,6 @@
 # Literatur SAE-J1939
 
-```{index} single: Literatur SAE-J1939
-```
+
 
 \---
 

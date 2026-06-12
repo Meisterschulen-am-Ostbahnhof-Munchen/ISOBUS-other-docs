@@ -1,7 +1,6 @@
 # Ablaufstrukturen
 
-```{index} single: Ablaufstrukturen
-```
+
 
 <https://de.wikibooks.org/wiki/C-Programmierung:_Kontrollstrukturen>
 

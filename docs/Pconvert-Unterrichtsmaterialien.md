@@ -1,7 +1,6 @@
 # Pconvert-Unterrichtsmaterialien
 
-```{index} single: Pconvert-Unterrichtsmaterialien
-```
+
 
 Folgende Materialien sind interessant:
 

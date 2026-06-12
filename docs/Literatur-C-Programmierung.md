@@ -1,7 +1,6 @@
 # Literatur C-Programmierung
 
-```{index} single: Literatur C-Programmierung
-```
+
 
 [C-Programmierung auf Wikibooks – Die freie Bibliothek https://de.wikibooks.org/wiki/C-Programmierung](https://de.wikibooks.org/wiki/C-Programmierung)
 

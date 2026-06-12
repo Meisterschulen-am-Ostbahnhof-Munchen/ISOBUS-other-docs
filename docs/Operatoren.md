@@ -1,7 +1,6 @@
 # Operatoren
 
-```{index} single: Operatoren
-```
+
 
 **betrifft: Mathematik,**
 

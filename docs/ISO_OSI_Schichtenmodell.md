@@ -1,13 +1,9 @@
 # ISO/OSI Schichtenmodell
 
-```{index} single: OSI-Modell
-```
-```{index} single: SAE J1939
-```
-```{index} single: ISO 11783
-```
-```{index} single: Schichtenmodell
-```
+
+
+
+
 
 ## Allgmeines:
 

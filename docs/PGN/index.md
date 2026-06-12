@@ -1,7 +1,6 @@
 # PGN
 
-```{index} single: PGN
-```
+
 
 
 

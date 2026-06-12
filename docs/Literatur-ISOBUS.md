@@ -1,7 +1,6 @@
 # Literatur-ISOBUS
 
-```{index} single: Literatur-ISOBUS
-```
+
 
 Telegram Gruppe über ISOBUS:
 

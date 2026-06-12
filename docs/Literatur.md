@@ -1,7 +1,6 @@
 # Literatur
 
-```{index} single: Literatur
-```
+
 
 
 ## 🎧 Podcast
