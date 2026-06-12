@@ -20,39 +20,7 @@ myst:
 ```{index} single: Wiki 3: ISOBUS Technik
 ```
 
-```{toctree}
-:maxdepth: 1
 
-AEF-ISOBUS-CHECK-Tool
-Ablaufstrukturen
-Busmaster
-C-Programmierung
-CCI-Displays
-GPS-Simulation-auf-dem-Display
-GPS-Simulation-über-PC-(avangardo)
-Grundverknüpfungen
-Home
-IEC-Programmierung
-ISO_OSI_Schichtenmodell
-Literatur-C-Programmierung
-Literatur-CAN-Bus
-Literatur-ESP32
-Literatur-ISOBUS-Normen
-Literatur-ISOBUS
-Literatur-SAE-J1939
-Literatur
-Operatoren
-PEAK-Adapterkabel
-PEAK-Treiber
-PEAK-Treiber2
-PEAK
-Pconvert-Unterrichtsmaterialien
-UT-VT-AUX
-VNC-Spiegelung
-nx_farm_display
-pconvert
-PGN/PGN
-```
 
 ## Meisterschulen am Ostbahnhof, München
 
@@ -68,9 +36,8 @@ Diese Dokumentation ist Teil der Wissensdatenbank der Meisterschulen am Ostbahnh
 
 ---
 
-:::{note}
-This project is under active development.
-:::
+!!! note
+    This project is under active development.
 
 **Contents**
 

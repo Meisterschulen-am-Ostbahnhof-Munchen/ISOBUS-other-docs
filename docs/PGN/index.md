@@ -3,29 +3,7 @@
 ```{index} single: PGN
 ```
 
-```{toctree}
-:maxdepth: 1
-:caption: 'PGN'
-PGN_129026
-PGN_61444
-PGN_61474
-PGN_65040
-PGN_65056
-PGN_65088
-PGN_65091
-PGN_65092
-PGN_65093
-PGN_65094
-PGN_65095
-PGN_65096
-PGN_65097
-PGN_64770
-PGN_65254
-PGN_65255
-PGN_65256
-PGN_65265
-PGN_65267
-```
+
 
 
 ### **Kapitel: Was ist eine PGN (Parameter Group Number)?**
