@@ -9,12 +9,15 @@ plugins:
 - search
 site_name: 'ISOBUS: Technische Grundlagen und Kommunikation (3) '
 site_url: https://docs.ms-muc-docs.de/projects/ISOBUS-other-docs/
+repo_url: https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS-other-docs
 theme:
   features:
   - navigation.sections
   - navigation.expand
   - search.suggest
   - search.highlight
+  - content.action.edit
+  - content.action.view
   language: de
   name: material
   palette:
