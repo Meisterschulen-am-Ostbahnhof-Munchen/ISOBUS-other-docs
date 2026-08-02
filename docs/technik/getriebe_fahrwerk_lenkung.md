@@ -7,7 +7,6 @@
 
 ---
 
-
 **Rahmenlehrplan-Kategorie:** Teil I LE 2.3 | Teil II LE 1.1  
 **Relevanz:** Mechanische, hydraulische und elektronische Systeme der Kraftübertragung und Fahrwerksführung.
 

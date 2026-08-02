@@ -1,7 +1,5 @@
 # Literatur SAE-J1939
 
-
-
 \---
 
 <https://de.wikipedia.org/wiki/SAE_J1939>

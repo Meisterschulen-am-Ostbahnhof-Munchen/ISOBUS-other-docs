@@ -7,7 +7,6 @@
 
 ---
 
-
 **Rahmenlehrplan-Kategorie:** Teil I LE 2.3 | Teil II LE 1.1 & LE 1.3  
 **Relevanz:** Sicherheits- und Instandhaltungsvorschriften für elektrische und hybride Land- & Baumaschinen.
 

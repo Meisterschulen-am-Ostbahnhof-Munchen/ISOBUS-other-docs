@@ -7,7 +7,6 @@
 
 ---
 
-
 **Rahmenlehrplan-Kategorie:** Teil I LE 1.3 & LE 2.5 | Teil II LE 1.2 & LE 2.2  
 **Relevanz:** Rechtliche Verantwortung und Dokumentationspflichten des Meisters.
 

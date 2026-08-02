@@ -7,7 +7,6 @@
 
 ---
 
-
 **Rahmenlehrplan-Kategorie:** Teil I LE 2.4 | Teil II LE 1.1 & LE 1.3  
 **Relevanz:** Kerntechnologie für Arbeitsfunktionen, Kraftübertragung und Lenksysteme.
 

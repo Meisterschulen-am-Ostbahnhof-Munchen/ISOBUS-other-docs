@@ -1,10 +1,5 @@
 # PGN
 
-
-
-
-
-
 ### **Kapitel: Was ist eine PGN (Parameter Group Number)?**
 
 #### **Einführung**
@@ -19,6 +14,7 @@ Eine **Parameter Group Number (PGN)** ist eine 24-Bit-Zahl, die eine spezifische
 
 #### **Aufbau einer PGN**
 Eine PGN besteht aus drei Hauptkomponenten:
+
 1. **Extended Data Page (EDP)**: 1 Bit  
    - Gibt an, ob die PGN auf der erweiterten Datenseite (Extended Data Page) liegt.  
    - Wert: 0 (Standard) oder 1 (erweitert).  
@@ -41,6 +37,7 @@ Die vollständige PGN wird durch die Kombination von EDP, DP, PF und PS gebildet
 
 #### **Beispiel einer PGN**
 Nehmen wir die PGN **65096 (Wheel-based Speed and Distance – WBSD)** als Beispiel:
+
 - **EDP**: 0  
 - **DP**: 0  
 - **PF**: 254  
@@ -87,6 +84,4 @@ Eine **Parameter Group Number (PGN)** ist ein zentrales Element der ISOBUS-Kommu
 ---
 
 #  PGN Liste
-
-
 

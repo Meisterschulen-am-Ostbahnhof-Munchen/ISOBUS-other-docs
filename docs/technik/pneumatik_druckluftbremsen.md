@@ -7,7 +7,6 @@
 
 ---
 
-
 **Rahmenlehrplan-Kategorie:** Teil I LE 2.4 | Teil II LE 1.1  
 **Relevanz:** Sicherheitsrelevante Systeme für Bremse und Zusatzfunktionen bei Zugmaschinen, Anhängern und Baumaschinen.
 

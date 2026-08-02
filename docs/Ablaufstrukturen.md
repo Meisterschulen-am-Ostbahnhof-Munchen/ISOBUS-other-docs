@@ -1,7 +1,5 @@
 # Ablaufstrukturen
 
-
-
 <https://de.wikibooks.org/wiki/C-Programmierung:_Kontrollstrukturen>
 
 ## `if` -Anweisung

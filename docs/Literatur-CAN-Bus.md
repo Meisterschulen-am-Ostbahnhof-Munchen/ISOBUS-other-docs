@@ -1,7 +1,5 @@
 # Literatur-CAN-Bus
 
-
-
 \[<https://de.wikipedia.org/wiki/International_Electrotechnical_Commission> <https://de.wikipedia.org/wiki/International_Electrotechnical_Commission>)
 
 \---

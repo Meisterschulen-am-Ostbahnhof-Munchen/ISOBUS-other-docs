@@ -9,7 +9,6 @@ myst:
     "property=og:locale": "de"
 ---
 
-
 <img src="_static/logos/Meisterschulen_LogoG1_4c.gif" alt="Logo Meisterschulen am Ostbahnhof" width="400px" />
 
 # Wiki 3: ISOBUS Technik & Maschinensysteme

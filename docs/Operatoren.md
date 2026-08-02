@@ -1,7 +1,5 @@
 # Operatoren
 
-
-
 **betrifft: Mathematik,**
 
 **betrifft: C-Programmierung**

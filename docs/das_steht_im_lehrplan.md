@@ -7,7 +7,6 @@
 
 ---
 
-
 **Rechtsgrundlage:** Meisterprüfungsverordnung im Land- und Baumaschinenmechatroniker-Handwerk (LandBauMechMstrV vom 09.09.2024, BGBl. 2024 I Nr. 277, in Kraft ab 01.08.2025).
 
 ---
@@ -55,7 +54,6 @@ Neben der vernetzten Elektronik und Software (ISOBUS / CAN-Bus) umfasst die Ausb
 | **Teil I – Handlungsfeld 1: Erweiterungen** | **160 UE** | Montage, Verkabelung, Sensor-/Aktor-Integration, Hydraulik-Anpassung |
 | **Teil I – Handlungsfeld 2: Diagnose & Instandsetzung** | **220 UE** | Motoren, HV-Systeme, Hydraulik, Pneumatik, Fahrwerk, Bus-Systeme |
 | **Teil II – Handlungsfeld 1: Kundenanforderungen & Technik** | **380 UStd.** | Maschinentechnik (160h), Instandhaltung (40h), Diagnosetechnik (100h), Zeichnungen (40h) |
-
 
 ---
 
