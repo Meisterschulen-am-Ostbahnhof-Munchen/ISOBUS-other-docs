@@ -57,7 +57,7 @@ Neben der vernetzten Elektronik und Software (ISOBUS / CAN-Bus) umfasst die Ausb
 
 ---
 
-## 🔗 Übersicht & Direktlinks zu den 6 Wikis
+## 🔗 Hauptportal & Direktlinks zu den 6 Wikis
 
 | Wiki | Thema / Beschreibung | Link |
 | :--- | :--- | :---: |
@@ -67,3 +67,9 @@ Neben der vernetzten Elektronik und Software (ISOBUS / CAN-Bus) umfasst die Ausb
 | **Wiki 3** | **ISOBUS Technik & Maschinensysteme**<br>Hydraulik, Pneumatik, Motoren, HV-Technik, Getriebe & Maschinensicherheit. | [📡 Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/) |
 | **Wiki 4** | **Visuelle Programmiersprachen**<br>Low-Code Entwicklung, IEC 61499 & 4diac IDE (Lehrplan-Hauptthema). | [🧩 Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/visual-programming-languages-docs/de/latest/) |
 | **Wiki 5** | **Elektronik-Werkzeuge & Messgeräte**<br>Handbuch für Crimptechnik, Lötstationen, Oszilloskope & Mikroskope. | [🛠️ Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/werkzeug-docs/de/latest/) |
+
+
+---
+
+> 🌐 **Zentrales Portal der Meisterschulen München:**  
+> Visit the main platform: [**www.ms-muc-docs.de**](https://www.ms-muc-docs.de/) | [📋 Interaktiver Rahmenlehrplan 2025](https://www.ms-muc-docs.de/infos/interaktiver-rahmenlehrplan) | [📚 Wiki-Übersicht](https://www.ms-muc-docs.de/wikis) | [📄 PDF-Downloads](https://www.ms-muc-docs.de/wikis/alle-pdfs)
