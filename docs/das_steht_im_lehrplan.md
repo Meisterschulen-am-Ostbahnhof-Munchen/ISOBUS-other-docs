@@ -55,3 +55,17 @@ Neben der vernetzten Elektronik und Software (ISOBUS / CAN-Bus) umfasst die Ausb
 | **Teil I – Handlungsfeld 1: Erweiterungen** | **160 UE** | Montage, Verkabelung, Sensor-/Aktor-Integration, Hydraulik-Anpassung |
 | **Teil I – Handlungsfeld 2: Diagnose & Instandsetzung** | **220 UE** | Motoren, HV-Systeme, Hydraulik, Pneumatik, Fahrwerk, Bus-Systeme |
 | **Teil II – Handlungsfeld 1: Kundenanforderungen & Technik** | **380 UStd.** | Maschinentechnik (160h), Instandhaltung (40h), Diagnosetechnik (100h), Zeichnungen (40h) |
+
+
+---
+
+## 🔗 Übersicht & Direktlinks zu den 6 Wikis
+
+| Wiki | Thema / Beschreibung | Link |
+| :--- | :--- | :---: |
+| **Wiki 0** | **Wiki der Meisterschulen**<br>Allgemeine Informationen, Lehrplan 2025 & Haupt-Wiki. | [📖 Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/de/latest/) |
+| **Wiki 1** | **C-Programmierung in ISOBUS**<br>Grundlagen der C-Programmierung und ISOBUS-Umgebung. | [🚜 Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/install-isobus-environment-docs/de/latest/) |
+| **Wiki 2** | **ISOBUS Virtual Terminal**<br>Benutzeroberflächen, ISO-Designer & VT-Objekte. | [🖥️ Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-vt-objects-docs/de/latest/) |
+| **Wiki 3** | **ISOBUS Technik & Maschinensysteme**<br>Hydraulik, Pneumatik, Motoren, HV-Technik, Getriebe & Maschinensicherheit. | [📡 Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/) |
+| **Wiki 4** | **Visuelle Programmiersprachen**<br>Low-Code Entwicklung, IEC 61499 & 4diac IDE (Lehrplan-Hauptthema). | [🧩 Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/visual-programming-languages-docs/de/latest/) |
+| **Wiki 5** | **Elektronik-Werkzeuge & Messgeräte**<br>Handbuch für Crimptechnik, Lötstationen, Oszilloskope & Mikroskope. | [🛠️ Öffnen](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/werkzeug-docs/de/latest/) |
