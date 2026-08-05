@@ -47,13 +47,9 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 ## ⏱️ Hour allocation of the technical modules in the framework curriculum
 
 | Module / Field of activity | Total duration | Technical focus areas |
-
 | :--- | :---: | :--- |
-
 | **Part I – Field of activity 1: Extensions** | **160 teaching units** | Assembly, wiring, sensor/actuator integration, hydraulic adjustment |
-
 | **Part I – Field of activity 2: Diagnosis & Repair** | **220 teaching units** | Motors, high-voltage systems, hydraulics, pneumatics, chassis, bus systems |
-
 **Part II – Area of Expertise 1: Customer Requirements & Technology** | **380 hours** | Mechanical Engineering (160h), Maintenance (40h), Diagnostics (100h), Drawings (40h) |
 
 --
@@ -67,21 +63,13 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 ## 🔗 Main Portal & Direct Links to the 6 Wikis
 
 | Wiki | Topic / Description | Link |
-
 | :--- | :--- | :---: |
-
 **Wiki 0** | **Master Schools Wiki** <br> General information, Curriculum 2025 & Main Wiki. | [📖 Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/de/latest/) |
-
 **Wiki 1** | **C Programming in ISOBUS** <br> Fundamentals of C programming and the ISOBUS environment. | [🚜 Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/install-isobus-environment-docs/en/latest/) |
-
 **Wiki 2** | **ISOBUS Virtual Terminal** <br> User interfaces, ISO Designer & VT objects. | [🖥️ Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-vt-objects-docs/en/latest/) |
-
 **Wiki 3** | **ISOBUS Technology & Machine Systems** <br> Hydraulics, pneumatics, motors, high-voltage technology, gearboxes & machine safety. | [📡 Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/en/latest/) |
-
 **Wiki 4** | **Visual Programming Languages** <br> Low-code development, IEC 61499 & 4diac IDE (main curriculum topic). | [🧩 Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/visual-programming-languages-docs/en/latest/) |
-
 **Wiki 5** | **Electronic Tools & Measuring Instruments** <br> Handbook for crimping technology, soldering stations, oscilloscopes & microscopes. | [🛠️ Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/werkzeug-docs/en/latest/) |
-
 **Wiki 5** | **Electronic Tools & Measuring Instruments** <br> Handbook for crimping technology, soldering stations, oscilloscopes & microscopes. | [🛠️ Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/werkzeug-docs/en/latest/) |
 
 **Wiki 4**
