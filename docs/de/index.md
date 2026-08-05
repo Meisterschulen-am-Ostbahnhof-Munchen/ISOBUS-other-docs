@@ -36,6 +36,7 @@ myst:
 ---
 
 **Nützliche Links:**
+
 * [🏠 Hauptmenü](https://www.ms-muc-docs.de/)
 * [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/)
 * [📄 PDF-Handbuch herunterladen](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/de/pdf/isobus-other-docs-de.pdf)
