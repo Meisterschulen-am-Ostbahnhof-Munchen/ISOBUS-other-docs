@@ -26,8 +26,7 @@ Beispiel: <https://www.onlinegdb.com/KURn4fl_M>
 
 in diesem Beispiel sehen Sie:
 
-```{code-block} C
-:caption: C-Code
+```c
 
 printf(" w = %s", w ? "Wahr" : "Falsch");
 ```
@@ -38,8 +37,7 @@ ist w Wahr, wird der Text "Wahr" ausgegeben und umgekehrt.
 
 im Beispiel <https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/cci_EasyExample/blob/master/EasyExample/components/AppIso/App_VTClientLev2.c> sehen Sie in Zeile <https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/cci_EasyExample/blob/master/EasyExample/components/AppIso/App_VTClientLev2.c#:~:text=IsoVtcCmd_NumericValue(u8Instance%2C%20ObjectPointer_Tagesziel%2C%20%20Tageszaehler%20%20%3E%3D%20Tagesziel%20%20%3F%20OutputString_ZielErreicht%20%3A%20ID_NULL)%3B>) folgenden Ausdruck:
 
-```{code-block} C
-:caption: C-Code
+```c
 
 IsoVtcCmd_NumericValue(u8Instance, ObjectPointer_Tagesziel,  Tageszaehler  >= Tagesziel  ? OutputString_ZielErreicht : ID_NULL);
 ```
