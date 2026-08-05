@@ -11,8 +11,8 @@ Learning Module: Introduction to CAN (38 slides)
 
 Poster:
 
-<https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg>
+<img/downloaded/can-fd-poster-v2.4.png>
 
-<img src="https://assets.vector.com/cms/_processed_/f/a/csm_CAN_FD_Poster_V2.2_c4fa14ca55.jpg" />
+<img src="img/downloaded/can-fd-poster-v2.4.png" />
 
 ---
