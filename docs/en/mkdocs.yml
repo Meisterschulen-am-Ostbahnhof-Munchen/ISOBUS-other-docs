@@ -8,7 +8,7 @@ markdown_extensions:
     permalink: true
 plugins:
 - search
-site_name: 'ISOBUS: Technische Grundlagen und Kommunikation (3) '
+site_name: ISOBUS: Technical Fundamentals and Communication (3)
 site_url: https://docs.ms-muc-docs.de/projects/ISOBUS-other-docs/
 extra:
   alternate:
@@ -20,6 +20,7 @@ extra:
     name: English
 repo_url: https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOBUS-other-docs
 edit_uri: edit/main/docs/en/
+view_uri: blob/main/docs/en/
 theme:
   features:
   - navigation.sections
