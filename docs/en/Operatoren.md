@@ -1,14 +1,8 @@
 # Operators
-
 **Applies to: Mathematics**
-
 **Applies to: C Programming**
-
 <table><tbody><tr><td><a href="https://de.wikipedia.org/wiki/Operator_(Mathematik)">Operator</a></td><td>qzmsdocs00000 8qzOperator_(mathematics)</a></td><td> qzmsdo cs000012qz</tr><tr><td><a href="https://de.wikipedia.org/wiki/Einstellige_Verkn%C3%BCpfung">Single digit Linking qzmsdocs000017 qzqzmsdocs000018 qzqzmsdocs000019 qzqzmsdocs000020 qz Unary operation qzmsdocs000021 qz qzmsdocs000022 qzqzmsdocs000023 qz1 Operand qzmsdocs000024 qzqzmsdocs000025 qzqzmsdocs000026 qzqzmsdocs000027 qzqzmsdocs000028 qz Two-digit Linking</a></td><td><a href="https://en.wikipedia.org/wiki/Binary_operation">Binary_operation</a></td><td>2 Operands</td></tr></tbody></table>
-
 The arguments to which an operator is applied are called operands.
-
-
 
 ``` Operators have a priority:
 

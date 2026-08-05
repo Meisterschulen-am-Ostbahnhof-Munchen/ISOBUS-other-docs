@@ -1,13 +1,8 @@
 # pconvert
-
 Located here:
-
 M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert
-
 It is started with pconvert.exe
-
 Due to the slow Wi-Fi connection, it is advisable to copy it to your own PC beforehand.
-
 Here are two more points:
 
 Licensing:
@@ -17,8 +12,6 @@ We received the following information from the DLG (www.DLG.org) DLG TestService
 As discussed by phone, the buyer is additionally authorized to copy the software for teaching purposes at the master craftsman school. The software may only be used at the master craftsman school and not for commercial purposes.
 
 I would like to point out that this software is not technically protected (license key, dongle). YOU are therefore responsible for NOT making any copies of the software for commercial purposes. If you wish to use the software commercially, you must purchase a license from the DLG for €1995.
-
-
 
 ``` If you practice with the software at home after the lesson next week or in preparation, I consider that part of the learning process.
 
@@ -39,7 +32,6 @@ Download the device driver setup for Windows from the website mentioned above.
 In the options, select at least PCAN Basic and Device Driver.
 
 Now you should check if the PEAK is working using PCAN-View.
-
 
 Other adapters are also supported:
 

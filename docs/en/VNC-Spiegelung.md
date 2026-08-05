@@ -1,13 +1,8 @@
 # VNC Mirroring
-
 <https://www.realvnc.com/de/connect/download/viewer/windows/>
-
 VNC-Viewer-6.20.529-Windows-64bit.exe
-
 Start.
-
 Remote View must be enabled.
-
 Enter the IP address of the display, or select it by double-clicking:
 
 <img src="https://user-images.githubusercontent.com/69573151/112006300-e3fc2180-8b23-11eb-8311-9ec8955ab569.png" />

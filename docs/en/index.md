@@ -1,14 +1,13 @@
 ---
 myst:
-  enable_extensions: ["colon_fence"]
-  html_meta:
-    "description lang=en": "metadata description"
-    "description lang=de": "metadata description"
-    "description lang=fr": "description des métadonnées"
-    "keywords": "Sphinx, MyST"
-    "property=og:locale": "de"
+enable_extensions: ["colon_fence"]
+html_meta:
+"description lang=en": "metadata description"
+"description lang=de": "metadata description"
+"description lang=fr": "description des métadonnées"
+"keywords": "Sphinx, MyST"
+"property=og:locale": "de"
 ---
-
 
 # Wiki 3: ISOBUS Technology & Machine Systems
 
@@ -19,8 +18,6 @@ myst:
 ### 📋 [This is in the curriculum (Framework Curriculum 2025)]
 
 > **Here you will find all the technical requirements of the new Master Craftsman Examination Regulations 2025** (LandBauMechMstrV of September 9, 2024, effective August 1, 2025), clearly structured by modules and fields of activity.
-
-
 
 ``` * 📋 **[This is in the curriculum – Technical Curriculum Overview 2025](./das_steht_im_lehrplan.md)**
 
@@ -43,9 +40,7 @@ myst:
 **Useful Links:**
 
 * [🏠 Main Menu (All Wikis)]
-
 * [🔍 Super Search (All Wikis)]
-
 * [📄 PDF Manual] Download ](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/en/pdf/isobus-other-docs-en.pdf)
 
 ---
@@ -55,7 +50,6 @@ myst:
 ---
 
 ### 🌐 Related Topic Subpages on ms-muc-docs.de
-
 * [🌐 The PWM Signal & Infographic on ms-muc-docs.de ](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)
 
 ]

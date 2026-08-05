@@ -1,13 +1,8 @@
 # GPS Simulation via PC (avangardo)
-
 ## 🔌 Hardware
-
 ## Software
-
 Unfortunately, avangardo is no longer available!
-
 Unzip av_gps_generator_pro.zip, run setup.exe,
-
 GPS Generator PRO v.4.2.2 is probably the current version.
 
 Start the program,
@@ -31,7 +26,6 @@ CCI.Config => GPS => Baud Rate
 <img src="https://user-images.githubusercontent.com/69573151/112003417-2d973d00-8b21-11eb-919b-f2099bad6d7e.png" />
 
 For the port name, you usually enter //./COM, only in very rare cases COM.
-
 
 You can find the port number in the Device Manager of the Control Panel:
 

@@ -1,15 +1,10 @@
 # 📋 This is what the curriculum says: Technical focus areas (Framework Curriculum 2025)
-
 > 📌 **Source & Legal Basis:**
 > **Source:** *Framework Curriculum for Preparation for the Master Craftsman Examination in Agricultural and Construction Machinery Mechatronics*
 > **Publisher:** German Association of Agricultural and Construction Machinery Technicians V., Alfredstraße 102, 45131 Essen (Status: February 25, 2025)
-
 > **Regulation:** *Master Craftsman Examination Regulation (LandBauMechMstrV)* of September 9, 2024 (Federal Law Gazette 2024 I No. 277, effective August 1, 2025)
-
 ---
-
 **Legal Basis:** Master Craftsman Examination Regulation in the Agricultural and Construction Machinery Mechatronics Trade (LandBauMechMstrV of September 9, 2024, Federal Law Gazette 2024 I No. 277, effective August 1, 2025).
-
 
 ---
 
@@ -23,42 +18,28 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 
 ## 📚 Technical Areas & Content Pages
 
-### 1. 💧 [Hydraulics & Electrohydraulics]
-
+### 1. 💧 [Hydraulics & Electrohydraulics](./technik/hydraulik_elektrohydraulik.md)
 - **Curriculum Reference:** Part I LE 2.4 | Part II LE 1.1 & LE 1.3
-
 - **Focus Areas:** Constant and variable displacement pumps, load sensing (LS), proportional valve technology, PWM control, pressure and flow sensors, ISO 1219 circuit diagrams, bio-hydraulic oils.
 
-
-### 2. 💨 [Pneumatics & Compressed Air Brake Systems]
-
+### 2. 💨 [Pneumatics & Compressed Air Brake Systems](./technik/pneumatik_druckluftbremsen.md)
 - **Curriculum Reference:** Part I LE 2.4 | Part II LE 1.1
-
 - **Focus Areas:** Compressed air generation and treatment, single- and dual-line trailer brake systems, automatic load-dependent brake force control (ALB), ABS/EBS systems for agricultural and construction machinery.
 
-### 3. 🚜 [Internal Combustion Engines & Exhaust Aftertreatment (Stage V)]
-
+### 3. 🚜 [Internal Combustion Engines & Exhaust Aftertreatment (Stage V)](./technik/motoren_abgasnachbehandlung.md)
 - **Curriculum Reference:** Part I LE 2.3 | Part II LE 1.1 & LE 1.3
-
 - **Focus Areas:** Common-rail injection systems, variable turbine geometry (VTG) turbochargers, Stage V emissions standard, SCR/AdBlue, DPF regeneration, EGR systems, sensors (NOx, soot, exhaust gas temperature).
 
-### 4. ⚡ [High-voltage (HV) technology & e-mobility]
-
+### 4. ⚡ [High-voltage (HV) technology & e-mobility](./technik/hochvolt_emobilitaet.md)
 - **Curriculum Reference:** Part I LE 2.3 | Part II LE 1.1 & LE 1.3
-
 - **Focus Areas:** Voltage disconnection & intrinsic safety according to DGUV 209-093 / DGUV 200-005, lithium-ion battery systems & BMS, 48V electrical systems, electric motors & power electronics (inverters).
 
-
 ### 5. ⚙️ [Transmission Technology, Chassis & Steering Systems ](./technik/getriebe_fahrwerk_lenkung.md)
-
 - **Curriculum Reference:** Part I LE 2.3 | Part II LE 1.1
-
 - **Focus Areas:** Continuously Variable Transmissions (CVT/Vario), Power Shift Transmissions, Power Split, All-Wheel Drive & PTO Control, Hydro-Pneumatic Suspensions, All-Wheel Drive & Articulated Steering.
 
 ### 6. 🛡️ [Machine Safety, Standards & Inspections (UVV/SP/CE) ](./technik/maschinensicherheit_normen_pruefungen.md)
-
 - **Curriculum Reference:** Part I LE 1.3 & LE 2.5 | Part II LE 1.2 & LE 2.2
-
 - **Focus Areas:** Accident prevention inspections according to DGUV Regulation 70/73, safety inspections (SP), emissions testing (AU), CE conformity & risk assessment (ISO 12100), EU type approval 167/2013 / StVZO.
 
 ---
@@ -100,7 +81,6 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 **Wiki 4** | **Visual Programming Languages** <br> Low-code development, IEC 61499 & 4diac IDE (main curriculum topic). | [🧩 Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/visual-programming-languages-docs/en/latest/) |
 
 **Wiki 5** | **Electronic Tools & Measuring Instruments** <br> Handbook for crimping technology, soldering stations, oscilloscopes & microscopes. | [🛠️ Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/werkzeug-docs/en/latest/) |
-
 
 **Wiki 5** | **Electronic Tools & Measuring Instruments** <br> Handbook for crimping technology, soldering stations, oscilloscopes & microscopes. | [🛠️ Open ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/werkzeug-docs/en/latest/) |
 

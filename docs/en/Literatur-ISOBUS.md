@@ -1,13 +1,8 @@
 # ISOBUS Literature
-
 Telegram group about ISOBUS:
-
 [<https://t.me/+V_7QkEUfnYjFlJo0> <https://t.me/+V_7QkEUfnYjFlJo0>)
-
 [<https://t.me/joinchat/B1-SThBCW-w6klLwK3zLjw> <https://t.me/joinchat/B1-SThBCW-w6klLwK3zLjw>)
-
 Telegram group about CCI:
-
 <https://t.me/joinchat/8_KHdpS2ynVjOTUy>
 
 LinkedIn:
@@ -27,7 +22,6 @@ among others:
 ISOBUS Literature
 
 <https://de.wikipedia.org/wiki/ISOBUS> --> quite high-level.
-
 
 <https://obstwein-technik.eu/Core?aktiveNavigationsID=879&fachbetraegeID=209>
 
@@ -78,7 +72,6 @@ The entire blog is interesting, but only this one page provides truly technical 
 CCI: I'll inquire about what documentation is available there.
 
 I'll find somewhere to put the display manuals.
-
 
 \---
 

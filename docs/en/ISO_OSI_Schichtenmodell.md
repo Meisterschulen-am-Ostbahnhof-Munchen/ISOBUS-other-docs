@@ -1,12 +1,7 @@
 # ISO/OSI Layer Model
-
 ## General Information:
-
 The ISO/OSI reference model (also called the OSI model) is a theoretical model that describes communication between different computers and networks. It was developed by the International Organization for Standardization (ISO) and is specified in the standard ISO 7498-1.
-
-
 The OSI model consists of seven layers, each with specific tasks in the communication process:
-
 Physical layer: Transmission of bits over the physical medium (cable, radio, fiber optic, etc.)
 
 Data link layer: Error detection and correction, device addressing (MAC address)
@@ -38,7 +33,6 @@ Network Layer: This layer manages addressing and the exchange of packets between
 Data Link Layer: This layer provides error detection and correction, as well as access to the medium (CAN bus).
 
 Physical Layer: This layer handles the electrical and physical transmission of data over the medium (CAN bus).
-
 
 Like the OSI model, the layered architecture of SAE J1939 enables the interoperability and integration of various devices from different manufacturers into a network. This facilitates the development and implementation of applications for commercial vehicles and machinery based on SAE J1939.
 

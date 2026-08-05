@@ -1,13 +1,8 @@
 # IEC programming according to IEC 61131-3
-
 <https://de.wikipedia.org/wiki/International_Electrotechnical_Commission>
-
 <https://de.wikipedia.org/wiki/EN_61131>
-
 <https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/PlcLib>
-
 PLC Lib with IEC 61131 alike functions.
-
 Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://www.helpme-codesys.com/>
 
 <https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/TimeDelay>
@@ -83,7 +78,6 @@ This function block delays a signal from the on-time by a specified duration.
 ### TOF: Off-delay
 
 This function block extends a signal from the off-time by a specified duration.
-
 
 <https://www.xplore-dna.net/mod/page/view.php?id=168>
 
