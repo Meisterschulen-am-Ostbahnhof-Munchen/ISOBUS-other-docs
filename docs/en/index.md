@@ -19,7 +19,7 @@ html_meta:
 
 > **Here you will find all the technical requirements of the new Master Craftsman Examination Regulations 2025** (LandBauMechMstrV of September 9, 2024, effective August 1, 2025), clearly structured by modules and fields of activity.
 
-``` * 📋 **[This is in the curriculum – Technical Curriculum Overview 2025](./das_steht_im_lehrplan.md)**
+`` * 📋 **[This is in the curriculum – Technical Curriculum Overview 2025](./das_steht_im_lehrplan.md)**
 
 ---
 

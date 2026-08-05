@@ -13,7 +13,7 @@ As discussed by phone, the buyer is additionally authorized to copy the software
 
 I would like to point out that this software is not technically protected (license key, dongle). YOU are therefore responsible for NOT making any copies of the software for commercial purposes. If you wish to use the software commercially, you must purchase a license from the DLG for €1995.
 
-``` If you practice with the software at home after the lesson next week or in preparation, I consider that part of the learning process.
+`` If you practice with the software at home after the lesson next week or in preparation, I consider that part of the learning process.
 
 If a customer comes to you and you repair their machine with it, and you issue an invoice, that's clearly commercial.
 
