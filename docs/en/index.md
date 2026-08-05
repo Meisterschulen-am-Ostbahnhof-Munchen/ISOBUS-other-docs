@@ -46,11 +46,11 @@ myst:
 
 * [🔍 Super Search (All Wikis)]
 
-* [📄 PDF Manual] Download ](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/pdf/isobus-other-docs.pdf)
+* [📄 PDF Manual] Download ](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/en/pdf/isobus-other-docs-en.pdf)
 
 ---
 
-[🏠 Main Menu ](https://www.ms-muc-docs.de/) | [🔍 Super Search (All Wikis) ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/de/latest/) | [Quick Search (IEC 61499) ](https://www.ms-muc-docs.de/iec-61499/abk%C3%BCrzungen-und-bedeutungen/abk%C3%BCrzungen-und-bedeutungen)
+[🏠 Main Menu ](https://www.ms-muc-docs.de/) | [🔍 Super Search (All Wikis) ](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/en/latest/) | [Quick Search (IEC 61499) ](https://www.ms-muc-docs.de/iec-61499/abk%C3%BCrzungen-und-bedeutungen/abk%C3%BCrzungen-und-bedeutungen)
 
 ---
 

@@ -37,12 +37,12 @@ myst:
 
 **Nützliche Links:**
 * [🏠 Hauptmenü](https://www.ms-muc-docs.de/)
-* [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/de/latest/)
-* [📄 PDF-Handbuch herunterladen](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/pdf/isobus-other-docs.pdf)
+* [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/)
+* [📄 PDF-Handbuch herunterladen](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/de/pdf/isobus-other-docs-de.pdf)
 
 ---
 
-[🏠 Hauptmenü](https://www.ms-muc-docs.de/) | [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/de/latest/) | [Schnelle Suche (IEC 61499)](https://www.ms-muc-docs.de/iec-61499/abk%C3%BCrzungen-und-bedeutungen/abk%C3%BCrzungen-und-bedeutungen)
+[🏠 Hauptmenü](https://www.ms-muc-docs.de/) | [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/) | [Schnelle Suche (IEC 61499)](https://www.ms-muc-docs.de/iec-61499/abk%C3%BCrzungen-und-bedeutungen/abk%C3%BCrzungen-und-bedeutungen)
 
 
 
