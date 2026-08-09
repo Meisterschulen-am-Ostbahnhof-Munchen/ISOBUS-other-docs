@@ -21,7 +21,6 @@ M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert\\xml\\pict\
 
 Numerous machine photos can be found here.
 
-M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert\\xml\\pict\\\_CERT
 
 Numerous machine photos can be found here. M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert\\xml\\pict\\\_HLP
 
@@ -31,7 +30,6 @@ M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert\\xml\\pict\
 
 Incredible…
 
-M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert\\xml\\pict\\\_CERT
 
 Old DLG certificates… now replaced by AEF.
 

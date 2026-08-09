@@ -23,7 +23,6 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://www.he
 
 ### OR
 
-<https://www.xplore-dna.net/mod/page/view.php?id=153>
 
 <https://content.helpme-codesys.com/de/CODESYS%20Development%20System/_cds_operator_or.html>
 
@@ -114,8 +113,5 @@ Source: <https://www.plcacademy.com/function-block-diagram-programming/>
 
 <https://content.helpme-codesys.com/de/libs/Standard/Current/Trigger/F_TRIG.html>
 
-<https://www.plcacademy.com/function-block-diagram-programming/>
 
 --> at F_TRIG Function Block
-
-Source: <https://www.plcacademy.com/function-block-diagram-programming/>
