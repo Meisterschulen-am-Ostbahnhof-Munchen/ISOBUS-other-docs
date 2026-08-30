@@ -1,4 +1,5 @@
 # nx_farm_display
+
 Unfortunately, nx9 is no longer available!!
 <https://www.reuters.com/markets/deals/cnh-industrial-buys-software-house-nx9-bolster-agriculture-business-2021-12-02/>
 <img src="https://user-images.githubusercontent.com/69573151/95010570-b7625500-062a-11eb-9fb1-93cc2f12dc80.png" />

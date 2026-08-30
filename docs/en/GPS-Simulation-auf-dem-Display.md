@@ -1,4 +1,5 @@
 # GPS Simulation on the Display
+
 Simply go to the terminal and navigate to:
 CCI.Config => GPS => GPS simulation => Import, select the desired option, and press the back button.
 Then start the simulation (password required!) and enable repeat.

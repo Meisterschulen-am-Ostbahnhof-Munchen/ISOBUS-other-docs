@@ -1,6 +1,9 @@
 # GPS Simulation via PC (avangardo)
+
 ## 🔌 Hardware
+
 ## Software
+
 Unfortunately, avangardo is no longer available!
 Unzip av_gps_generator_pro.zip, run setup.exe,
 GPS Generator PRO v.4.2.2 is probably the current version.

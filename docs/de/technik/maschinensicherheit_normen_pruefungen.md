@@ -15,10 +15,12 @@
 ## 1. Gesetzliche Prüfungen im Land- & Baumaschinegewerbe
 
 ### DGUV Vorschriften & UVV
+
 - **DGUV Vorschrift 70/73 (Unfallverhütungsvorschriften):** Regelmäßige Überprüfung von Fahrzeugen und Winden, Hub- und Zuggeräten durch Sachkundige.
 - **Prüfprotokolle:** Rechtssichere Erfassung, Mängeldokumentation und Prüfplakette.
 
 ### Sicherheitsprüfung (SP) & Emissionsprüfung (AU)
+
 - **SP nach § 29 StVZO:** Wiederkehrende Prüfung von Fahrgestell, Fahrwerk, Lenkung, Bremsanlage und Rädern bei schnellen Zugmaschinen ($> 40	ext{ km/h}$) und Baumaschinen.
 - **Emissions- & Abgasprüfung:** Überprüfung der Einhaltung der Trübungswerte bzw. Partikelanzahl (PN-Messung ab Stufe V).
 
@@ -27,8 +29,10 @@
 ## 2. Maschinensicherheit & CE-Konformität
 
 ### Maschinenrichtlinie 2006/42/EG & Verordnung (EU) 2023/1230
+
 - **Risikobeurteilung nach EN ISO 12100:** Identifikation von Gefahrenstellen, Konstruktive Schutzmaßnahmen, Technische Schutzmaßnahmen, Benutzerinformationen.
 - **Sicherheitsbezogene Teile von Steuerungen:** EN ISO 13849-1 (Performance Level PL a bis PL e) und AgPL (Agricultural Performance Level).
 
 ### Typgenehmigung EU 167/2013 (Tractor Mother Regulation)
+
 - Harmonisierte Bau- und Prüfvorschriften für land- und forstwirtschaftliche Fahrzeuge in der EU (Bremsen, Insassenschutz, Beleuchtung).

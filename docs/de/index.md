@@ -18,6 +18,7 @@ myst:
 ---
 
 ### 📋 [Das steht im Lehrplan (Rahmenlehrplan 2025)](./das_steht_im_lehrplan.md)
+>
 > **Hier finden Sie alle technischen Anforderungen der neuen Meisterprüfungsverordnung 2025** (LandBauMechMstrV vom 09.09.2024, in Kraft ab 01.08.2025) übersichtlich strukturiert nach Modulen und Handlungsfeldern.
 
 - 📋 **[Das steht im Lehrplan – Technische Lehrplanübersicht 2025](./das_steht_im_lehrplan.md)**
@@ -50,4 +51,5 @@ myst:
 ---
 
 ### 🌐 Passende Themen-Unterseiten auf ms-muc-docs.de
+
 - [🌐 Das PWM-Signal & Infografik auf ms-muc-docs.de](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)

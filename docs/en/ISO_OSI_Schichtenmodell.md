@@ -1,5 +1,7 @@
 # ISO/OSI Layer Model
-## General Information:
+
+## General Information
+
 The ISO/OSI reference model (also called the OSI model) is a theoretical model that describes communication between different computers and networks. It was developed by the International Organization for Standardization (ISO) and is specified in the standard ISO 7498-1.
 The OSI model consists of seven layers, each with specific tasks in the communication process:
 Physical layer: Transmission of bits over the physical medium (cable, radio, fiber optic, etc.)

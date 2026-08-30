@@ -1,4 +1,5 @@
 # 🚜 Internal Combustion Engines & Exhaust Aftertreatment (EU Stage V)
+>
 > 📌 **Source & Legal Basis:**
 > **Source:** *Framework Curriculum for the Preparation for the Master Craftsman Examination in Agricultural and Construction Machinery Mechatronics*
 > **Publisher:** German Association of Agricultural and Construction Machinery Mechatronics Engineers (LandBauTechnik-Bundesverband e. V.), Alfredstraße 102, 45131 Essen (as of February 25, 2025)
@@ -13,11 +14,13 @@
 ## 1. Common Rail Injection & Turbocharging
 
 ### Common Rail Systems
+
 - **High-Pressure Generation:** Pressures up to 2,500 bar using radial piston pumps.
 - **Injectors:** Piezo and solenoid injectors with multiple injection (piston, main, and post-injection).
 - **Fault Diagnosis:** Return flow measurement, high-pressure sensors, zero-quantity calibration.
 
 ### Turbochargers & Boost Pressure Control
+
 - **VTG / VGT (Variable Turbine Geometry):** Adjustable guide vanes for optimizing boost pressure at low engine speeds.
 - **Intercooler:** Increased air density for efficient combustion.
 
@@ -36,6 +39,7 @@
 4. **EGR (Exhaust Gas Recirculation):** Cooled recirculation of exhaust gas to reduce the combustion temperature.
 
 ### Sensors & Diagnostics
+
 - NOx sensors (before and after the SCR catalyst), differential pressure sensor (DPF soot load), exhaust gas temperature sensors (EGTS).
 - Derate conditions (reduction in power and speed due to AdBlue shortage or exhaust gas faults).
 

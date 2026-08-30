@@ -1,4 +1,5 @@
 # 📋 This is what the curriculum says: Technical focus areas (Framework Curriculum 2025)
+>
 > 📌 **Source & Legal Basis:**
 > **Source:** *Framework Curriculum for Preparation for the Master Craftsman Examination in Agricultural and Construction Machinery Mechatronics*
 > **Publisher:** German Association of Agricultural and Construction Machinery Technicians V., Alfredstraße 102, 45131 Essen (Status: February 25, 2025)
@@ -19,26 +20,32 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 ## 📚 Technical Areas & Content Pages
 
 ### 1. 💧 [Hydraulics & Electrohydraulics](./technik/hydraulik_elektrohydraulik.md)
+
 - **Curriculum Reference:** Part I LE 2.4 | Part II LE 1.1 & LE 1.3
 - **Focus Areas:** Constant and variable displacement pumps, load sensing (LS), proportional valve technology, PWM control, pressure and flow sensors, ISO 1219 circuit diagrams, bio-hydraulic oils.
 
 ### 2. 💨 [Pneumatics & Compressed Air Brake Systems](./technik/pneumatik_druckluftbremsen.md)
+
 - **Curriculum Reference:** Part I LE 2.4 | Part II LE 1.1
 - **Focus Areas:** Compressed air generation and treatment, single- and dual-line trailer brake systems, automatic load-dependent brake force control (ALB), ABS/EBS systems for agricultural and construction machinery.
 
 ### 3. 🚜 [Internal Combustion Engines & Exhaust Aftertreatment (Stage V)](./technik/motoren_abgasnachbehandlung.md)
+
 - **Curriculum Reference:** Part I LE 2.3 | Part II LE 1.1 & LE 1.3
 - **Focus Areas:** Common-rail injection systems, variable turbine geometry (VTG) turbochargers, Stage V emissions standard, SCR/AdBlue, DPF regeneration, EGR systems, sensors (NOx, soot, exhaust gas temperature).
 
 ### 4. ⚡ [High-voltage (HV) technology & e-mobility](./technik/hochvolt_emobilitaet.md)
+
 - **Curriculum Reference:** Part I LE 2.3 | Part II LE 1.1 & LE 1.3
 - **Focus Areas:** Voltage disconnection & intrinsic safety according to DGUV 209-093 / DGUV 200-005, lithium-ion battery systems & BMS, 48V electrical systems, electric motors & power electronics (inverters).
 
 ### 5. ⚙️ [Transmission Technology, Chassis & Steering Systems ](./technik/getriebe_fahrwerk_lenkung.md)
+
 - **Curriculum Reference:** Part I LE 2.3 | Part II LE 1.1
 - **Focus Areas:** Continuously Variable Transmissions (CVT/Vario), Power Shift Transmissions, Power Split, All-Wheel Drive & PTO Control, Hydro-Pneumatic Suspensions, All-Wheel Drive & Articulated Steering.
 
 ### 6. 🛡️ [Machine Safety, Standards & Inspections (UVV/SP/CE) ](./technik/maschinensicherheit_normen_pruefungen.md)
+
 - **Curriculum Reference:** Part I LE 1.3 & LE 2.5 | Part II LE 1.2 & LE 2.2
 - **Focus Areas:** Accident prevention inspections according to DGUV Regulation 70/73, safety inspections (SP), emissions testing (AU), CE conformity & risk assessment (ISO 12100), EU type approval 167/2013 / StVZO.
 
@@ -57,6 +64,7 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 ---
 
 ### 🌐 Relevant subpages on ms-muc-docs.de
+
 - [🌐 Eclipse 4diac IDE & Color Reference on ms-muc-docs.de](https://www.ms-muc-docs.de/iec-61499/eclipse-4diac/)
 - [🌐 The PWM Signal & Infographic on ms-muc-docs.de](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)
 
