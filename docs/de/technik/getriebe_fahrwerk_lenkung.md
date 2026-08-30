@@ -15,11 +15,13 @@
 ## 1. Getriebetechnik & Leistungsverzweigung
 
 ### Stufenlose Getriebe (CVT / Vario)
+
 - **Prinzip:** Hydrostatisch-mechanische Leistungsverzweigung.
 - **Komponenten:** Planetary Gear Set (Planetengetriebe), Verstellpumpe und Verstellmotor.
 - **Vorteil:** Stufenlose Anpassung der Übersetzungsverhältnisses bei optimalem Motordrehzahlpunkt.
 
 ### Lastschaltgetriebe
+
 - **Funktion:** Schalten unter Last ohne Zugkraftunterbrechung mittels nasslaufender Lamellenkupplungen und Magnetventilen.
 - **Kalibrierung:** Einlernen der Kupplungsfüllzeiten und Fülldrücke per Diagnosetester.
 
@@ -28,6 +30,7 @@
 ## 2. Fahrwerk & Hydro-Pneumatische Federung
 
 ### Federungssysteme
+
 - **Hydro-Pneumatische Federung:** Stickstoffblasen (Hydrospeicher) als Federelement, Hydrauliköl als Übertragungsmedium.
 - **Niveauregulierung:** Positionssensoren erfassen den Achsabstand; Magnetventile passen die Ölmenge im Federzylinder an.
 
@@ -36,5 +39,6 @@
 ## 3. Lenksysteme & Assistenz
 
 ### Hydrostatische & Elektrohydraulische Lenkung
+
 - **Orbitrol (Hydrolenkung):** Unterbrechungsfreie mechanisch-hydraulische Notlenkeigenschaft.
 - **Allrad- & Knicklenkungen:** Elektronische Ansteuerung mehrerer Lenkmodi (Vorderachslenkung, Allradlenkung, Hundegang / Krabbenlenkung) mit Lenkwinkelsensoren.

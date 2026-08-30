@@ -48,7 +48,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL\_\*\*\\DLG\\pconvert\\progs\\can\\CANd
 
 Dieses nennt man dlg_net
 
-<img src="https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg" />
+<img src="https://user-images.githubusercontent.com/69573151/94334981-67efa980-ffd8-11ea-9fd8-113bc6955ae7.jpeg" alt="NetCFG32 Netzwerkkonfiguration dlg_net" />
 
 Jetzt startet man pconvert:
 
@@ -58,18 +58,18 @@ dann CAN – Can Tools – Net Client Mode einen Haken setzen
 
 in dem erscheinenden Fenster wählt man „TRACE“ und schon zeigt er was am Bus los ist:
 
-<img src="https://user-images.githubusercontent.com/69573151/94334983-67efa980-ffd8-11ea-8ee0-ed068a57ed0d.png" />
+<img src="https://user-images.githubusercontent.com/69573151/94334983-67efa980-ffd8-11ea-8ee0-ed068a57ed0d.png" alt="Pconvert Trace Fenster CAN-Bus Aktivität" />
 
 Sollte das nicht funktionieren wählt man nochmal CAN – Can Tools – Net Client Table – Close and Set Net Client.
 
 Insbesondere wenn das Netz nicht DLG_net heisst.\*\*
 
-<img src="https://user-images.githubusercontent.com/69573151/94334982-67efa980-ffd8-11ea-8b0f-3a9e9a771d35.png" />
+<img src="https://user-images.githubusercontent.com/69573151/94334982-67efa980-ffd8-11ea-8b0f-3a9e9a771d35.png" alt="Pconvert Net Client Table Einstellungen" />
 
-<img src="https://user-images.githubusercontent.com/69573151/93021356-73a79d00-f5e2-11ea-8593-d1aa723ad8e5.png" />
+<img src="https://user-images.githubusercontent.com/69573151/93021356-73a79d00-f5e2-11ea-8593-d1aa723ad8e5.png" alt="Pconvert Option Net Client Mode 1" />
 
-<img src="https://user-images.githubusercontent.com/69573151/93021359-7e623200-f5e2-11ea-9546-445c9bef2f61.png" />
+<img src="https://user-images.githubusercontent.com/69573151/93021359-7e623200-f5e2-11ea-9546-445c9bef2f61.png" alt="Pconvert Option Net Client Mode 2" />
 
-<img src="https://user-images.githubusercontent.com/69573151/93021370-891cc700-f5e2-11ea-81d8-33800bf482d4.png" />
+<img src="https://user-images.githubusercontent.com/69573151/93021370-891cc700-f5e2-11ea-81d8-33800bf482d4.png" alt="Pconvert Trace Fenster Datenansicht" />
 
-<img src="https://user-images.githubusercontent.com/69573151/93021494-2677fb00-f5e3-11ea-8136-af3307e95905.png" />
+<img src="https://user-images.githubusercontent.com/69573151/93021494-2677fb00-f5e3-11ea-8136-af3307e95905.png" alt="Pconvert Beenden und Speichern" />

@@ -16,8 +16,6 @@ Lernmodul Einführung in CAN (38 Folien)
 
 Poster:
 
-<img/downloaded/can-fd-poster-v2.4.png>
-
-<img src="img/downloaded/can-fd-poster-v2.4.png" />
+![CAN-FD Übersichtsposter Referenzdiagramm](img/downloaded/can-fd-poster-v2.4.png)
 
 \---

@@ -1,9 +1,14 @@
 # PGN
+
 ### **Chapter: What is a PGN (Parameter Group Number)?**
+
 #### **Introduction**
-In the world of mobile machinery, especially in agricultural and construction engineering, communication between different electronic control units (ECUs) plays a central role. To make this communication efficient and standardized, the **ISOBUS protocol** was developed, which is based on the **CAN bus (Controller Area Network)**. A key element of this protocol is the **Parameter Group Number (PGN)**, which enables the unique identification of messages. This chapter explains what a PGN is, how it is structured, and what role it plays in ISOBUS communication.
+
+In the world of mobile machinery, especially in agricultural and construction engineering, communication between different electronic control units (ECUs) plays a central role. To make this communication efficient and standardized, the **ISOBUS protocol** was developed, which is based on the **CAN bus (Controller Area Network)**. A key element of this protocol is the **Parameter Group Number (PGN)**, which enables the unique identification of messages. This chapter explains what a PGN is, how it is structured, and what role it plays in ISOBUS communication
 ---
+
 #### **Definition of a PGN**
+
 A **Parameter Group Number (PGN)** is a 24-bit number that identifies a specific message or data set within the ISOBUS network. Each PGN represents a logical grouping of data that is transmitted together. This data can contain information such as the speed of a machine, the status of an attachment, or control commands for a hydraulic system.
 
 ---
@@ -17,12 +22,12 @@ A PGN consists of three main components:
 - Indicates whether the PGN is located on the Extended Data Page.
 - Value: 0 (default) or 1 (extended).
 
-2. **Data Page (DP)**: 1 bit
+1. **Data Page (DP)**: 1 bit
 
 - Helps distinguish between different message types.
 - Value: 0 (default) or 1 (alternative).
 
-3. **PF (Parameter Group Format) and PS (Parameter Group Specific)**:
+1. **PF (Parameter Group Format) and PS (Parameter Group Specific)**:
 
 - **PF (8 bits)**: Defines the format of the PGN.
 - If PF < 240, then the PGN is a **peer-to-peer message** (targeted).
@@ -55,15 +60,15 @@ This PGN identifies a message containing information about a machine's wheel-bas
 
 Each PGN uniquely identifies a specific message or data record. This allows ECUs to know what type of data they are receiving or sending.
 
-2. **Standardization**:
+1. **Standardization**:
 
 Using PGNs standardizes communication between devices from different manufacturers. This enables interoperability between tractors, implements, and other machinery.
 
-3. **Efficient Data Transmission**:
+1. **Efficient Data Transmission**:
 
 PGNs group related data into a single message, increasing data transmission efficiency and reducing network traffic.
 
-4. **Flexibility**:
+1. **Flexibility**:
 
 PGNs can represent both targeted (peer-to-peer) and general (broadcast) messages, increasing communication flexibility.
 
@@ -76,12 +81,12 @@ PGNs can represent both targeted (peer-to-peer) and general (broadcast) messages
 - Sent to all devices on the network.
 - Examples: speed, RPM, operating hours.
 
-2. **Peer-to-Peer PGNs**:
+1. **Peer-to-Peer PGNs**:
 
 - Sent to a specific device.
 - Examples: control commands for a specific implement.
 
-3. **Proprietary PGNs**:
+1. **Proprietary PGNs**:
 
 - Defined by manufacturers for specific applications.
 - Are not part of the ISOBUS standard.

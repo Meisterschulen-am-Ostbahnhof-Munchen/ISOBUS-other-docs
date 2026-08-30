@@ -1,7 +1,10 @@
 # Literature SAE-J1939
+
 ---
+
 <https://de.wikipedia.org/wiki/SAE_J1939>
 ---
+
 Learning Module J1939
 <https://elearning.vector.com/mod/page/view.php?id=253>
 

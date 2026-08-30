@@ -19,7 +19,7 @@ html_meta:
 
 > **Here you will find all the technical requirements of the new Master Craftsman Examination Regulations 2025** (LandBauMechMstrV of September 9, 2024, effective August 1, 2025), clearly structured by modules and fields of activity.
 
-* 📋 **[This is in the curriculum – Technical Curriculum Overview 2025](./das_steht_im_lehrplan.md)**
+- 📋 **[This is in the curriculum – Technical Curriculum Overview 2025](./das_steht_im_lehrplan.md)**
 
 ---
 
@@ -36,9 +36,9 @@ html_meta:
 
 **Useful Links:**
 
-* [🏠 Main Menu](https://www.ms-muc-docs.de/)
-* [🔍 Super Search (All Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/en/latest/)
-* [📄 Download PDF Handbook](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/en/pdf/isobus-other-docs-en.pdf)
+- [🏠 Main Menu](https://www.ms-muc-docs.de/)
+- [🔍 Super Search (All Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/en/latest/)
+- [📄 Download PDF Handbook](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/en/pdf/isobus-other-docs-en.pdf)
 
 ---
 
@@ -47,4 +47,5 @@ html_meta:
 ---
 
 ### 🌐 Related Topic Subpages on ms-muc-docs.de
-* [🌐 The PWM Signal & Infographic on ms-muc-docs.de](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)
+
+- [🌐 The PWM Signal & Infographic on ms-muc-docs.de](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)

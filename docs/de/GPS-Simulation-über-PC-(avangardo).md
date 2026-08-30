@@ -14,27 +14,27 @@ Programm starten,
 
 Hammertelgen.shp importieren:
 
-<img src="https://user-images.githubusercontent.com/69573151/111999138-fa52af00-8b1c-11eb-9cd4-5751e8f06602.png" />
+<img src="https://user-images.githubusercontent.com/69573151/111999138-fa52af00-8b1c-11eb-9cd4-5751e8f06602.png" alt="Avangardo GPS Generator PRO Shapefile Import" />
 
 Wichtige Einstellungen:
 
-<img src="https://user-images.githubusercontent.com/69573151/111999784-95e41f80-8b1d-11eb-9009-6bfc465d8229.png" />
+<img src="https://user-images.githubusercontent.com/69573151/111999784-95e41f80-8b1d-11eb-9009-6bfc465d8229.png" alt="Avangardo GPS Generator Einstellungen Schritt 1" />
 
-<img src="https://user-images.githubusercontent.com/69573151/111999806-9ed4f100-8b1d-11eb-8240-63956069008a.png" />
+<img src="https://user-images.githubusercontent.com/69573151/111999806-9ed4f100-8b1d-11eb-8240-63956069008a.png" alt="Avangardo GPS Generator Einstellungen Schritt 2" />
 
-<img src="https://user-images.githubusercontent.com/69573151/111999886-b2805780-8b1d-11eb-9b8a-669c46bc6f80.png" />
+<img src="https://user-images.githubusercontent.com/69573151/111999886-b2805780-8b1d-11eb-9b8a-669c46bc6f80.png" alt="Avangardo GPS Generator Baudrate und Port Konfiguration" />
 
 Die Baudrate hier muss mit der Baudrate auf dem CCI1200 übereinstimmen.
 
 CCI.Config => GPS => Baudrate
 
-<img src="https://user-images.githubusercontent.com/69573151/112003417-2d973d00-8b21-11eb-919b-f2099bad6d7e.png" />
+<img src="https://user-images.githubusercontent.com/69573151/112003417-2d973d00-8b21-11eb-919b-f2099bad6d7e.png" alt="CCI1200 Terminal GPS Baudrate Menü" />
 
 als Port-Name tragen Sie in der Regel //./COM ein, nur in sehr seltenen Fällen COM.
 
 die Port Nummer ersehen Sie aus dem Geräte Manager der Systemsteuerung:
 
-<img src="https://user-images.githubusercontent.com/69573151/112002880-a3e76f80-8b20-11eb-8107-2c2f721f626c.png" />
+<img src="https://user-images.githubusercontent.com/69573151/112002880-a3e76f80-8b20-11eb-8107-2c2f721f626c.png" alt="Windows Geräte-Manager COM-Port Anzeige" />
 
 Literatur:
 

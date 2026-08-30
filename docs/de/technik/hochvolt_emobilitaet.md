@@ -15,10 +15,12 @@
 ## 1. Sicherheitsregeln & DGUV-Vorschriften
 
 ### Rechtsgrundlagen & Qualifikation
+
 - **DGUV Information 209-093 / DGUV 200-005:** Qualifizierung für Arbeiten an Fahrzeugen mit Hochvoltsystemen (HV-Stufe 1, 2 und 3).
 - **Spannungsgrenzen:** Wechselspannung $> 30	ext{ V AC}$ bzw. Gleichspannung $> 60	ext{ V DC}$ gilt als Hochvolt.
 
 ### 5 Sicherheitsregeln für die Spannungsfreischaltung
+
 1. Freischalten (HV-Service-Disconnector / Hauptschalter ziehen).
 2. Gegen Wiedereinschalten sichern (Vorhängeschloss / Warnschild).
 3. Spannungsfreiheit feststellen (Zweipoliger Messadapter / Messung an Prüfpunkten $+$, $-$, PE).
@@ -30,9 +32,11 @@
 ## 2. Batterietechnologie & Leistungselektronik
 
 ### Lithium-Ionen-Akkumulatoren & BMS
+
 - **Zellchemie:** NMC (Nickel-Mangan-Cobalt), LFP (Lithium-Eisen-Phosphat).
 - **BMS (Battery Management System):** Zell-Balancing, Überwachung von Zellspannung, Temperatur und Isolation Widerstand (ISO-Wächter).
 
 ### Inverter & Elektromotoren
+
 - **Inverter (Wechselrichter):** Umwandlung von DC-Batteriespannung in 3-Phasen-AC für den Fahrantrieb.
 - **Motortypen:** Permanenterregte Synchronmotoren (PSM), Asynchronmotoren (ASM) mit Rekuperationsfähigkeit.
