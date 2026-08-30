@@ -40,10 +40,10 @@ Like the OSI model, the layered architecture of SAE J1939 enables the interopera
 
 [https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial](https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial)
 
-![](https://cdn.shopify.com/s/files/1/0579/8032/1980/files/j1939-osi-model-7-layer-standards-sae.svg)
+![SAE J1939 protocol architecture in ISO/OSI model](https://cdn.shopify.com/s/files/1/0579/8032/1980/files/j1939-osi-model-7-layer-standards-sae.svg)
 
 ## ISO/OSI Reference Model and ISO 11783
 
 [https://www.csselectronics.com/pages/isobus-introduction-tutorial-iso-11783](https://www.csselectronics.com/pages/isobus-introduction-tutorial-iso-11783)
 
-![](https://cdn.shopify.com/s/files/1/0579/8032/1980/files/isobus-osi-model-layer-iso-11783.svg)
+![ISO 11783 ISOBUS OSI model layer architecture](https://cdn.shopify.com/s/files/1/0579/8032/1980/files/isobus-osi-model-layer-iso-11783.svg)
