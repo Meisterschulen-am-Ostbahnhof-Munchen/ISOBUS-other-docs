@@ -49,6 +49,6 @@
 --
 
 ### 🌐 Related topic subpages on ms-muc-docs.de
-* [🌐 The PWM Signal & Infographic on ms-muc-docs.de
+- [🌐 The PWM Signal & Infographic on ms-muc-docs.de
 
 ]

@@ -20,7 +20,7 @@ myst:
 ### 📋 [Das steht im Lehrplan (Rahmenlehrplan 2025)](./das_steht_im_lehrplan.md)
 > **Hier finden Sie alle technischen Anforderungen der neuen Meisterprüfungsverordnung 2025** (LandBauMechMstrV vom 09.09.2024, in Kraft ab 01.08.2025) übersichtlich strukturiert nach Modulen und Handlungsfeldern.
 
-* 📋 **[Das steht im Lehrplan – Technische Lehrplanübersicht 2025](./das_steht_im_lehrplan.md)**
+- 📋 **[Das steht im Lehrplan – Technische Lehrplanübersicht 2025](./das_steht_im_lehrplan.md)**
 
 ---
 
@@ -37,9 +37,9 @@ myst:
 
 **Nützliche Links:**
 
-* [🏠 Hauptmenü](https://www.ms-muc-docs.de/)
-* [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/)
-* [📄 PDF-Handbuch herunterladen](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/de/pdf/isobus-other-docs-de.pdf)
+- [🏠 Hauptmenü](https://www.ms-muc-docs.de/)
+- [🔍 Super-Suche (alle Wikis)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs/de/latest/)
+- [📄 PDF-Handbuch herunterladen](https://meisterschulen-am-ostbahnhof-munchen.github.io/ISOBUS-other-docs/de/pdf/isobus-other-docs-de.pdf)
 
 ---
 
@@ -50,4 +50,4 @@ myst:
 ---
 
 ### 🌐 Passende Themen-Unterseiten auf ms-muc-docs.de
-* [🌐 Das PWM-Signal & Infografik auf ms-muc-docs.de](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)
+- [🌐 Das PWM-Signal & Infografik auf ms-muc-docs.de](https://www.ms-muc-docs.de/automatisierung/das-pwm-signal-die-kunst-spannung-zu-zerhacken/das-pwm-signal-die-kunst-spannung-zu-zerhacken-website/)
