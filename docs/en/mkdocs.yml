@@ -9,7 +9,7 @@ markdown_extensions:
 plugins:
 - search
 site_name: 'ISOBUS: Technical Fundamentals and Communication (3)'
-site_url: https://docs.ms-muc-docs.de/projects/ISOBUS-other-docs/
+site_url: https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/isobus-other-docs-en/
 extra:
   alternate:
   - lang: de
