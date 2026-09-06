@@ -1,20 +1,20 @@
 # PGN
 
-### **Kapitel: Was ist eine PGN (Parameter Group Number)?**
+## **Kapitel: Was ist eine PGN (Parameter Group Number)?**
 
-#### **Einführung**
+### **Einführung**
 
 In der Welt der mobilen Maschinen, insbesondere in der Land- und Bautechnik, spielt die Kommunikation zwischen verschiedenen elektronischen Steuergeräten (ECUs) eine zentrale Rolle. Um diese Kommunikation effizient und standardisiert zu gestalten, wurde das **ISOBUS-Protokoll** entwickelt, das auf dem **CAN-Bus (Controller Area Network)** basiert. Ein zentrales Element dieses Protokolls ist die **Parameter Group Number (PGN)**, die eine eindeutige Identifikation von Nachrichten ermöglicht. Dieses Kapitel erklärt, was eine PGN ist, wie sie aufgebaut ist und welche Rolle sie in der ISOBUS-Kommunikation spielt.
 
 ---
 
-#### **Definition einer PGN**
+### **Definition einer PGN**
 
 Eine **Parameter Group Number (PGN)** ist eine 24-Bit-Zahl, die eine spezifische Nachricht oder einen Datensatz innerhalb des ISOBUS-Netzwerks identifiziert. Jede PGN repräsentiert eine logische Gruppierung von Daten, die gemeinsam übertragen werden. Diese Daten können beispielsweise Informationen über die Geschwindigkeit einer Maschine, den Zustand eines Anbaugeräts oder Steuerbefehle für ein Hydrauliksystem enthalten.
 
 ---
 
-#### **Aufbau einer PGN**
+### **Aufbau einer PGN**
 
 Eine PGN besteht aus drei Hauptkomponenten:
 
@@ -38,7 +38,7 @@ Die vollständige PGN wird durch die Kombination von EDP, DP, PF und PS gebildet
 
 ---
 
-#### **Beispiel einer PGN**
+### **Beispiel einer PGN**
 
 Nehmen wir die PGN **65096 (Wheel-based Speed and Distance – WBSD)** als Beispiel:
 
@@ -52,7 +52,7 @@ Diese PGN identifiziert eine Nachricht, die Informationen über die radbasierte 
 
 ---
 
-#### **Rolle der PGN in der ISOBUS-Kommunikation**
+### **Rolle der PGN in der ISOBUS-Kommunikation**
 
 1. **Identifikation von Nachrichten**:  
    Jede PGN identifiziert eindeutig eine bestimmte Nachricht oder einen Datensatz. Dadurch wissen die ECUs, welche Art von Daten sie empfangen oder senden.  
@@ -68,7 +68,7 @@ Diese PGN identifiziert eine Nachricht, die Informationen über die radbasierte 
 
 ---
 
-#### **Arten von PGNs**
+### **Arten von PGNs**
 
 1. **Broadcast-PGNs**:  
    - Werden an alle Geräte im Netzwerk gesendet.  
@@ -84,11 +84,11 @@ Diese PGN identifiziert eine Nachricht, die Informationen über die radbasierte 
 
 ---
 
-#### **Zusammenfassung**
+### **Zusammenfassung**
 
 Eine **Parameter Group Number (PGN)** ist ein zentrales Element der ISOBUS-Kommunikation. Sie identifiziert eindeutig eine Nachricht oder einen Datensatz und ermöglicht so die standardisierte und effiziente Übertragung von Daten zwischen verschiedenen elektronischen Steuergeräten. Durch die Verwendung von PGNs wird die Interoperabilität zwischen Geräten verschiedener Hersteller gewährleistet, was insbesondere in der Land- und Bautechnik von großer Bedeutung ist.  
 
 ---
 
-# PGN Liste
+## PGN Liste
 

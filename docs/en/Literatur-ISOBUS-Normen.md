@@ -93,7 +93,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\progs\\database\\norm\
 
 ## ISO 11783-5:2019-06
 
-#### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 5: Network management
+### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 5: Network management
 
 English Title
 
@@ -114,7 +114,7 @@ M:\\Agricultural Machinery Mechanics\\Instruction\\SL\\DLG\\pconvert\\progs\\dat
 
 ## ISO 11783-6:2018-06
 
-#### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 6: Virtual terminal
+### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 6: Virtual terminal
 
 English Title
 
@@ -135,7 +135,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\progs\\database\\norm\
 
 ## ISO 11783-7:2015-03
 
-#### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 7: Implement messages application layer
+### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 7: Implement messages application layer
 
 English Title
 
@@ -198,7 +198,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\progs\\database\\norm\
 
 ## ISO 11783-10:2015-09
 
-#### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 10: Task controller and management information system data
+### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 10: Task controller and management information system data
 
 English Title
 
@@ -219,7 +219,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\progs\\database\\norm\
 
 ## ISO 11783-11:2011-07
 
-#### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 11: Mobile data element
+### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 11: Mobile data element
 
 English Title
 
@@ -283,7 +283,7 @@ M:\\Landmaschinenmechanik\\Unterricht\\SL\\DLG\\pconvert\\progs\\database\\norm\
 
 ## ISO 11783-14:2013-09
 
-#### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 14: Sequence control
+### Tractors and machinery for agriculture and forestry - Serial control and communications data network - Part 14: Sequence control
 
 English Title
 
