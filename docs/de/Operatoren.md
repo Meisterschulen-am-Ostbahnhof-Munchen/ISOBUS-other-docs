@@ -1,8 +1,8 @@
 # Operatoren
 
-**betrifft: Mathematik,**
+betrifft: Mathematik,
 
-**betrifft: C-Programmierung**
+betrifft: C-Programmierung
 
 <table><tbody><tr><td><a href="https://de.wikipedia.org/wiki/Operator_(Mathematik)">Operator</a></td><td><a href="https://en.wikipedia.org/wiki/Operator_(mathematics)">Operator_(mathematics)</a></td><td>&nbsp;</td></tr><tr><td><a href="https://de.wikipedia.org/wiki/Einstellige_Verkn%C3%BCpfung">Einstellige Verknüpfung</a></td><td><a href="https://en.wikipedia.org/wiki/Unary_operation">Unary operation</a>&nbsp;</td><td>1 Operand</td></tr><tr><td><a href="https://de.wikipedia.org/wiki/Zweistellige_Verkn%C3%BCpfung">Zweistellige Verknüpfung</a></td><td><a href="https://en.wikipedia.org/wiki/Binary_operation">Binary_operation</a></td><td>2 Operanden</td></tr></tbody></table>
 

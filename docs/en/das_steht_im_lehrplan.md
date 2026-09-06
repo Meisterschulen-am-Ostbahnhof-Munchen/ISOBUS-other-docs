@@ -57,7 +57,7 @@ In addition to networked electronics and software (ISOBUS/CAN bus), the training
 | :--- | :---: | :--- |
 | **Part I – Field of activity 1: Extensions** | **160 teaching units** | Assembly, wiring, sensor/actuator integration, hydraulic adjustment |
 | **Part I – Field of activity 2: Diagnosis & Repair** | **220 teaching units** | Motors, high-voltage systems, hydraulics, pneumatics, chassis, bus systems |
-**Part II – Area of Expertise 1: Customer Requirements & Technology** | **380 hours** | Mechanical Engineering (160h), Maintenance (40h), Diagnostics (100h), Drawings (40h) |
+| **Part II – Area of Expertise 1: Customer Requirements & Technology** | **380 hours** | Mechanical Engineering (160h), Maintenance (40h), Diagnostics (100h), Drawings (40h) |
 
 --
 

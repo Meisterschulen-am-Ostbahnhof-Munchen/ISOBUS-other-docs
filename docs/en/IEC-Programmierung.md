@@ -39,7 +39,7 @@ Very much inspired by OSCAT: <http://www.oscat.de/> and CoDeSys: <https://www.he
 
 <https://content.helpme-codesys.com/de/CODESYS%20Development%20System/_cds_operator_xor.html>
 
-# Memory Components
+## Memory Components
 
 <https://de.wikipedia.org/wiki/Flipflop>
 
