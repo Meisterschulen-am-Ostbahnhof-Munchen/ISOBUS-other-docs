@@ -27,7 +27,32 @@ The more modern approach solves exactly this problem by separating the calculati
 
 This removes the dependency between the two calibration steps entirely: there is simply nothing left for the second step to "wait for", because each step on its own only records an independent number. The two reference points can be set in any order, repeated as often as needed, and - particularly relevant in practice - recalibrated individually, for example when only one of the two end stops needs readjusting in the field, without the other one having to be redone.
 
+```mermaid
+sequenceDiagram
+    participant Operator
+    participant Calibration
+    participant MeasurementProcessing
+
+    Operator->>Calibration: Set reference point
+    Calibration->>Calibration: Store raw signal
+    Operator->>Calibration: Set other reference point
+    Calibration->>Calibration: Store raw signal
+    MeasurementProcessing->>Calibration: New measurement
+    Calibration-->>MeasurementProcessing: Compute line from both points
+```
+
 The principle extends directly to three (or more) reference points. Whenever a sensor has a distinguished center position in addition to its two end stops - the classic case being a steering angle sensor with the three references "full lock left", "straight ahead", and "full lock right" - a single line equation is no longer enough, because mechanical tolerances can make the characteristic curve run at a different slope to the left of center than to the right. Each of the three points then independently stores its own measured raw value, and the points are afterwards connected piecewise-linearly - one slope between the left stop and center, a separate, independent slope between center and the right stop. Here too, the same rule holds unchanged: because each of the three points only independently stores a raw value, and the interpolation only happens at read-time, there is no enforceable order between the three calibration steps at all - each point can be set on its own, and readjusted later on its own.
+
+```mermaid
+flowchart LR
+    L[Left stop] --> RL[Store raw signal]
+    M[Center position] --> RM[Store raw signal]
+    R[Right stop] --> RR[Store raw signal]
+    RL --> I[Piecewise linear interpolation]
+    RM --> I
+    RR --> I
+    I --> V[Convert measurement]
+```
 
 ## The general lesson behind it
 

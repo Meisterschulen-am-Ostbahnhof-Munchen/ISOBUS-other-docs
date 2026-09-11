@@ -27,7 +27,32 @@ Der modernere Ansatz löst genau dieses Problem, indem er den Rechenschritt vom 
 
 Dadurch entfällt die Abhängigkeit zwischen den beiden Kalibrierschritten vollständig: Es gibt schlicht nichts mehr, worauf der zweite Schritt "warten" müsste, weil beide Schritte für sich genommen nur eine unabhängige Zahl ablegen. Die beiden Referenzpunkte lassen sich in beliebiger Reihenfolge setzen, beliebig oft wiederholen und – besonders praxisrelevant – auch einzeln nachkalibrieren, etwa wenn nur einer der beiden Anschläge im Feld nachjustiert werden muss, ohne dass der andere neu abgeglichen werden müsste.
 
+```mermaid
+sequenceDiagram
+    participant Bediener
+    participant Kalibrierung
+    participant Messwertverarbeitung
+
+    Bediener->>Kalibrierung: Referenzpunkt setzen
+    Kalibrierung->>Kalibrierung: Rohsignal speichern
+    Bediener->>Kalibrierung: Anderen Referenzpunkt setzen
+    Kalibrierung->>Kalibrierung: Rohsignal speichern
+    Messwertverarbeitung->>Kalibrierung: Neuer Messwert
+    Kalibrierung-->>Messwertverarbeitung: Gerade aus beiden Punkten berechnen
+```
+
 Das Prinzip lässt sich unmittelbar auf drei (oder mehr) Referenzpunkte erweitern. Immer dann, wenn ein Sensor neben den beiden Endanschlägen auch eine ausgezeichnete Mittelstellung besitzt – der klassische Fall ist ein Lenkwinkelsensor mit den drei Referenzen "voller Einschlag links", "Geradeausstellung" und "voller Einschlag rechts" – reicht eine einzige Geradengleichung nicht mehr aus, weil mechanische Toleranzen dazu führen können, dass die Kennlinie links und rechts der Mitte unterschiedlich steil verläuft. Man legt dann für jeden der drei Punkte unabhängig das gemessene Rohsignal ab und verbindet anschließend die Punkte stückweise linear – zwischen Links-Anschlag und Mitte mit der einen Steigung, zwischen Mitte und Rechts-Anschlag mit einer eigenen, davon unabhängigen Steigung. Auch hier gilt unverändert: weil jeder der drei Punkte nur unabhängig einen Rohwert speichert und die Interpolation erst beim Auslesen passiert, gibt es zwischen den drei Kalibrierschritten keinerlei erzwingbare Reihenfolge – jeder Punkt kann für sich gesetzt und später für sich allein nachjustiert werden.
+
+```mermaid
+flowchart LR
+    L[Linker Anschlag] --> RL[Rohsignal speichern]
+    M[Mittelstellung] --> RM[Rohsignal speichern]
+    R[Rechter Anschlag] --> RR[Rohsignal speichern]
+    RL --> I[Stückweise lineare Interpolation]
+    RM --> I
+    RR --> I
+    I --> V[Messwert umrechnen]
+```
 
 ## Die allgemeine Lehre dahinter
 
