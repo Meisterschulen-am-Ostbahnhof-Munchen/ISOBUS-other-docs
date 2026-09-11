@@ -61,3 +61,24 @@ The difference between the two methods is not, in the end, a special case unique
 The first variant saves a little computation at the moment of capture itself, but pays for it with a hidden ordering dependency between the capture steps - with all the consequences that has for operation, error safety, and maintainability: an extra sequencing check becomes necessary, a single step can no longer be repeated on its own without risk, and the actual reason for the required order is often not visible from the outside at all, only understandable from the internal calculation rule. The second variant is marginally more work at the moment of capture itself - the raw value simply has to be kept separately instead of being folded in right away - but gains robustness in return: every capture step is, on its own, completely independent, repeatable as often as needed, and executable in any order, because it needs no knowledge of the other steps at all.
 
 This trade-off - "fold it in immediately and accept a dependency" versus "just record it for now, and dissolve the dependency by pushing it to the end" - comes up again and again in control and measurement engineering, far beyond the calibration of individual sensors. It is worth deliberately checking, for every multi-step capture or setup procedure, which of the two variants is actually at play - and whether an apparently "logical" order is really justified by the underlying problem, or merely a side effect of how the calculation happened to be built.
+
+## Implementations in Function Block Libraries
+
+The calibration procedures described above are available as ready-to-use function blocks in the **4diac Library Reference** and the **OSCAT Basic Library**:
+
+### Two-Point Calibration (Offset & Scale)
+
+- [CALIBRATE (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/en/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/CALIBRATE/): Classic Boolean-triggered two-point calibration (`Y = (X + OFFSET) * SCALE`).
+- [E_CALIBRATE (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/en/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/E_CALIBRATE/): Event-driven two-point calibration (`EICO`/`EICS`).
+- [AR_CALIBRATE (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/en/latest/Bibliotheken/ExternalLibraries/adapter/Engineering/measurements/AR_CALIBRATE/): Adapter-based two-point calibration for IEC 61499.
+
+### Three-Point Calibration (Min, Mid, Max)
+
+- [CALIBRATE_3P (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/en/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/CALIBRATE_3P/): Boolean-triggered three-point calibration with center-offset compensation (e.g. joysticks).
+- [E_CALIBRATE_3P (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/en/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/E_CALIBRATE_3P/): Event-driven three-point calibration (`EI_MIN`/`EI_MID`/`EI_MAX`).
+- [AR_CALIBRATE_3P (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/en/latest/Bibliotheken/ExternalLibraries/adapter/Engineering/measurements/AR_CALIBRATE_3P/): Adapter-based three-point calibration for IEC 61499.
+
+### OSCAT Documentation (Structured Text)
+
+- [CALIBRATE (OSCAT Basic Docs)](https://oscat.readthedocs.io/projects/oscat-basic/de/latest/Engineering/measurements/calibrate/): Documentation of the original OSCAT ST implementation.
+

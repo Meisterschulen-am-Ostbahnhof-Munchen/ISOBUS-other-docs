@@ -61,3 +61,24 @@ Der Unterschied zwischen beiden Verfahren ist letztlich kein Sonderfall der Sens
 Die erste Variante spart im Erfassungsschritt selbst etwas Rechenaufwand, erkauft sich das aber mit einer verdeckten Reihenfolge-Abhängigkeit zwischen den Erfassungsschritten – mit allen Folgen, die das für Bedienung, Fehlersicherheit und Wartbarkeit hat: eine zusätzliche Ablaufkontrolle wird nötig, ein einzelner Schritt lässt sich nicht mehr risikofrei allein wiederholen, und der eigentliche Grund für die Reihenfolge ist von außen oft gar nicht erkennbar, sondern nur aus der internen Rechenvorschrift heraus zu verstehen. Die zweite Variante ist im Erfassungsschritt selbst minimal aufwendiger – man muss den Rohwert eben separat vorhalten, statt ihn sofort zu verrechnen –, gewinnt dafür aber Robustheit: jeder Erfassungsschritt ist für sich genommen vollständig unabhängig, beliebig wiederholbar und in beliebiger Reihenfolge ausführbar, weil er keinerlei Wissen über die anderen Schritte braucht.
 
 Diese Abwägung – "sofort verrechnen und dabei eine Abhängigkeit in Kauf nehmen" gegenüber "erstmal nur festhalten und die Abhängigkeit auflösen, indem man sie an das Ende verschiebt" – begegnet einem in der Steuerungs- und Messtechnik immer wieder, weit über die Kalibrierung einzelner Sensoren hinaus. Es lohnt sich, bei jedem mehrstufigen Erfassungs- oder Einstellvorgang bewusst zu prüfen, welche der beiden Varianten vorliegt – und ob eine vermeintlich "logische" Reihenfolge tatsächlich in der Sache begründet ist, oder nur ein Nebeneffekt davon, wie die Berechnung zufällig aufgebaut wurde.
+
+## Implementierungen in den Baustein-Bibliotheken
+
+Die beschriebenen Kalibrierverfahren stehen in der **4diac Library Reference** sowie in der **OSCAT Basic Library** als fertige Funktionsbausteine zur Verfügung:
+
+### Zwei-Punkt-Kalibrierung (Offset & Skalierung)
+
+- [CALIBRATE (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/de/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/CALIBRATE/): Klassische booleangesteuerte Zwei-Punkt-Kalibrierung (`Y = (X + OFFSET) * SCALE`).
+- [E_CALIBRATE (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/de/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/E_CALIBRATE/): Ereignisgesteuerte Zwei-Punkt-Kalibrierung (`EICO`/`EICS`).
+- [AR_CALIBRATE (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/de/latest/Bibliotheken/ExternalLibraries/adapter/Engineering/measurements/AR_CALIBRATE/): Adapterbasierte Zwei-Punkt-Kalibrierung für IEC 61499.
+
+### Drei-Punkt-Kalibrierung (Min, Mid, Max)
+
+- [CALIBRATE_3P (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/de/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/CALIBRATE_3P/): Booleangesteuerte Drei-Punkt-Kalibrierung mit Mittenversatz-Korrektur (z. B. Joysticks).
+- [E_CALIBRATE_3P (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/de/latest/Bibliotheken/ExternalLibraries/OSCAT/Basic/POUs/Engineering/measurements/E_CALIBRATE_3P/): Ereignisgesteuerte Drei-Punkt-Kalibrierung (`EI_MIN`/`EI_MID`/`EI_MAX`).
+- [AR_CALIBRATE_3P (4diac Library Reference)](https://meisterschulen-am-ostbahnhof-munchen-docs.readthedocs.io/projects/4diac-library-reference-docs/de/latest/Bibliotheken/ExternalLibraries/adapter/Engineering/measurements/AR_CALIBRATE_3P/): Adapterbasierte Drei-Punkt-Kalibrierung für IEC 61499.
+
+### OSCAT Dokumentation (Structured Text)
+
+- [CALIBRATE (OSCAT Basic Doku)](https://oscat.readthedocs.io/projects/oscat-basic/de/latest/Engineering/measurements/calibrate/): Dokumentation der ursprünglichen OSCAT ST-Implementierung.
+
