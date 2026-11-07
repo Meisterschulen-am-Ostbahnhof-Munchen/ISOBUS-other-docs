@@ -61,13 +61,55 @@ Reason: if `AND(off, 11)` returned `11`, the result would be read as the command
 
 For the setpoint, `10` is a genuine error value. A device that receives it should treat it like "off" (safe state). This is also an assessment.
 
+| A \ B | `00` off | `01` on | `10` error | `11` neutral |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` off** | `00` | `00` | `00` | `00` |
+| **`01` on** | `00` | `01` | `10` | `01` |
+| **`10` error** | `00` | `10` | `10` | `10` |
+| **`11` neutral** | `00` | `01` | `10` | `11` |
+
+Row = input A, column = input B. The table follows from the priority above and, like it, is an assessment.
+
+### Commands, OR Combination
+
+Priority: **error > on > off**. The value `11` is neutral: `OR(11, x) = x`. A receiver treats the result `10` like "off".
+
+| A \ B | `00` off | `01` on | `10` error | `11` neutral |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` off** | `00` | `01` | `10` | `00` |
+| **`01` on** | `01` | `01` | `10` | `01` |
+| **`10` error** | `10` | `10` | `10` | `10` |
+| **`11` neutral** | `00` | `01` | `10` | `11` |
+
+Row = input A, column = input B. The table follows from the priority above and, like it, is an assessment.
+
 ### Actual States, AND Combination
 
 Priority: **error > not available > off > on**. "On" results only if both inputs are "on". Consumers must treat everything except `01` as "off".
 
+Here `11` means "not installed". The table therefore applies to actual values only, not to commands.
+
+| A \ B | `00` off | `01` on | `10` error | `11` not installed |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` off** | `00` | `00` | `10` | `11` |
+| **`01` on** | `00` | `01` | `10` | `11` |
+| **`10` error** | `10` | `10` | `10` | `10` |
+| **`11` not installed** | `11` | `11` | `10` | `11` |
+
+Row = input A, column = input B. The table follows from the priority above and, like it, is an assessment.
+
 ### Actual States, OR Combination (Display)
 
 Priority: **error > on > off > not available**.
+
+| A \ B | `00` off | `01` on | `10` error | `11` not installed |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` off** | `00` | `01` | `10` | `00` |
+| **`01` on** | `01` | `01` | `10` | `01` |
+| **`10` error** | `10` | `10` | `10` | `10` |
+| **`11` not installed** | `00` | `01` | `10` | `11` |
+
+Row = input A, column = input B. The table follows from the priority above and, like it, is an assessment.
 
 ### Override: Switch Instead of Combine
 
@@ -78,6 +120,7 @@ Do not combine the override state with AND or OR, use it as a selector: if the s
 | Combination | Priority (highest first) | Special feature |
 | ----------- | ------------------------ | --------------- |
 | Commands, AND | off, error, on | `11` neutral |
+| Commands, OR | error, on, off | `11` neutral, treat `10` like "off" |
 | Actual states, AND | error, not available, off, on | everything except `01` counts as "off" |
 | Actual states, OR | error, on, off, not available | for display only |
 | Override | no combination | selector: manual or task controller |

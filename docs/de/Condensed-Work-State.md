@@ -61,13 +61,55 @@ Begründung: Lieferte `UND(aus, 11)` den Wert `11`, würde das Ergebnis als Befe
 
 Beim Sollwert ist `10` ein echter Fehlerwert. Ein Gerät, das ihn empfängt, sollte ihn wie „aus“ (sicherer Zustand) behandeln. Das ist ebenfalls eine Einschätzung.
 
+| A \ B | `00` aus | `01` an | `10` Fehler | `11` neutral |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` aus** | `00` | `00` | `00` | `00` |
+| **`01` an** | `00` | `01` | `10` | `01` |
+| **`10` Fehler** | `00` | `10` | `10` | `10` |
+| **`11` neutral** | `00` | `01` | `10` | `11` |
+
+Zeile = Eingang A, Spalte = Eingang B. Die Tabelle folgt aus der Rangfolge oben und ist wie diese eine Einschätzung.
+
+### Befehle, ODER-Verknüpfung
+
+Rangfolge: **Fehler > an > aus**. Der Wert `11` ist neutral: `ODER(11, x) = x`. Ein Empfänger behandelt das Ergebnis `10` wie „aus“.
+
+| A \ B | `00` aus | `01` an | `10` Fehler | `11` neutral |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` aus** | `00` | `01` | `10` | `00` |
+| **`01` an** | `01` | `01` | `10` | `01` |
+| **`10` Fehler** | `10` | `10` | `10` | `10` |
+| **`11` neutral** | `00` | `01` | `10` | `11` |
+
+Zeile = Eingang A, Spalte = Eingang B. Die Tabelle folgt aus der Rangfolge oben und ist wie diese eine Einschätzung.
+
 ### Ist-Zustände, UND-Verknüpfung
 
 Rangfolge: **Fehler > nicht verfügbar > aus > an**. „An“ ergibt sich nur, wenn beide Eingänge „an“ sind. Verbraucher müssen alles außer `01` als „aus“ werten.
 
+Hier bedeutet `11` „nicht installiert“. Die Tabelle gilt deshalb nur für Ist-Werte, nicht für Befehle.
+
+| A \ B | `00` aus | `01` an | `10` Fehler | `11` nicht installiert |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` aus** | `00` | `00` | `10` | `11` |
+| **`01` an** | `00` | `01` | `10` | `11` |
+| **`10` Fehler** | `10` | `10` | `10` | `10` |
+| **`11` nicht installiert** | `11` | `11` | `10` | `11` |
+
+Zeile = Eingang A, Spalte = Eingang B. Die Tabelle folgt aus der Rangfolge oben und ist wie diese eine Einschätzung.
+
 ### Ist-Zustände, ODER-Verknüpfung (Anzeige)
 
 Rangfolge: **Fehler > an > aus > nicht verfügbar**.
+
+| A \ B | `00` aus | `01` an | `10` Fehler | `11` nicht installiert |
+| --- | :---: | :---: | :---: | :---: |
+| **`00` aus** | `00` | `01` | `10` | `00` |
+| **`01` an** | `01` | `01` | `10` | `01` |
+| **`10` Fehler** | `10` | `10` | `10` | `10` |
+| **`11` nicht installiert** | `00` | `01` | `10` | `11` |
+
+Zeile = Eingang A, Spalte = Eingang B. Die Tabelle folgt aus der Rangfolge oben und ist wie diese eine Einschätzung.
 
 ### Override: umschalten statt verknüpfen
 
@@ -78,6 +120,7 @@ Den Override-Zustand nicht per UND oder ODER verknüpfen, sondern als Umschalter
 | Verknüpfung | Rangfolge (höchste zuerst) | Besonderheit |
 | ----------- | -------------------------- | ------------ |
 | Befehle, UND | aus, Fehler, an | `11` neutral |
+| Befehle, ODER | Fehler, an, aus | `11` neutral, `10` wie „aus“ behandeln |
 | Ist-Zustände, UND | Fehler, nicht verfügbar, aus, an | alles außer `01` zählt als „aus“ |
 | Ist-Zustände, ODER | Fehler, an, aus, nicht verfügbar | nur für Anzeige |
 | Override | keine Verknüpfung | Umschalter: manuell oder Task Controller |
