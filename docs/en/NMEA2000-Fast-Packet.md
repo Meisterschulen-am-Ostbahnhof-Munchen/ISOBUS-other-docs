@@ -13,7 +13,7 @@ The statements about the stack come from the source code of the CCI stack (`IsoD
 
 ## The protocol
 
-Fast Packet applies to PGNs in the NMEA 2000 range (data page 1, `0x1F000` to `0x1FFFF`) with 9 to 223 bytes.
+Fast Packet applies to PGNs with 9 to 223 bytes. NMEA 2000 uses it for PGNs in the range `0x1F000` to `0x1FFFF` (data page 1, PDU2) and also for addressed PDU1 PGNs on data page 1, for example 126208 (`0x1ED00`), 126464 (`0x1EE00`) and 126720 (`0x1EF00`, manufacturer-specific, addressed). The CCI stack only handles the range `0x1F000` to `0x1FFFF` (see below).
 
 - **No handshake:** There is no RTS/CTS, no acknowledgement and no retransmission. The sender transmits a sequence of CAN frames with the same PGN.
 - **Byte 0 of every frame:** Bits 7 to 5 are the **sequence counter** (0 to 7, incremented per message), bits 4 to 0 the **frame counter** (0 to 31).
@@ -30,16 +30,18 @@ Whether a PGN is sent as Fast Packet or as a single frame is **not stated in the
 | Length | up to 1785 bytes (TP), more with ETP | up to 223 bytes |
 | Handshake | BAM (global) or RTS/CTS (specific destination) | none |
 | Acknowledgement, retransmission | by the receiver with RTS/CTS | none |
-| PGN range | any PGN | only `0x1F000` to `0x1FFFF` |
+| PGN range | any PGN | in the CCI stack only `0x1F000` to `0x1FFFF` |
 | Recognition at the receiver | by the protocol itself | only from the PGN list |
 
 ## Behavior of the stack if `ISO_NMEA_FPT` were active
 
-- **Sending:** `iso_TlNmeaFPTSend()` sends up to 223 bytes, for all PGNs from `0x1F000` to `0x1FFFF` with more than 8 bytes, **also to specific destinations** (so Fast Packet instead of TP).
+- **Sending:** `iso_TlNmeaFPTSend()` sends up to 223 bytes, for all PGNs from `0x1F000` to `0x1FFFF` with more than 8 bytes, **also with a specific destination** (so Fast Packet instead of TP). The PGNs of this range are PDU2 without a destination address in the CAN identifier: the stack stores the specific destination, but the frames **always go out as a broadcast** on the bus.
 - **Receiving:** `iso_TlNmeaFptReceive()` reassembles the frames and passes the result to the application layer like a TP reception. In 4diac it would arrive at `AlPgnRxNew_TP`.
 - **Known senders only:** Fast Packet is only accepted from senders known as network participants, that is, senders that have claimed an address. Otherwise the stack discards the message ("External CF not logged -> ignore message").
 - **Classification by fixed list:** `iso_TlNmeaCheckSingleFrame()` decides using the list below. All PGNs outside the list count as a single frame.
+- **PGNs in the range but not in the list:** The sender decides only by the range and the length (more than 8 bytes), it does not check the list. The receiver classifies a PGN that is not in the list as a single frame and does not reassemble it: the application receives every 8-byte frame separately. Example: PGN 130569 (`0x1FE09`) is not in the list. Two devices with this stack do not understand each other for such a PGN as long as it is not added to the list (remedy: the macro below, also for standard PGNs).
 - **Own PGNs:** The macro `PGNS_FPP_PROP_CODE` in `IsoConf.h` extends the list by manufacturer-specific PGNs. Example from the source: `#define PGNS_FPP_PROP_CODE case 0x1FF00UL:`. This requires recompiling the firmware.
+- **Known limitation, addressed PDU1 PGNs:** Fast Packet PGNs on data page 1 in the PDU1 range (126208, 126464, 126720) never go through Fast Packet in the stack. When sending, they use the ISO transport protocol, when receiving they arrive only as a single frame or via TP. The stack marks 126208 and 126464 as not single-frame (`SF NO`) and passes 126720 on as an ISO message (`PGN_PDU1_PropA2`). The other received PDU1 NMEA PGNs are not supported.
 - **4diac blocks:** Nothing changes. Send with `AlPgnTxNew_TP` (`u16DaSize` at most 223, PGN `0x1F…`), receive with `AlPgnRxNew_TP`.
 
 ## Fixed list of Fast Packet PGNs
