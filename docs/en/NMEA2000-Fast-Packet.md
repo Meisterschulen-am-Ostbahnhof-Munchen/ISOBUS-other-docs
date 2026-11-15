@@ -72,6 +72,15 @@ References: ISO 11783-1:2017, -2, -3:2026, -5:2019 and -7:2022, IEC 61162-3:2008
 - **Known limitation, addressed PDU1 PGNs:** Fast Packet PGNs on data page 1 in the PDU1 range (126208, 126464, 126720) never go through Fast Packet in the stack. When sending, they use the ISO transport protocol, when receiving they arrive only as a single frame or via TP. The stack marks 126208 and 126464 as not single-frame (`SF NO`) and passes 126720 on as an ISO message (`PGN_PDU1_PropA2`). The other received PDU1 NMEA PGNs are not supported.
 - **4diac blocks:** Nothing changes. Send with `AlPgnTxNew_TP` (`u16DaSize` at most 223, PGN `0x1F…`), receive with `AlPgnRxNew_TP`.
 
+## How other implementations do it
+
+For comparison, two freely available sources. Neither is a standard, they are independent implementations.
+
+- **AgIsoStack++** (state `main`, commit `03f8846`): The class `isobus::FastPacketProtocol` sends and receives Fast Packet, with at most 223 bytes and the frame structure described above. The time limit for a message is 750 ms. The stack has **no fixed PGN list**: the caller chooses Fast Packet explicitly when sending, and when receiving only PGNs are evaluated for which a receiver has been registered. The only filter is the range `0x1F000` to `0x1FFFF`. PGNs outside it, for example 126208, 126464 and 126720, are not supported, neither when sending nor when receiving. Sending is a broadcast, because the PGNs of this range are PDU2. Every received message goes in turn to TP, ETP and Fast Packet, and each protocol filters by itself.
+- **canboat** (version 10.0.0): The database lists a type per PGN (`Fast`, `Single`, `ISO` or `Mixed`). The data comes from reverse engineering and, according to the project, is not authoritative; many entries are marked as incomplete. Fast Packet exists there only on data page 1.
+
+Both support the statement above: whether a PGN is Fast Packet is not stated in the frame. The receiver has to know it. The CCI stack solves this with a fixed list, AgIsoStack++ with a decision by the caller.
+
 ## Fixed list of Fast Packet PGNs
 
 The list has **73 entries**. The names are the macro names from the stack header in their original spelling (for example `PRODUKTINFORMATION`), not official NMEA names.

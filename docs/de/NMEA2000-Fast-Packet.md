@@ -72,6 +72,15 @@ Fundstellen: ISO 11783-1:2017, -2, -3:2026, -5:2019 und -7:2022, IEC 61162-3:200
 - **Bekannte Einschränkung, adressierte PDU1-PGNs:** Fast-Packet-PGNs auf Data Page 1 im PDU1-Bereich (126208, 126464, 126720) laufen im Stack nie über Fast Packet. Beim Senden gehen sie über das ISO-Transportprotokoll, beim Empfang kommen sie nur als einzelner Rahmen oder per TP an. Der Stack markiert 126208 und 126464 als nicht für Einzelrahmen (`SF NO`) und reicht 126720 als ISO-Nachricht weiter (`PGN_PDU1_PropA2`). Die übrigen empfangenen PDU1-NMEA-PGNs sind nicht unterstützt.
 - **4diac-Bausteine:** Es ändert sich nichts. Gesendet wird mit `AlPgnTxNew_TP` (`u16DaSize` höchstens 223, PGN `0x1F…`), empfangen mit `AlPgnRxNew_TP`.
 
+## Wie andere Implementierungen es machen
+
+Zum Vergleich zwei frei verfügbare Quellen. Beide sind keine Norm, sondern unabhängige Umsetzungen.
+
+- **AgIsoStack++** (Stand `main`, Commit `03f8846`): Die Klasse `isobus::FastPacketProtocol` sendet und empfängt Fast Packet, mit höchstens 223 Byte und dem oben beschriebenen Rahmenaufbau. Das Zeitlimit für eine Nachricht beträgt 750 ms. Der Stack hat **keine feste PGN-Liste**: Der Aufrufer wählt Fast Packet ausdrücklich beim Senden, und beim Empfang werden nur PGNs ausgewertet, für die er einen Empfänger registriert hat. Der einzige Filter ist der Bereich `0x1F000` bis `0x1FFFF`. PGNs außerhalb davon, zum Beispiel 126208, 126464 und 126720, werden nicht unterstützt, weder beim Senden noch beim Empfangen. Gesendet wird als Rundsendung, weil die PGNs dieses Bereichs PDU2 sind. Jede empfangene Nachricht geht nacheinander an TP, ETP und Fast Packet, und jedes Protokoll filtert selbst.
+- **canboat** (Version 10.0.0): Die Datenbank führt pro PGN einen Typ (`Fast`, `Single`, `ISO` oder `Mixed`). Die Daten stammen aus Reverse Engineering und sind laut dem Projekt nicht verbindlich, viele Einträge sind als unvollständig markiert. Fast Packet gibt es dort nur auf Data Page 1.
+
+Beide stützen die Aussage von oben: Ob eine PGN Fast Packet ist, steht nicht im Rahmen. Der Empfänger muss es kennen. Der CCI-Stack löst das mit einer festen Liste, AgIsoStack++ mit einer Entscheidung des Aufrufers.
+
 ## Feste Liste der Fast-Packet-PGNs
 
 Die Liste hat **73 Einträge**. Die Namen sind die Makronamen aus dem Header des Stacks in der dortigen Schreibweise (zum Beispiel `PRODUKTINFORMATION`), keine offiziellen NMEA-Namen.
