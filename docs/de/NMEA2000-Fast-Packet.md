@@ -74,12 +74,13 @@ Fundstellen: ISO 11783-1:2017, -2, -3:2026, -5:2019 und -7:2022, IEC 61162-3:200
 
 ## Wie andere Implementierungen es machen
 
-Zum Vergleich zwei frei verfügbare Quellen. Beide sind keine Norm, sondern unabhängige Umsetzungen.
+Zum Vergleich drei frei verfügbare Quellen. Keine ist eine Norm, es sind unabhängige Umsetzungen und Daten.
 
 - **AgIsoStack++** (Stand `main`, Commit `03f8846`): Die Klasse `isobus::FastPacketProtocol` sendet und empfängt Fast Packet, mit höchstens 223 Byte und dem oben beschriebenen Rahmenaufbau. Das Zeitlimit für eine Nachricht beträgt 750 ms. Der Stack hat **keine feste PGN-Liste**: Der Aufrufer wählt Fast Packet ausdrücklich beim Senden, und beim Empfang werden nur PGNs ausgewertet, für die er einen Empfänger registriert hat. Der einzige Filter ist der Bereich `0x1F000` bis `0x1FFFF`. PGNs außerhalb davon, zum Beispiel 126208, 126464 und 126720, werden nicht unterstützt, weder beim Senden noch beim Empfangen. Gesendet wird als Rundsendung, weil die PGNs dieses Bereichs PDU2 sind. Jede empfangene Nachricht geht nacheinander an TP, ETP und Fast Packet, und jedes Protokoll filtert selbst.
+- **ISOAgLib:** Senden und Empfang sind vorhanden und über die Compile-Option `ENABLE_MULTIPACKET_VARIANT_FAST_PACKET` zuschaltbar. Der Rahmenaufbau und das Maximum von 223 Byte stimmen mit dem oben Beschriebenen überein, Nachrichten unter 9 Byte gehen als Einzelrahmen. Auch hier gibt es **keine feste PGN-Liste**: Der Aufrufer wählt beim Senden Fast Packet, beim Empfang registriert er die PGN mit Filter. Gesendet wird nur als Rundsendung, adressierte PDU1-PGNs sind praktisch nicht unterstützt. Das Zeitlimit zwischen zwei Rahmen beträgt 1000 ms. Eine Besonderheit: Der Empfang prüft den Sequenzzähler nicht, ein falscher Rahmenzähler bricht den Strom ab. Für zwei Navigations-PGNs (129029 und 130577) überspringt der Empfang die Adressprüfung des Senders, damit nicht ISOBUS-konforme Altgeräte funktionieren.
 - **canboat** (Version 10.0.0): Die Datenbank führt pro PGN einen Typ (`Fast`, `Single`, `ISO` oder `Mixed`). Die Daten stammen aus Reverse Engineering und sind laut dem Projekt nicht verbindlich, viele Einträge sind als unvollständig markiert. Fast Packet gibt es dort nur auf Data Page 1.
 
-Beide stützen die Aussage von oben: Ob eine PGN Fast Packet ist, steht nicht im Rahmen. Der Empfänger muss es kennen. Der CCI-Stack löst das mit einer festen Liste, AgIsoStack++ mit einer Entscheidung des Aufrufers.
+Alle drei stützen die Aussage von oben: Ob eine PGN Fast Packet ist, steht nicht im Rahmen. Der Empfänger muss es kennen. Der CCI-Stack löst das mit einer festen Liste, AgIsoStack++ und ISOAgLib mit einer Entscheidung des Aufrufers.
 
 ## Feste Liste der Fast-Packet-PGNs
 
