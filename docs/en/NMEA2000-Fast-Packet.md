@@ -2,12 +2,14 @@
 
 Fast Packet is the NMEA 2000 method for sending messages with **9 to 223 data bytes** over CAN. It is **not** the ISOBUS transport protocol (TP/ETP from ISO 11783-3), but a simpler sequence of CAN frames. This page describes the protocol and the state in the CCI stack on which the logiBUS firmware is based.
 
-!!! warning "State today: Fast Packet is not active in logiBUS"
-    In the stack configuration (`IsoConf.h`) `ISO_NMEA_FPT` is commented out. The file `IsoDataM.c` is compiled, but its content is entirely inside `#if defined(ISO_NMEA_FPT)`.
+!!! warning "State: Fast Packet enabled in the firmware, not yet tested"
+    **Up to the version before commit `6dd74ef4`**, `ISO_NMEA_FPT` was commented out in `IsoConf.h` and Fast Packet was not active in logiBUS. **From the firmware with commit `6dd74ef4`** (branch `feature/elf_ABI_4`), `ISO_NMEA_FPT` and `PGNS_FPP_PROP_CODE` are set in `IsoConf.h`. According to the firmware developer this state is local, **not yet built and not tested on hardware**. The statements about the new state come from that information, I have not checked the commit myself.
 
-    - **Sending:** A PGN in the range `0x1F000` to `0x1FFFF` with more than 8 bytes goes to a **specific destination** via the ISOBUS transport protocol (RTS/CTS). Nothing is sent to **global**, the stack returns `E_NOACT`.
-    - **Receiving:** Fast Packet frames are not reassembled. The application sees at most individual 8-byte frames.
-    - Whether and when Fast Packet will be activated has not been decided.
+    - **Sending (from 6dd74ef4):** PGNs in the range `0x1F000` to `0x1FFFF` with more than 8 bytes go as Fast Packet (up to 223 bytes), always as a broadcast, even if a destination is given.
+    - **Receiving (from 6dd74ef4):** The stack reassembles the 73 PGNs of the list below and the proprietary range `0x1FF00` to `0x1FFFF` and reports them like a TP reception (in 4diac at `AlPgnRxNew_TP`).
+    - **Before (without `ISO_NMEA_FPT`):** A PGN in the range with more than 8 bytes went to a specific destination via the ISOBUS transport protocol (RTS/CTS). Nothing was sent to global, the stack returned `E_NOACT`. Fast Packet frames were not reassembled, the application saw at most individual 8-byte frames.
+    - **Unchanged:** Proprietary A (`0xEF00`, data page 0), Proprietary A2 (`0x1EF00`, PDU1 on data page 1) as well as 126208 and 126464 still go via ISO-TP (addressed RTS/CTS, global BAM) and never as Fast Packet (according to the information `IsoCore.c`, range check `0x1F000` to `0x1FFFF`, and `IsoDD.c`).
+    - **Nothing changes in FORTE:** Sending with `AlPgnTxNew_TP` (PGN `0x1F…`, at most 223 bytes), receiving with `AlPgnRxNew_TP`.
 
 The statements about the stack come from the source code of the CCI stack (`IsoDataM.c`, `IsoMnDl.c`, `IsoCore.c`, `IsoDD.c`, `IsoConf.h`). Hardware was not verified.
 
@@ -49,7 +51,7 @@ The three worlds share the same basic framework. Statements with a reference are
 
 ISOBUS itself requires Fast Packet in one place: according to ISO 11783-7:2022, 7.1, control functions use the messages from IEC 61162-3 (NMEA 2000) for navigation and position, and multi-frame messages then use NMEA Fast Packet. Section 7.2 also adopts the parameters. Preferred are, among others, GNSS Position Data, Position Delta High Precision Rapid Update, COG/SOG Rapid Update and GNSS Pseudorange Noise Statistics. A GNSS receiver therefore often sends its multi-frame position messages (for example `0x1F805`) as Fast Packet on the ISOBUS.
 
-Consequence for logiBUS: `0x1F805` is in the list below. As long as `ISO_NMEA_FPT` is not active, the stack does not reassemble such messages, the application only sees individual 8-byte frames.
+Consequence for logiBUS: `0x1F805` is in the list below. Without `ISO_NMEA_FPT` the stack does not reassemble such messages, the application only sees individual 8-byte frames. From the firmware with commit `6dd74ef4` it is active (not yet tested).
 
 ### ISOBUS and NMEA 2000 devices on the same bus
 
@@ -61,14 +63,16 @@ Consequence for logiBUS: `0x1F805` is in the list below. As long as `ISO_NMEA_FP
 
 References: ISO 11783-1:2017, -2, -3:2026, -5:2019 and -7:2022, IEC 61162-3:2008 with A1:2010 and A2:2015, SAE J1939-21 (draft 2001) and J1939-81 (draft 2001). The section numbers of the J1939 drafts may differ from the current edition.
 
-## Behavior of the stack if `ISO_NMEA_FPT` were active
+## Behavior of the stack with `ISO_NMEA_FPT`
+
+This applies to the firmware from commit `6dd74ef4`, in which `ISO_NMEA_FPT` is set (not yet tested).
 
 - **Sending:** `iso_TlNmeaFPTSend()` sends up to 223 bytes, for all PGNs from `0x1F000` to `0x1FFFF` with more than 8 bytes, **also with a specific destination** (so Fast Packet instead of TP). The PGNs of this range are PDU2 without a destination address in the CAN identifier: the stack stores the specific destination, but the frames **always go out as a broadcast** on the bus.
 - **Receiving:** `iso_TlNmeaFptReceive()` reassembles the frames and passes the result to the application layer like a TP reception. In 4diac it would arrive at `AlPgnRxNew_TP`.
 - **Known senders only:** Fast Packet is only accepted from senders known as network participants, that is, senders that have claimed an address. Otherwise the stack discards the message ("External CF not logged -> ignore message").
 - **Classification by fixed list:** `iso_TlNmeaCheckSingleFrame()` decides using the list below. All PGNs outside the list count as a single frame.
 - **PGNs in the range but not in the list:** The sender decides only by the range and the length (more than 8 bytes), it does not check the list. The receiver classifies a PGN that is not in the list as a single frame and does not reassemble it: the application receives every 8-byte frame separately. Example: PGN 130569 (`0x1FE09`) is not in the list. Two devices with this stack do not understand each other for such a PGN as long as it is not added to the list (remedy: the macro below, also for standard PGNs).
-- **Own PGNs:** The macro `PGNS_FPP_PROP_CODE` in `IsoConf.h` extends the list by manufacturer-specific PGNs. Example from the source: `#define PGNS_FPP_PROP_CODE case 0x1FF00UL:`. This requires recompiling the firmware.
+- **Own PGNs:** The macro `PGNS_FPP_PROP_CODE` in `IsoConf.h` extends the list by manufacturer-specific PGNs. Example from the source: `#define PGNS_FPP_PROP_CODE case 0x1FF00UL:`. From the firmware with commit `6dd74ef4` the whole range is entered there (`case 0x1FF00UL ... 0x1FFFFUL:`, GCC case range, according to the firmware developer). This requires recompiling the firmware.
 - **Known limitation, addressed PDU1 PGNs:** Fast Packet PGNs on data page 1 in the PDU1 range (126208, 126464, 126720) never go through Fast Packet in the stack. When sending, they use the ISO transport protocol, when receiving they arrive only as a single frame or via TP. The stack marks 126208 and 126464 as not single-frame (`SF NO`) and passes 126720 on as an ISO message (`PGN_PDU1_PropA2`). The other received PDU1 NMEA PGNs are not supported.
 - **4diac blocks:** Nothing changes. Send with `AlPgnTxNew_TP` (`u16DaSize` at most 223, PGN `0x1F…`), receive with `AlPgnRxNew_TP`.
 
@@ -231,4 +235,4 @@ canboat also lists all 73 PGNs of the stack list as Fast Packet. In addition, ca
 | `0x1FE18` | 130584 | Entertainment - Bluetooth Devices |
 | `0x1FE1A` | 130586 | Entertainment - Zone Configuration Status |
 
-canboat also lists the manufacturer-specific range `0x1FF00` to `0x1FFFF` (130816 to 131071) as Fast Packet, as well as 126720 (`0x1EF00`, manufacturer-specific, addressed). In the stack: the range `0x1FF00` to `0x1FFFF` is inside the sending range but not in the list, so it behaves like the PGNs outside the list described above (remedy `PGNS_FPP_PROP_CODE`). 126720 falls under the limitation for addressed PDU1 PGNs mentioned above.
+canboat also lists the manufacturer-specific range `0x1FF00` to `0x1FFFF` (130816 to 131071) as Fast Packet, as well as 126720 (`0x1EF00`, manufacturer-specific, addressed). In the stack: the range `0x1FF00` to `0x1FFFF` is inside the sending range but not in the list, and without an entry it behaves like the PGNs outside the list described above. From the firmware with commit `6dd74ef4` it is entered via `PGNS_FPP_PROP_CODE` (not yet tested). 126720 falls under the limitation for addressed PDU1 PGNs mentioned above.

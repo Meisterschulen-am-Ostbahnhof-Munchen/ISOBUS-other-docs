@@ -2,12 +2,14 @@
 
 Fast Packet ist das Verfahren von NMEA 2000, Nachrichten mit **9 bis 223 Datenbyte** über CAN zu senden. Es ist **nicht** das ISOBUS-Transportprotokoll (TP/ETP aus ISO 11783-3), sondern eine einfachere Folge von CAN-Rahmen. Die Seite beschreibt das Protokoll und den Stand im CCI-Stack, auf dem die logiBUS-Firmware aufsetzt.
 
-!!! warning "Stand heute: Fast Packet ist in logiBUS nicht aktiv"
-    In der Konfiguration des Stacks (`IsoConf.h`) ist `ISO_NMEA_FPT` auskommentiert. Die Datei `IsoDataM.c` wird zwar übersetzt, ihr Inhalt steckt aber komplett in `#if defined(ISO_NMEA_FPT)`.
+!!! warning "Stand: Fast Packet in der Firmware aktiviert, noch nicht getestet"
+    **Bis zur Version vor Commit `6dd74ef4`** war `ISO_NMEA_FPT` in `IsoConf.h` auskommentiert und Fast Packet in logiBUS nicht aktiv. **Ab der Firmware mit Commit `6dd74ef4`** (Branch `feature/elf_ABI_4`) sind `ISO_NMEA_FPT` und `PGNS_FPP_PROP_CODE` in `IsoConf.h` gesetzt. Dieser Stand ist nach Angabe des Firmware-Entwicklers lokal, **noch nicht gebaut und nicht auf Hardware getestet**. Die Angaben zum neuen Stand stammen aus dieser Auskunft, ich habe den Commit nicht selbst geprüft.
 
-    - **Senden:** Eine PGN im Bereich `0x1F000` bis `0x1FFFF` mit mehr als 8 Byte geht an ein **Einzelziel** über das ISOBUS-Transportprotokoll (RTS/CTS). An **global** wird nichts gesendet, der Stack liefert `E_NOACT`.
-    - **Empfangen:** Fast-Packet-Rahmen werden nicht zusammengesetzt. Die Anwendung sieht höchstens einzelne 8-Byte-Rahmen.
-    - Ob und wann Fast Packet aktiviert wird, ist nicht entschieden.
+    - **Senden (ab 6dd74ef4):** PGNs im Bereich `0x1F000` bis `0x1FFFF` mit mehr als 8 Byte gehen als Fast Packet (bis 223 Byte), immer als Rundsendung, auch wenn ein Ziel angegeben ist.
+    - **Empfangen (ab 6dd74ef4):** Der Stack setzt die 73 PGNs der Liste unten und den proprietären Bereich `0x1FF00` bis `0x1FFFF` zusammen und meldet sie wie einen TP-Empfang (in 4diac bei `AlPgnRxNew_TP`).
+    - **Davor (ohne `ISO_NMEA_FPT`):** Eine PGN im Bereich mit mehr als 8 Byte ging an ein Einzelziel über das ISOBUS-Transportprotokoll (RTS/CTS). An global wurde nichts gesendet, der Stack lieferte `E_NOACT`. Fast-Packet-Rahmen wurden nicht zusammengesetzt, die Anwendung sah höchstens einzelne 8-Byte-Rahmen.
+    - **Unverändert:** Proprietary A (`0xEF00`, Data Page 0), Proprietary A2 (`0x1EF00`, PDU1 auf Data Page 1) sowie 126208 und 126464 laufen weiter über ISO-TP (adressiert RTS/CTS, global BAM) und nie als Fast Packet (laut Auskunft `IsoCore.c`, Bereichsprüfung `0x1F000` bis `0x1FFFF`, und `IsoDD.c`).
+    - **In FORTE ändert sich nichts:** Senden mit `AlPgnTxNew_TP` (PGN `0x1F…`, höchstens 223 Byte), Empfang mit `AlPgnRxNew_TP`.
 
 Die Angaben zum Stack stammen aus dem Quelltext des CCI-Stacks (`IsoDataM.c`, `IsoMnDl.c`, `IsoCore.c`, `IsoDD.c`, `IsoConf.h`). Hardware wurde nicht geprüft.
 
@@ -49,7 +51,7 @@ Die drei Welten teilen sich dasselbe Grundgerüst. Die Angaben mit Fundstelle si
 
 ISOBUS verlangt Fast Packet an einer Stelle selbst: Nach ISO 11783-7:2022, 7.1 verwenden Steuergeräte für Navigation und Position die Nachrichten aus IEC 61162-3 (NMEA 2000), und mehrteilige Nachrichten laufen dabei über NMEA Fast Packet. Abschnitt 7.2 übernimmt auch die Parameter. Bevorzugt werden unter anderem GNSS Position Data, Position Delta High Precision Rapid Update, COG/SOG Rapid Update und GNSS Pseudorange Noise Statistics. Ein GNSS-Empfänger sendet seine mehrteiligen Positionsnachrichten (zum Beispiel `0x1F805`) also oft als Fast Packet auf den ISOBUS.
 
-Folge für logiBUS: `0x1F805` steht in der Liste unten. Solange `ISO_NMEA_FPT` nicht aktiv ist, setzt der Stack solche Nachrichten nicht zusammen, die Anwendung sieht nur einzelne 8-Byte-Rahmen.
+Folge für logiBUS: `0x1F805` steht in der Liste unten. Ohne `ISO_NMEA_FPT` setzt der Stack solche Nachrichten nicht zusammen, die Anwendung sieht nur einzelne 8-Byte-Rahmen. Ab Firmware mit Commit `6dd74ef4` ist es aktiv (noch nicht getestet).
 
 ### ISOBUS- und NMEA-2000-Geräte am selben Bus
 
@@ -61,14 +63,16 @@ Folge für logiBUS: `0x1F805` steht in der Liste unten. Solange `ISO_NMEA_FPT` n
 
 Fundstellen: ISO 11783-1:2017, -2, -3:2026, -5:2019 und -7:2022, IEC 61162-3:2008 mit A1:2010 und A2:2015, SAE J1939-21 (Entwurf 2001) und J1939-81 (Entwurf 2001). Die Abschnittsnummern der J1939-Entwürfe können von der aktuellen Ausgabe abweichen.
 
-## Verhalten des Stacks, wenn `ISO_NMEA_FPT` aktiv wäre
+## Verhalten des Stacks mit `ISO_NMEA_FPT`
+
+Das gilt für die Firmware ab Commit `6dd74ef4`, in der `ISO_NMEA_FPT` gesetzt ist (noch nicht getestet).
 
 - **Senden:** `iso_TlNmeaFPTSend()` sendet bis 223 Byte, für alle PGNs von `0x1F000` bis `0x1FFFF` mit mehr als 8 Byte, **auch bei einem Einzelziel** (dann also Fast Packet statt TP). Die PGNs dieses Bereichs sind PDU2 ohne Zieladresse im CAN-Identifier: Der Stack speichert das Einzelziel zwar, die Rahmen gehen aber **immer als Rundsendung** auf den Bus.
 - **Empfangen:** `iso_TlNmeaFptReceive()` setzt die Rahmen zusammen und reicht das Ergebnis wie einen TP-Empfang an die Anwendungsschicht weiter. In 4diac käme es bei `AlPgnRxNew_TP` an.
 - **Nur bekannte Absender:** Fast Packet wird nur von Absendern angenommen, die als Netzwerkteilnehmer bekannt sind, also eine Adresse beansprucht haben. Sonst verwirft der Stack die Nachricht („External CF not logged -> ignore message").
 - **Einordnung nach fester Liste:** `iso_TlNmeaCheckSingleFrame()` entscheidet anhand der Liste unten. Alle PGNs außerhalb der Liste gelten als einzelner Rahmen.
 - **PGNs im Bereich, aber nicht in der Liste:** Der Sender entscheidet nur nach dem Bereich und nach der Länge (mehr als 8 Byte), er prüft die Liste nicht. Der Empfänger ordnet eine PGN, die nicht in der Liste steht, als einzelnen Rahmen ein und setzt sie nicht zusammen: Die Anwendung bekommt jeden 8-Byte-Rahmen einzeln. Beispiel: PGN 130569 (`0x1FE09`) steht nicht in der Liste. Zwei Geräte mit diesem Stack verstehen sich bei einer solchen PGN nicht, solange sie nicht in die Liste eingetragen ist (Abhilfe: das Makro unten, auch für Standard-PGNs).
-- **Eigene PGNs:** Das Makro `PGNS_FPP_PROP_CODE` in `IsoConf.h` erweitert die Liste um herstellereigene PGNs. Beispiel aus dem Quelltext: `#define PGNS_FPP_PROP_CODE case 0x1FF00UL:`. Das braucht eine Neuübersetzung der Firmware.
+- **Eigene PGNs:** Das Makro `PGNS_FPP_PROP_CODE` in `IsoConf.h` erweitert die Liste um herstellereigene PGNs. Beispiel aus dem Quelltext: `#define PGNS_FPP_PROP_CODE case 0x1FF00UL:`. Ab Firmware mit Commit `6dd74ef4` ist dort der ganze Bereich eingetragen (`case 0x1FF00UL ... 0x1FFFFUL:`, GCC-Case-Range, nach Auskunft des Firmware-Entwicklers). Das braucht eine Neuübersetzung der Firmware.
 - **Bekannte Einschränkung, adressierte PDU1-PGNs:** Fast-Packet-PGNs auf Data Page 1 im PDU1-Bereich (126208, 126464, 126720) laufen im Stack nie über Fast Packet. Beim Senden gehen sie über das ISO-Transportprotokoll, beim Empfang kommen sie nur als einzelner Rahmen oder per TP an. Der Stack markiert 126208 und 126464 als nicht für Einzelrahmen (`SF NO`) und reicht 126720 als ISO-Nachricht weiter (`PGN_PDU1_PropA2`). Die übrigen empfangenen PDU1-NMEA-PGNs sind nicht unterstützt.
 - **4diac-Bausteine:** Es ändert sich nichts. Gesendet wird mit `AlPgnTxNew_TP` (`u16DaSize` höchstens 223, PGN `0x1F…`), empfangen mit `AlPgnRxNew_TP`.
 
@@ -231,4 +235,4 @@ Alle 73 PGNs der Stack-Liste führt canboat ebenfalls als Fast Packet. Dazu füh
 | `0x1FE18` | 130584 | Entertainment - Bluetooth Devices |
 | `0x1FE1A` | 130586 | Entertainment - Zone Configuration Status |
 
-Außerdem führt canboat den herstellereigenen Bereich `0x1FF00` bis `0x1FFFF` (130816 bis 131071) als Fast Packet, ebenso 126720 (`0x1EF00`, herstellereigen, adressiert). Im Stack gilt: Der Bereich `0x1FF00` bis `0x1FFFF` liegt im Sendebereich, ist aber nicht in der Liste, verhält sich also wie die oben beschriebenen PGNs außerhalb der Liste (Abhilfe `PGNS_FPP_PROP_CODE`). 126720 fällt unter die oben genannte Einschränkung für adressierte PDU1-PGNs.
+Außerdem führt canboat den herstellereigenen Bereich `0x1FF00` bis `0x1FFFF` (130816 bis 131071) als Fast Packet, ebenso 126720 (`0x1EF00`, herstellereigen, adressiert). Im Stack gilt: Der Bereich `0x1FF00` bis `0x1FFFF` liegt im Sendebereich, ist aber nicht in der Liste, und verhält sich ohne Eintrag wie die oben beschriebenen PGNs außerhalb der Liste. Ab Firmware mit Commit `6dd74ef4` ist er über `PGNS_FPP_PROP_CODE` eingetragen (noch nicht getestet). 126720 fällt unter die oben genannte Einschränkung für adressierte PDU1-PGNs.
